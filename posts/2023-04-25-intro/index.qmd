@@ -12,14 +12,17 @@ draft: false
 ---
 ![George and I installing some stem psychrometers at Bradshaw Ranch, AZ. Photo credit Ben Umali](/posts/2023-04-25-intro/installation.jpg){fig-align="center"}
 
-When I was on the academic job market, I pared back my teaching philosophy to something simple and not at all original: students learn by doing. This last week, while spending time with my former advisor George Koch ([NAU](https://ecoss.nau.edu/team/george-koch/)) and Ben Umali ([ICT International](https://www.ictinternational.com/)), I was reminded of why that simple mantra is so effective. Despite numerous emails and zoom calls, there was simply no replacement for watching Ben and George work carefully, asking questions, and practicing the installations myself.
+When I was on the academic job market, I pared back my teaching philosophy to something simple and not at all original: *students learn by doing*. This last week, while spending time with my former advisor George Koch ([NAU](https://ecoss.nau.edu/team/george-koch/)) and Ben Umali ([ICT International](https://www.ictinternational.com/)), I was reminded of why that simple mantra is so effective. Although emails and zoom calls are helpful, there was simply no replacement for watching Ben and George, asking questions in real time, and practicing the installations myself.
 
 I have been successful with psychrometers so far, thanks to George's lessons of almost 10 years ago. However, Ben shared a new method that limits xylem exposure, which likely increases the longevity of the installation. Using a flat razor blade, he cuts only the diameter of the sensor head on the branch. After initial cutting that exposes the different layers (outer bark, inner bark, phloem, cambium), Ben limits his motions to scraping, which minimizes over-cutting and ensures a flat surface for sensor attachment. 
 
 ![A narrow section of exposed xylem on a *Juniperus osteosperma* at Bradshaw Ranch, AZ. Photo credit Jessica Guo](/posts/2023-04-25-intro/xylem.jpg){fig-align="center"}
 
-Indeed, if the sensor loses contact with the xylem, the same installation site could be reused by re-scraping the xylem, rather than creating an additional wound elsewhere. Oh, how I wish I'd known this 3 years ago when working on sagebrush!
+Indeed, if the sensor loses contact with the xylem, the same installation site could be reused by re-scraping the xylem, rather than creating an additional wound elsewhere. I wish I'd known this method 3 years ago when working on sagebrush!
 
-But the information exchange was not unidirectional. George pioneered the use of self-adhesive silicone tape to attach the sensor to the stem, which provides both security and a vapor seal, replacing the need for vacuum grease. Ben still advises a tiny application of vacuum grease, but he seemed excited to include silicone tape in future installations.
+But the information exchange was not unidirectional. George pioneered the use of self-adhesive silicone tape[^1] to attach the sensor to the stem, which provides both security and a vapor seal, replacing the need for vacuum grease. Ben still advises a tiny application of vacuum grease, but he seemed excited to include silicone tape in future installations.
 
 ![Sealing sensor-xylem attachments with silicone tape on a *Larrea tridentata* at NEON-SRER, AZ. Photo credit Jessica Guo](/posts/2023-04-25-intro/silicone.jpg){fig-align="center"}
+
+[^1]: I have found this product at different locations depending on the hardware store, including random endcaps and the catch-all "tape aisle". It has industrial uses in electrical and duct work, but it may not be found in those sections of the store. Can be removed residue-free with a pocket knife.  
+
