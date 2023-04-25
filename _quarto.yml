@@ -1,17 +1,21 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "PSInetRCN.github.io"
+  title: "PSInet"
   navbar:
-    left:
+    right:
       - href: index.qmd
         text: Home
       - about.qmd
+      - submit.qmd
+      - trainings.qmd
+      - posts.qmd
 
 format:
   html:
-    theme: cosmo
+    theme: lumen
     css: styles.css
     toc: true
 
