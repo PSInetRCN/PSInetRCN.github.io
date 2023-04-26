@@ -6,7 +6,7 @@ author:
     url: https://jessicaguo.github.io/
     affiliation: CCT Data Science @ University of Arizona
 date: 04-25-2023
-categories: [psychrometer, installation]
+categories: [psychrometry, plant water potential]
 image: installation.jpg
 draft: false
 ---
