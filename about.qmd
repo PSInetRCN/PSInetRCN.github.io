@@ -1,8 +1,67 @@
 ---
-title: "Origins"
+crossref: 
+  fig-title: "**Figure**"
+toc-location: left
 ---
 
+## About 
 
-The seeds of this effort were planted at AGU in 2018, where [Kim Novick](https://oneill.indiana.edu/faculty-research/directory/profiles/faculty/full-time/novick-kimberly.html) and [Jessica Guo](jessicaguo.github.io) bonded over their mutual determination to conference while parenting (thanks, Caregiver Award!) and shared interest in plant water potential. While both at University of Utah in 2020, Jessica and [Steve Kannenberg](https://www.stevekannenberg.com/) invited Kim to moderate an ESA session on plant water use strategies, which resulted in a review paper ([Kannenberg, Guo, Novick et al. 2022](https://doi.org/10.1111/1365-2435.13945)). 
+Anticipating and preparing for life on a warming planet requires a predictive understanding of how increasing drought and heat stress will affect terrestrial plants and the many services they provide. The water potential of soils and plants -- which can be imagined as the blood pressure of the natural world -- is a fundamental driver of ecosystem water flows, and directly controls many aspects of plant functioning during drought. However, observations of water potential (commonly abbreviated with the Greek letter 'Psi', $\Psi$) are relatively sparse, discontinuous, and unaggregated, and plagued by methodological challenges and disparities that constrain the synthetic research necessary to improve conceptual understanding and predictive models of plant drought responses.
 
-Ultimately, Kim performed the heavy lifting of organizing a large steering committee and numerous moving parts to submit an Research Coordination Network proposal to NSF-IOS, twice. Now, the real work begins!
+![Gradients in water potential ($\Psi$) form a connected continuum, moving water through ecosystems and profoundly influencing plant function. PSInet will increase the quality and accessibility of data (in soils and plants, blue circles), filling a critical missing link between information about environmental drivers and physiological responses that is already widely available from existing networks and remote sensing platforms (pink text). Modified from Novick et al. 2022.](networks.png){#fig-1 width=600 fig-align="center"}
+
+
+## Goals & Objectives
+
+<b>Our goal is to create a network -- <i>PSInet</i> -- that will confront the water potential information gap and enable the pursuit of previously intractable questions about plant responses to drought and heat stress.</b> PSInet will be a network of data and a network of people, organized around coordinated research, training, and community-building activities designed to increase the availability, integrity, and accessibility of information to a diverse scientific community.
+
+Specific objectives include:
+
+1.  <b>Promote</b> consistent collection and interpretation of data by a diverse global community of scientists through shared protocols, best practices, and early career training.
+
+2.  <b>Create</b> an open, global database for plant and soil time series that is harmonized with information available from other environmental observation networks.
+
+3.  <b>Support</b> synthetic end-use of the PSInet database to address pressing knowledge gaps.
+
+4.  <b>Foster</b> a diverse and inclusive network environment with multiple mechanisms to advance the careers of demographically, geographically, and intellectually diverse cohorts of early career scientists.
+
+5.  <b>Broaden</b> the impact of plant drought research through public outreach activities organized around a network of "Talking Trees" at public gardens and arboreta.
+
+<br>
+
+![PSInet project activities and timeline.](timeline.png){#fig-2 fig-align="center"}
+
+## Origins
+
+The PSInet idea represents a convergence of prior initiatives linked by their focus on network-enabled and/or global-scale understanding of ecosystem water status and flows. The first call from a water potential network may be traced to at 2012 American Geophysical Union presentation by PSInet Steering Committee member George Koch, which coincided with the publication of the first iteration of the Xylem Functional Traits (XFT) database. Since then, the SAPFLUXNET network was conceived and built, and flux tower networks have grown larger and become more open. 
+
+The last decade has seen an explosion of interest in using plant hydraulic concepts to address pressing eco-physiological research questions.However, a centralized repository for water potential time series, which are critical for connecting meteorological drivers to plant responses, does not yet exist. The need for such a database was again raised at the 2020 Ecological Society of America (ESA) meeting, where several team members (Guo, Novick, Kannenberg) convened the session “Plant Water Use Strategies in a Changing World.” The journal <i>Functional Ecology</i> invited the session organizers and speakers to prepare a [review article](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/1365-2435.13945) on the topic which proposes that fully characterizing plant drought responses “require[s] water potential datasets of greater quantity and quality to pair with flux measurements, model output, and remote sensing approaches.” 
+
+At the same time, [interest has been growing](https://onlinelibrary.wiley.com/doi/full/10.1111/gcb.15872) in the potential to use remotely-sensed vegetation optical depth data as a proxy for ecosystem water content and potential at continental and global scales. However, this research priority requires a centralized network of in-situ water potential observations for algorithm development and benchmarking. The emergence of psychrometers and other methodologies as tools for [continuous monitoring of in-situ plant water potential](https://nph.onlinelibrary.wiley.com/doi/full/10.1111/nph.16196) has revealed a clear need for community-developed best practices and standards for deploying these instruments. Finally, there is a growing appreciation of the value of collecting, and aggregating, information on soil water potential (and its relationship with soil moisture content) in ecological field research settings, which is already being addressed to some extent by activities born out of the AmeriFlux “Year of Water” initiative (including the deployment of in-situ matric potential sensors at AmeriFlux sites, and a systematic effort to generate laboratory-derived water retention curves). 
+
+With support from this RCN, we can grow these individual efforts into a much larger global database that also includes continuous plant Ψ timeseries, and with links to data across multiple networks. This RCN will also provide diverse networking and training opportunities through collaborations with multiple established workshops and short-courses, including PhysFest, the Summer Workshop in Plant Hydraulic Techniques, and FluxCourse. Thus, our network design brings together many ongoing but thus-far disjunct and incomplete activities into a broader vision for a global plant water potential network and associated Community of Practice. 
+
+## The Team
+
+<i>Leadership</i>: Kim Novick (Indiana University), Jessica Guo (University of Arizona), Dan Johnson (University of Georgia), Kate McCulloh (University of Wisconsin), Jesse Nipper (Kansas State University), Steve Kannenberg (West Virginia University), Michael Benson (Indiana University). 
+
+
+<i>Steering Committee</i>: William Anderegg (U. of Utah), Brendan Choat (Western Sydney U.), Kevin Hultine (Desert Botanical Garden), George Koch (Northern Arizona U.), Alexandra Konings (Stanford U.), Lauren Lowman (Wake Forest U.), Jordi Martínez-Vilalta (Autonomous U. of Barcelona), Ashley Matheny (U. of Texas), Rafael Poyatos (CREAF, Barcelona), H. Jochen Schenk (California State U. – Fullerton), and Russell Scott (USDA-ARS).
+
+Working groups:
+
+1. <i>Data WG</i>: Guo and Poyatos, plus Francesco Giardina (ETH-Zurich) Sandra Bucchi (Institute of Biosciences of the Patagonia, Argentina),  Celia Rodriguez- Dominguez (IRNAS-CSIC, Spain), Aurora Kagawa-Viviani (U. of Hawaii), Jess Gersony (Smith College.), Rafael Oliveira (University of Campinas, Brazil), Angela Rigden (UC Irvine), Jennifer Peters (Oak Ridge Natl. Lab), Tonantzin Tarin (U. Nacional Autónoma de México), Quan Zhang (Wuhan U., China), and new members to be added. 
+
+
+2. <i>Cyberinfrastucture WG</i>: Guo, Poyatos (SAPFLUXNET), plus William Hammond (U. of Florida, XFT), Housen Chu (LBNL, Ameriflux), and new members added after the project begins. 
+
+
+3. <i>Continuous Data WG</i>: Guo, Schenk, Koch, Choat, Matheny, and Novick, plus Steve Kannenberg (U. of Utah), Daniel Beverly (Indiana U.), and new members added after the project begins.
+
+
+4. <i>Synthesis WG</i>: Novick, Scott, Martínez-Vilalta, Konings, Matheny, Lowman, Hultine, and Anderegg, and new members to be added. 
+
+
+5. <i>Community WG</i>: Johnson, McCulloh, Schenk, Hultine, and Novick, plus Juliana Medeiros (Holden Arboretum), Chis Oishi (Coweeta), Jesse Nippert (Kansas State U.), and new members to be added. 
+
+

@@ -9,12 +9,8 @@ about:
       href: https://twitter.com/Novick_Lab
     - text: GitHub
       href: https://github.com/PSInetRCN
-  
+    - text: Podcast
+      href: https://www.metergroup.com/en/meter-environment/podcast/episode-24-building-national-water-potential-network
 ---
 
 Welcome to the pre-alpha version of the website for PSInet, an NSF-funded Research Coordination Network aimed at building a community of people and data to harness the potential of plant and soil water potential.
-
-
-
-
-

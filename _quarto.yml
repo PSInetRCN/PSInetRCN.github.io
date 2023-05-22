@@ -8,7 +8,8 @@ website:
     right:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
       - submit.qmd
       - trainings.qmd
       - posts.qmd

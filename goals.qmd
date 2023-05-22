@@ -1,0 +1,29 @@
+---
+title: "Goals & Objectives"
+crossref: 
+  fig-title: "**Figure**"
+---
+
+Anticipating and preparing for life on a warming planet requires a predictive understanding of how increasing drought and heat stress will affect terrestrial plants and the many services they provide. The water potential of soils and plants -- which can be imagined as the blood pressure of the natural world -- is a fundamental driver of ecosystem water flows, and directly controls many aspects of plant functioning during drought. However, observations of water potential (commonly abbreviated with the Greek letter 'Psi', $\Psi$) are relatively sparse, discontinuous, and unaggregated, and plagued by methodological challenges and disparities that constrain the synthetic research necessary to improve conceptual understanding and predictive models of plant drought responses.
+
+![Gradients in water potential ($\Psi$) form a connected continuum, moving water through ecosystems and profoundly influencing plant function. PSInet will increase the quality and accessibility of data (in soils and plants, blue circles), filling a critical missing link between information about environmental drivers and physiological responses that is already widely available from existing networks and remote sensing platforms (pink text). Modified from Novick et al. 2022.](networks.png){#fig-1 width=600 fig-align="center"}
+
+<br>
+
+<b>Our goal is to create a network -- <i>PSInet</i> -- that will confront the water potential information gap and enable the pursuit of previously intractable questions about plant responses to drought and heat stress.</b> PSInet will be a network of data and a network of people, organized around coordinated research, training, and community-building activities designed to increase the availability, integrity, and accessibility of information to a diverse scientific community.
+
+Specific objectives include:
+
+1.  <b>Promote</b> consistent collection and interpretation of data by a diverse global community of scientists through shared protocols, best practices, and early career training.
+
+2.  <b>Create</b> an open, global database for plant and soil time series that is harmonized with information available from other environmental observation networks.
+
+3.  <b>Support</b> synthetic end-use of the PSInet database to address pressing knowledge gaps.
+
+4.  <b>Foster</b> a diverse and inclusive network environment with multiple mechanisms to advance the careers of demographically, geographically, and intellectually diverse cohorts of early career scientists.
+
+5.  <b>Broaden</b> the impact of plant drought research through public outreach activities organized around a network of "Talking Trees" at public gardens and arboreta.
+
+<br>
+
+![PSInet project activities and timeline.](timeline.png){#fig-2 fig-align="center"}
