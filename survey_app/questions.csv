@@ -1,0 +1,65 @@
+question,option,input_type,input_id,dependence,dependence_value,required
+First name,Per Frederik,text,name_first,,,TRUE
+Last name,Scholander,text,name_last,,,TRUE
+Primary institution,Scripps Institute of Oceanography,text,institution,,,TRUE
+Email address,scholander@ucsd.edu,text,email,,,TRUE
+Are you interested in submitting plant water potential data to the PSInet open-access data portal?,Yes,mc,submission_interest,,,TRUE
+Are you interested in submitting plant water potential data to the PSInet open-access data portal?,No,mc,submission_interest,,,TRUE
+Are you interested in submitting plant water potential data to the PSInet open-access data portal?,Not sure,mc,submission_interest,,,TRUE
+"Please give a short ecological description of your site including vegetation type (e.g., deciduous forest, grassland, cultivated crops), climate (e.g., mesic, arid, seasonal monsoon, etc.), management history, and approximate geographic location.  ",Your answer,text,ecol_description,,,TRUE
+"Is your site exposed to ambient meteorological conditions, or actively managed/subject to experimental manipulation (e.g., irrigation, through fall displacement, etc.)?",Ambient,mc,treatment_type,,,TRUE
+"Is your site exposed to ambient meteorological conditions, or actively managed/subject to experimental manipulation (e.g., irrigation, through fall displacement, etc.)?",Experimental,mc,treatment_type,,,TRUE
+What is the operational status of your site?,Active,mc,site_status,,,TRUE
+What is the operational status of your site?,Decomissioned,mc,site_status,,,TRUE
+"If active, how long do you plan to continue collecting plant water potential data?","(e.g., 6 months)",text,site_prospective_duration,site_status,Active,FALSE
+"Please briefly describe your experimental design, including organization of sites/plots/treatments, number of species and replication, and frequency of sampling. ",Your answer,text,psi_exp_design,,,TRUE
+"Please briefly describe your plant water potential sampling scheme, including procedures, instruments, and timing. ",Your answer,text,psi_procedures,,,TRUE
+"Are your plant water potential data discrete, continuous, or both?",discrete (pressure chamber),mc,psi_type,,,TRUE
+"Are your plant water potential data discrete, continuous, or both?","continuous (e.g., psychrometry)",mc,psi_type,,,TRUE
+"Are your plant water potential data discrete, continuous, or both?",both,mc,psi_type,,,TRUE
+Have your plant water potential data been previously shared to a data network or repository?,Yes,mc,data_shared,,,TRUE
+Have your plant water potential data been previously shared to a data network or repository?,No,mc,data_shared,,,TRUE
+"If yes, please provide a link to the published dataset. ",Your answer,text,data_link,data_shared,Yes,FALSE
+Have your plant water potential data been previously published?,Yes,mc,data_published,,,TRUE
+Have your plant water potential data been previously published?,No,mc,data_published,,,TRUE
+"If yes, please list any relevant DOI's. ",Your answer,text,publication_doi,data_published,Yes,FALSE
+Soil water content is available. ,Discrete,matrix,met_matrix,,,TRUE
+Soil water content is available. ,Continuous,matrix,met_matrix,,,TRUE
+Soil water content is available. ,Not available,matrix,met_matrix,,,TRUE
+Soil water potential is available. ,Discrete,matrix,met_matrix,,,TRUE
+Soil water potential is available. ,Continuous,matrix,met_matrix,,,TRUE
+Soil water potential is available. ,Not available,matrix,met_matrix,,,TRUE
+Relative humidity is available. ,Discrete,matrix,met_matrix,,,TRUE
+Relative humidity is available. ,Continuous,matrix,met_matrix,,,TRUE
+Relative humidity is available. ,Not available,matrix,met_matrix,,,TRUE
+Vapor pressure deficit is available. ,Discrete,matrix,met_matrix,,,TRUE
+Vapor pressure deficit is available. ,Continuous,matrix,met_matrix,,,TRUE
+Vapor pressure deficit is available. ,Not available,matrix,met_matrix,,,TRUE
+Air temperature is available. ,Discrete,matrix,met_matrix,,,TRUE
+Air temperature is available. ,Continuous,matrix,met_matrix,,,TRUE
+Air temperature is available. ,Not available,matrix,met_matrix,,,TRUE
+Photosynthetically active radiation (PPFD or PAR) is available. ,Discrete,matrix,met_matrix,,,TRUE
+Photosynthetically active radiation (PPFD or PAR) is available. ,Continuous,matrix,met_matrix,,,TRUE
+Photosynthetically active radiation (PPFD or PAR) is available. ,Not available,matrix,met_matrix,,,TRUE
+Solar or net radiation is available,Discrete,matrix,met_matrix,,,TRUE
+Solar or net radiation is available,Continuous,matrix,met_matrix,,,TRUE
+Solar or net radiation is available,Not available,matrix,met_matrix,,,TRUE
+Windspeed is available.  ,Discrete,matrix,met_matrix,,,TRUE
+Windspeed is available.  ,Continuous,matrix,met_matrix,,,TRUE
+Windspeed is available.  ,Not available,matrix,met_matrix,,,TRUE
+"Please select whether any of these ancillary site-level ecohydrological data have been collected at your site.  PSInet is not actively collecting these data, but we are interested in knowing where they are available to support future synthesis projects.",Leaf-level gas exchange spot measurements,mc,ancillary_avail,,,FALSE
+"Please select whether any of these ancillary site-level ecohydrological data have been collected at your site.  PSInet is not actively collecting these data, but we are interested in knowing where they are available to support future synthesis projects.",Leaf-level ACi and/or light response curves,mc,ancillary_avail,,,FALSE
+"Please select whether any of these ancillary site-level ecohydrological data have been collected at your site.  PSInet is not actively collecting these data, but we are interested in knowing where they are available to support future synthesis projects.",Sap flux time series,mc,ancillary_avail,,,FALSE
+"Please select whether any of these ancillary site-level ecohydrological data have been collected at your site.  PSInet is not actively collecting these data, but we are interested in knowing where they are available to support future synthesis projects.",Eddy covariance flux time series,mc,ancillary_avail,,,FALSE
+"Please select whether any of these ancillary site-level ecohydrological data have been collected at your site.  PSInet is not actively collecting these data, but we are interested in knowing where they are available to support future synthesis projects.",Xylem vulnerability curves (in-situ),mc,ancillary_avail,,,FALSE
+"Please select whether any of these ancillary site-level ecohydrological data have been collected at your site.  PSInet is not actively collecting these data, but we are interested in knowing where they are available to support future synthesis projects.",In-situ plant hydraulic conductivity or xylem embolism,mc,ancillary_avail,,,FALSE
+"Please select whether any of these ancillary site-level ecohydrological data have been collected at your site.  PSInet is not actively collecting these data, but we are interested in knowing where they are available to support future synthesis projects.",Xylem water content time series,mc,ancillary_avail,,,FALSE
+"Please select whether any of these ancillary site-level ecohydrological data have been collected at your site.  PSInet is not actively collecting these data, but we are interested in knowing where they are available to support future synthesis projects.",Automated dendrometry,mc,ancillary_avail,,,FALSE
+"Please select whether any of these ancillary site-level ecohydrological data have been collected at your site.  PSInet is not actively collecting these data, but we are interested in knowing where they are available to support future synthesis projects.",Other or Multiple,mc,ancillary_avail,,,FALSE
+"If other or multiple, please describe. ",Your answer,text,ancillary_other,ancillary_avail,Other or Multiple,FALSE
+Have you shared any of these ancillary data with other environmental observation networks? ,"FLUXNET and/or a regional flux  network(e.g., AmeriFlux, ICOS, OZFlux, AsiaFlux, BrasFlux)",mc,network_submitted,,,FALSE
+Have you shared any of these ancillary data with other environmental observation networks? ,SAPFLUXNET,mc,network_submitted,,,FALSE
+Have you shared any of these ancillary data with other environmental observation networks? ,TRY plant trait database,mc,network_submitted,,,FALSE
+Have you shared any of these ancillary data with other environmental observation networks? ,XFT (xylem functional traits database),mc,network_submitted,,,FALSE
+Have you shared any of these ancillary data with other environmental observation networks? ,Other or Multiple,mc,network_submitted,,,FALSE
+"If other or multiple, please describe. ",Your answer,text,network_other,network_submitted,Other or Multiple,FALSE
