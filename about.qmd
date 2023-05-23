@@ -1,4 +1,7 @@
 ---
+format: 
+  html: 
+    page-layout: article
 crossref: 
   fig-title: "**Figure**"
 toc-location: left
