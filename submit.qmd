@@ -1,7 +1,6 @@
 ---
 title: "Submit Data"
-execute: 
-  echo: false
+toc-location: left
 ---
 
 PSInet is a global water potential network designed to close knowledge gaps surrounding the water potential gradients that drive ecosystem water flows and govern many aspects of plant function. As part of that work, we are building an open-access database for time series of plant water potential collected in field research settings, including both discrete measurements made with pressure chambers and continuous measurements enabled by psychrometer or tensiometers.  
