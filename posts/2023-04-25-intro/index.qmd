@@ -2,7 +2,7 @@
 title: "Improving psychrometer installations"
 description: "What I learned from George Koch and Ben Umali"
 author: 
-  - name: <a href="https://jessicaguo.github.io/" title = "Visit website">Jessica Guo</a>
+  - name: <a href="https://jessicaguo.github.io/" title = "Visit website">Jessica S. Guo</a>
     affiliation: CCT Data Science @ University of Arizona
 date: 04-25-2023
 categories: [psychrometry, plant water potential]
