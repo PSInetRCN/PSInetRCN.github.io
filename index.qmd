@@ -1,9 +1,9 @@
 ---
 title: "PSInet: A global water potential network"
-image: profile.jpg
+image: logo1.png
 about:
   template: jolla
-  image-shape: round
+  image-shape: rounded
   links: 
     - text: Twitter
       href: https://twitter.com/Novick_Lab
