@@ -11,7 +11,7 @@ website:
       - href: about.qmd
         text: About
       - submit.qmd
-      - trainings.qmd
+      - events.qmd
       - posts.qmd
 
 format:

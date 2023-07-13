@@ -9,7 +9,7 @@ about:
       href: https://twitter.com/Novick_Lab
     - text: GitHub
       href: https://github.com/PSInetRCN
-    - text: Podcast
+    - text: Podcast episode
       href: https://www.metergroup.com/en/meter-environment/podcast/episode-24-building-national-water-potential-network
 ---
 

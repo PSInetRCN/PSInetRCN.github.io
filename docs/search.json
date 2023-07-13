@@ -35,6 +35,27 @@
     "text": "The Team\nLeadership: Kim Novick (Indiana U.), Jessica Guo (U. of Arizona), Dan Johnson (U. of Georgia), Kate McCulloh (U. of Wisconsin), Jesse Nipper (Kansas State U.), Steve Kannenberg (West Virginia U.), Michael Benson (Indiana U.).\nSteering Committee: William Anderegg (U. of Utah), Brendan Choat (Western Sydney U.), Kevin Hultine (Desert Botanical Garden), George Koch (Northern Arizona U.), Alexandra Konings (Stanford U.), Lauren Lowman (Wake Forest U.), Jordi Martínez-Vilalta (Autonomous U. of Barcelona), Ashley Matheny (U. of Texas), Rafael Poyatos (CREAF, Barcelona), H. Jochen Schenk (California State U. – Fullerton), and Russell Scott (USDA-ARS).\nWorking groups:\n\nData WG: Guo and Poyatos, plus Francesco Giardina (ETH-Zurich) Sandra Bucchi (Institute of Biosciences of the Patagonia, Argentina), Celia Rodriguez- Dominguez (IRNAS-CSIC, Spain), Aurora Kagawa-Viviani (U. of Hawaii), Jess Gersony (Smith College.), Rafael Oliveira (University of Campinas, Brazil), Angela Rigden (UC Irvine), Jennifer Peters (Oak Ridge Natl. Lab), Tonantzin Tarin (U. Nacional Autónoma de México), Quan Zhang (Wuhan U., China), and new members to be added.\nCyberinfrastucture WG: Guo, Poyatos (SAPFLUXNET), plus William Hammond (U. of Florida, XFT), Housen Chu (LBNL, Ameriflux), and new members added after the project begins.\nContinuous Data WG: Guo, Schenk, Koch, Choat, Matheny, and Novick, plus Steve Kannenberg (U. of Utah), Daniel Beverly (Indiana U.), and new members added after the project begins.\nSynthesis WG: Novick, Scott, Martínez-Vilalta, Konings, Matheny, Lowman, Hultine, and Anderegg, and new members to be added.\nCommunity WG: Johnson, McCulloh, Schenk, Hultine, and Novick, plus Juliana Medeiros (Holden Arboretum), Chis Oishi (Coweeta), Jesse Nippert (Kansas State U.), and new members to be added."
   },
   {
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "Events",
+    "section": "",
+    "text": "PSInet launch and meetup at ESA in Portland, OR\n\n\nTBD\n\n\n\n\nPhysfest4, an early career workshop for graduate students and postdocs to learn ecophysiological tools and techniques. Hosted at the UNM Sevilleta Field Station\n\n\nOctober 15 - 19\n\n\n\n\nPSInet social at AGU\n\n\nTBD\n\n\n\n\nPSInet-sponsored AGU session B031 - Ecosystem Hydraulics: Bridging Plant and Soil Water Status Across Scales\n\n\nTBD\n\n\n\n\n\n\n\nGordon Research Conference/Seminar in Multiscale Plant Vascular Biology. Hosted at Mount Snow\n\n\nJune 9 - 14"
+  },
+  {
+    "objectID": "events.html#upcoming",
+    "href": "events.html#upcoming",
+    "title": "Events",
+    "section": "",
+    "text": "PSInet launch and meetup at ESA in Portland, OR\n\n\nTBD\n\n\n\n\nPhysfest4, an early career workshop for graduate students and postdocs to learn ecophysiological tools and techniques. Hosted at the UNM Sevilleta Field Station\n\n\nOctober 15 - 19\n\n\n\n\nPSInet social at AGU\n\n\nTBD\n\n\n\n\nPSInet-sponsored AGU session B031 - Ecosystem Hydraulics: Bridging Plant and Soil Water Status Across Scales\n\n\nTBD\n\n\n\n\n\n\n\nGordon Research Conference/Seminar in Multiscale Plant Vascular Biology. Hosted at Mount Snow\n\n\nJune 9 - 14"
+  },
+  {
+    "objectID": "events.html#past",
+    "href": "events.html#past",
+    "title": "Events",
+    "section": "Past",
+    "text": "Past"
+  },
+  {
     "objectID": "goals.html",
     "href": "goals.html",
     "title": "Goals & Objectives",
@@ -47,13 +68,6 @@
     "title": "PSInet: A global water potential network",
     "section": "",
     "text": "Welcome to the alpha version of the website for PSInet, an NSF-funded Research Coordination Network aimed at building a community of people and data to harness the potential of plant and soil water potential."
-  },
-  {
-    "objectID": "origins.html",
-    "href": "origins.html",
-    "title": "Origins",
-    "section": "",
-    "text": "The seeds of this effort were planted at AGU in 2018, where Kim Novick and Jessica Guo bonded over their mutual determination to conference while parenting (thanks, Caregiver Award!) and shared interest in plant water potential. While both at University of Utah in 2020, Jessica and Steve Kannenberg invited Kim to moderate an ESA session on plant water use strategies, which resulted in a review paper (Kannenberg, Guo, Novick et al. 2022).\nUltimately, Kim performed the heavy lifting of organizing a large steering committee and numerous moving parts to submit an Research Coordination Network proposal to NSF-IOS, twice. Now, the real work begins!"
   },
   {
     "objectID": "posts/2023-04-25-intro/index.html",
@@ -96,54 +110,5 @@
     "title": "Submit Data",
     "section": "Pre-submission survey",
     "text": "Pre-submission survey\nBy filling out this survey, you are indicating your interest in sharing a plant water potential time series dataset, likely collected using a pressure chamber approach, to the database. The database will be published as an open-access tool (e.g. CC-By-4.0 license). Sharing data by XX-XX-XXXX will make you eligible to co-author a network-level data publication (up to two personnel per site) and will give you and your team members priority access to the entire database during a one-year embargo period prior to publication of the data paper. PSInet can also work with you to provide a site-specific DOI for your dataset if desired. Data providers will be given priority access to other network activities, including workshops, conference meet-ups, and some sites may find that sharing data opens the door to future synthesis projects.\nThis survey will take about 15 minutes and should describe a single dataset. If you have questions or need clarification, please contact Michael Benson or Jessica Guo. After you fill out this survey, you will receive more detailed instructions about how to prepare your data for submission using an Excel template. PSInet will also be holding online help sessions (datathons) to provide additional instructions and answer contributor questions."
-  },
-  {
-    "objectID": "trainings.html",
-    "href": "trainings.html",
-    "title": "Trainings",
-    "section": "",
-    "text": "Physfest 2023 will be held October 15-19 at the UNM Sevilleta Field Station"
-  },
-  {
-    "objectID": "trainings.html#section",
-    "href": "trainings.html#section",
-    "title": "Trainings",
-    "section": "",
-    "text": "Physfest 2023 will be held October 15-19 at the UNM Sevilleta Field Station"
-  },
-  {
-    "objectID": "events.html",
-    "href": "events.html",
-    "title": "Events",
-    "section": "",
-    "text": "PSInet launch and meetup at ESA in Portland, OR\n\n\nTBD\n\n\n\n\nPhysfest4, an early career workshop for graduate students and postdocs to learn ecophysiological tools and techniques. Hosted at the UNM Sevilleta Field Station\n\n\nOctober 15 - 19\n\n\n\n\nPSInet social at AGU\n\n\nTBD\n\n\n\n\nPSInet-sponsored AGU session B031 - Ecosystem Hydraulics: Bridging Plant and Soil Water Status Across Scales\n\n\nTBD\n\n\n\n\n\n\n\nGordon Research Conference/Seminar in Multiscale Plant Vascular Biology. Hosted at Mount Snow\n\n\nJune 9 - 14"
-  },
-  {
-    "objectID": "events.html#section",
-    "href": "events.html#section",
-    "title": "Events",
-    "section": "",
-    "text": "PSInet launch and meetup at ESA in Portland, OR\n\n\nTBD\n\n\n\n\nPhysfest4, an early career workshop for graduate students and postdocs to learn ecophysiological tools and techniques. Hosted at the UNM Sevilleta Field Station\n\n\nOctober 15 - 19\n\n\n\n\nPSInet social at AGU\n\n\nTBD\n\n\n\n\nPSInet-sponsored AGU session B031 - Ecosystem Hydraulics: Bridging Plant and Soil Water Status Across Scales.\n\n\nTBD"
-  },
-  {
-    "objectID": "events.html#section-1",
-    "href": "events.html#section-1",
-    "title": "Events",
-    "section": "",
-    "text": "Gordon Research Conference/Seminar in Multiscale Plant Vascular Biology. Hosted at Mount Snow\n\n\nJune 9 - 14"
-  },
-  {
-    "objectID": "events.html#upcoming",
-    "href": "events.html#upcoming",
-    "title": "Events",
-    "section": "",
-    "text": "PSInet launch and meetup at ESA in Portland, OR\n\n\nTBD\n\n\n\n\nPhysfest4, an early career workshop for graduate students and postdocs to learn ecophysiological tools and techniques. Hosted at the UNM Sevilleta Field Station\n\n\nOctober 15 - 19\n\n\n\n\nPSInet social at AGU\n\n\nTBD\n\n\n\n\nPSInet-sponsored AGU session B031 - Ecosystem Hydraulics: Bridging Plant and Soil Water Status Across Scales\n\n\nTBD\n\n\n\n\n\n\n\nGordon Research Conference/Seminar in Multiscale Plant Vascular Biology. Hosted at Mount Snow\n\n\nJune 9 - 14"
-  },
-  {
-    "objectID": "events.html#past",
-    "href": "events.html#past",
-    "title": "Events",
-    "section": "Past",
-    "text": "Past"
   }
 ]
