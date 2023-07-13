@@ -1,7 +1,0 @@
----
-title: "Origins"
----
-
-The seeds of this effort were planted at AGU in 2018, where [Kim Novick](https://oneill.indiana.edu/faculty-research/directory/profiles/faculty/full-time/novick-kimberly.html) and [Jessica Guo](jessicaguo.github.io) bonded over their mutual determination to conference while parenting (thanks, Caregiver Award!) and shared interest in plant water potential. While both at University of Utah in 2020, Jessica and [Steve Kannenberg](https://www.stevekannenberg.com/) invited Kim to moderate an ESA session on plant water use strategies, which resulted in a review paper ([Kannenberg, Guo, Novick et al. 2022](https://doi.org/10.1111/1365-2435.13945)).
-
-Ultimately, Kim performed the heavy lifting of organizing a large steering committee and numerous moving parts to submit an Research Coordination Network proposal to NSF-IOS, twice. Now, the real work begins!
