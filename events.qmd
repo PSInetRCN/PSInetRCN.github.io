@@ -1,5 +1,6 @@
 ---
 title: "Events"
+toc-location: left
 ---
 
 ## Upcoming
@@ -45,7 +46,7 @@ PSInet social at [AGU](https://www.agu.org/fall-meeting)
 ::: {.d-flex .justify-content-between}
 <div>
 
-PSInet-sponsored AGU session B031 - Ecosystem Hydraulics: Bridging Plant and Soil Water Status Across Scales 
+PSInet-sponsored AGU session B031 - Ecosystem Hydraulics: Bridging Plant and Soil Water Status Across Scales
 
 </div>
 
@@ -53,7 +54,6 @@ PSInet-sponsored AGU session B031 - Ecosystem Hydraulics: Bridging Plant and Soi
 **TBD**
 :::
 :::
-
 
 ### 2024
 
@@ -70,6 +70,3 @@ Gordon Research Conference/Seminar in Multiscale Plant Vascular Biology. Hosted 
 :::
 
 ## Past
-
-
-
