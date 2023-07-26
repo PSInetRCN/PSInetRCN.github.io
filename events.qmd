@@ -10,31 +10,31 @@ toc-location: left
 ::: {.d-flex .justify-content-between}
 <div>
 
-PSInet launch and meetup at [ESA in Portland, OR](https://esa.org/portland2023/)
+PSInet meetup at the [Physiological Ecology Mixer](https://esa2023.eventscribe.net/fsPopup.asp?PresentationID=1265067&query=physiological+ecology&Mode=presInfo) at [ESA](https://esa.org/portland2023/)
 
 </div>
 
 ::: {.text-end .text-nowrap}
-**TBD**
+**6:30 PM - 8:00 PM, August 8**
 :::
 :::
 
 ::: {.d-flex .justify-content-between}
 <div>
 
-Physfest4, an early career workshop for graduate students and postdocs to learn ecophysiological tools and techniques. Hosted at the [UNM Sevilleta Field Station](https://unmsevilletafieldstation.wordpress.com/)
+[Physfest4](https://physfest.wixsite.com/physfest), an early career workshop for graduate students and postdocs to learn ecophysiological tools and techniques. [Apply](https://docs.google.com/forms/d/e/1FAIpQLSeodvfjx2zrGbeQ9y1c6n_COmLmU-WBv9GPNAkAwrH6L7YPlA/viewform?pli=1) by August 31
 
 </div>
 
 ::: {.text-end .text-nowrap}
-**October 15 - 19**
+**October 15 - 20**
 :::
 :::
 
 ::: {.d-flex .justify-content-between}
 <div>
 
-PSInet social at [AGU](https://www.agu.org/fall-meeting)
+PSInet datathon and social at [AGU](https://www.agu.org/fall-meeting)
 
 </div>
 
