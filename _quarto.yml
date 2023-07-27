@@ -10,6 +10,7 @@ website:
         text: Home
       - href: about.qmd
         text: About
+      - join.qmd
       - submit.qmd
       - events.qmd
       - posts.qmd
