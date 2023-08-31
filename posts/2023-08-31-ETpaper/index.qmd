@@ -1,6 +1,6 @@
 ---
-title: "Paper announcement: Drought sensitivity of ET"
-description: "Why we need PSInet"
+title: "Harmonizing global water stress research"
+description: "The role of PSInet"
 author: 
   - name: <a href="https://usys.ethz.ch/en/people/profile.Mjc2NTQ4.TGlzdC82MzcsMzIwMTk3MjIy.html" title = "Visit website">Francesco Giardina</a>
     affiliation: ETH Zurich
