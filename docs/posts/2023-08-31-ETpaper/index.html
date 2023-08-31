@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Francesco Giardina">
+<meta name="dcterms.date" content="2023-08-31">
+<meta name="description" content="Why we need PSInet">
 
-<title>PSInet - Posts</title>
+<title>PSInet - Paper announcement: Drought sensitivity of ET</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +26,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -60,40 +61,9 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -103,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">PSInet</span>
     </a>
   </div>
@@ -114,27 +84,27 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
+    <a class="nav-link" href="../../index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
+    <a class="nav-link" href="../../about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./join.html" rel="" target="">
+    <a class="nav-link" href="../../join.html" rel="" target="">
  <span class="menu-text">Get Involved</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./submit.html" rel="" target="">
+    <a class="nav-link" href="../../submit.html" rel="" target="">
  <span class="menu-text">Submit Data</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./events.html" rel="" target="">
+    <a class="nav-link" href="../../events.html" rel="" target="">
  <span class="menu-text">Events</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./posts.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../../posts.html" rel="" target="">
  <span class="menu-text">Posts</span></a>
   </li>  
 </ul>
@@ -145,142 +115,89 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Paper announcement: Drought sensitivity of ET</h1>
+                  <div>
+        <div class="description">
+          Why we need PSInet
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">plant water potential</div>
+                <div class="quarto-category">water stress</div>
+              </div>
+                  </div>
+  </div>
+    
+  <div class="quarto-title-meta-author">
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-heading">Affiliation</div>
+    
+      <div class="quarto-title-meta-contents">
+      <p class="author"><a href="https://usys.ethz.ch/en/people/profile.Mjc2NTQ4.TGlzdC82MzcsMzIwMTk3MjIy.html" title="Visit website">Francesco Giardina</a> </p>
+    </div>
+      <div class="quarto-title-meta-contents">
+          <p class="affiliation">
+              ETH Zurich
+            </p>
+        </div>
+      </div>
+
+  <div class="quarto-title-meta">
+
+        
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">August 31, 2023</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="electrical resistivity imaging">electrical resistivity imaging <span class="quarto-category-count">(1)</span></div><div class="category" data-category="plant water potential">plant water potential <span class="quarto-category-count">(2)</span></div><div class="category" data-category="psychrometry">psychrometry <span class="quarto-category-count">(1)</span></div><div class="category" data-category="soil water potential">soil water potential <span class="quarto-category-count">(1)</span></div><div class="category" data-category="water stress">water stress <span class="quarto-category-count">(1)</span></div></div></div>
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Posts</h1>
-</div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-</header>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
+<p>In the dynamic world of ecosystems, water plays a central role. The sensitivity of vegetation to drought, especially, hinges upon understanding water limitation. However, in trying to unravel this complex relationship, the scientific community has often been hamstrung by the immense variety of vegetation types, different climates, and the unpredictability of root zones. Our recent study in New Phytologist, titled <a href="https://nph.onlinelibrary.wiley.com/doi/full/10.1111/nph.19197">Diagnosing evapotranspiration responses to water deficit across biomes using deep learning</a>, sheds light on some of these open questions, but it also highlights where the knowledge gaps remain.</p>
+<p>By employing deep neural networks, we’ve taken a closer look at how vegetation responds when faced with drought conditions. We’ve been able to isolate and measure a water stress factor (fET) that indicates evapotranspiration (ET) reductions during drought. Notably, our results have shown varying ET responses to water stress. From the rapid decline of fET in some savannah and grassland sites to the subtle reduction in most forests, the range is broad. But here’s the catch: in most arid sites, after an initial drop, the relationship between fET and the cumulative water deficit seems to level off (<a href="#fig-1">Figure&nbsp;1</a>). But why?</p>
+<div id="fig-1" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="../..\posts/2023-08-31-ETpaper/fig1.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption class="figure-caption">Figure&nbsp;1: Evolution of the fractional reduction in evapotranspiration (fET) with the cumulative water deficit (CWD) for sites classified in the ‘low fET’ group. Colored dots: fET. Green line: MODIS Enhanced Vegetation Index (EVI). EVI was binned by CWD intervals of 50 points. Shading represents the lower and upper quartiles, and the solid line the median in every bin.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</figcaption>
+</figure>
+</div>
+<p>When initially presented with these findings, we wrestled with the question: was this due to increased xylem resistance at these sites, or could these locations access deeper underground water reserves? The answer, or at least a part of it, was found in previous field studies. These studies revealed that vegetation, especially in drier areas, can sustain ET during drought due to groundwater or deeper soil moisture access. At the same time, plants also strategically adjust their stomatal closure based on the progression of water deficits. However, many conventional land surface models don’t account for these intricacies, leading to an incomplete understanding of water stress and its impacts.</p>
+<p>And this brings us to a critical gap. Despite their undeniable importance, field studies and measurements, particularly those focusing on water potential (<a href="#fig-predawn">Figure&nbsp;2</a>), are not easily accessible and not commonly co-located with ecosystem-scale measurements. This lack of data poses challenges for researchers aiming to refine global understanding of water limitation in terrestrial ecosystems.</p>
+<div id="fig-predawn" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="../..\posts/2023-08-31-ETpaper/predawn.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption class="figure-caption">Figure&nbsp;2: Pre-dawn leaf water potentials being taken in the field.</figcaption>
+</figure>
+</div>
+<p>Imagine the breakthroughs possible if researchers had access to a standardised and comprehensive database of water potential measurements across various biomes! Our exploration into ET responses to drought using deep learning has shown promising results. But the road ahead requires collaboration, shared resources, and a concerted effort to fill the data gaps. <b>The scientific community would greatly benefit from a global network of water potential measurements, giving us the tools to better understand our planet’s ecosystems.</b> To contribute your water potential data to this effort, visit ‘<a href="file:///C:/Users/jessi/Documents/Projects/PSInet/PSInetRCN-repos/PSInetRCN.github.io/docs/join.html">Get Involved</a>’ and ‘<a href="file:///C:/Users/jessi/Documents/Projects/PSInet/PSInetRCN-repos/PSInetRCN.github.io/docs/submit.html">Submit Data</a>’.</p>
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="plant water potential,water stress" data-listing-date-sort="1693465200000" data-listing-file-modified-sort="1693490013637" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
-<a href="./posts/2023-08-31-ETpaper/index.html" class="quarto-grid-link">
-</a><div class="quarto-grid-item card h-100 card-left"><a href="./posts/2023-08-31-ETpaper/index.html" class="quarto-grid-link">
-<p class="card-img-top">
-<img src="./posts/2023-08-31-ETpaper/headshot.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-</a><div class="card-body post-contents"><a href="./posts/2023-08-31-ETpaper/index.html" class="quarto-grid-link">
-<h5 class="no-anchor card-title listing-title">
-Paper announcement: Drought sensitivity of ET
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('plant water potential'); return false;">
-plant water potential
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('water stress'); return false;">
-water stress
-</div>
-</div>
-<div class="card-text listing-description">
-Why we need PSInet
-</div>
-</a><div class="card-attribution card-text-small justify"><a href="./posts/2023-08-31-ETpaper/index.html" class="quarto-grid-link">
-</a><div class="listing-author"><a href="./posts/2023-08-31-ETpaper/index.html" class="quarto-grid-link">
-</a><a href="https://usys.ethz.ch/en/people/profile.Mjc2NTQ4.TGlzdC82MzcsMzIwMTk3MjIy.html" title="Visit website">Francesco Giardina</a>
-</div>
-<div class="listing-date">
-Aug 31, 2023
-</div>
-</div>
-</div>
-</div>
 
-</div>
-<div class="g-col-1" data-index="1" data-categories="electrical resistivity imaging,soil water potential" data-listing-date-sort="1684911600000" data-listing-file-modified-sort="1684961184653" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
-<a href="./posts/2023-05-24-eri/index.html" class="quarto-grid-link">
-</a><div class="quarto-grid-item card h-100 card-left"><a href="./posts/2023-05-24-eri/index.html" class="quarto-grid-link">
-<p class="card-img-top">
-<img src="./posts/2023-05-24-eri/dan.JPG" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-</a><div class="card-body post-contents"><a href="./posts/2023-05-24-eri/index.html" class="quarto-grid-link">
-<h5 class="no-anchor card-title listing-title">
-Expanding soil water potential obervations using near-surface geophysics
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('electrical resistivity imaging'); return false;">
-electrical resistivity imaging
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('soil water potential'); return false;">
-soil water potential
-</div>
-</div>
-<div class="card-text listing-description">
-One path toward resolving the spatial-temporal mismatch
-</div>
-</a><div class="card-attribution card-text-small justify"><a href="./posts/2023-05-24-eri/index.html" class="quarto-grid-link">
-</a><div class="listing-author"><a href="./posts/2023-05-24-eri/index.html" class="quarto-grid-link">
-</a><a href="https://danielbeverly.com/" title="Visit website">Daniel P. Beverly</a>
-</div>
-<div class="listing-date">
-May 24, 2023
-</div>
-</div>
-</div>
-</div>
 
-</div>
-<div class="g-col-1" data-index="2" data-categories="psychrometry,plant water potential" data-listing-date-sort="1682406000000" data-listing-file-modified-sort="1684970100387" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<a href="./posts/2023-04-25-intro/index.html" class="quarto-grid-link">
-</a><div class="quarto-grid-item card h-100 card-left"><a href="./posts/2023-04-25-intro/index.html" class="quarto-grid-link">
-<p class="card-img-top">
-<img src="./posts/2023-04-25-intro/jess.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-</a><div class="card-body post-contents"><a href="./posts/2023-04-25-intro/index.html" class="quarto-grid-link">
-<h5 class="no-anchor card-title listing-title">
-Improving psychrometer installations
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('psychrometry'); return false;">
-psychrometry
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('plant water potential'); return false;">
-plant water potential
-</div>
-</div>
-<div class="card-text listing-description">
-What I learned from George Koch and Ben Umali
-</div>
-</a><div class="card-attribution card-text-small justify"><a href="./posts/2023-04-25-intro/index.html" class="quarto-grid-link">
-</a><div class="listing-author"><a href="./posts/2023-04-25-intro/index.html" class="quarto-grid-link">
-</a><a href="https://jessicaguo.github.io/" title="Visit website">Jessica S. Guo</a>
-</div>
-<div class="listing-date">
-Apr 25, 2023
-</div>
-</div>
-</div>
-</div>
 
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>R package ‘LSD’ was used to plot the point density (<a href="https://cran.utstat.utoronto.ca/web/packages/LSD/LSD.pdf">Schwalb et al., 2020</a>)<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

@@ -1,0 +1,27 @@
+---
+title: "Paper announcement: Drought sensitivity of ET"
+description: "Why we need PSInet"
+author: 
+  - name: <a href="https://usys.ethz.ch/en/people/profile.Mjc2NTQ4.TGlzdC82MzcsMzIwMTk3MjIy.html" title = "Visit website">Francesco Giardina</a>
+    affiliation: ETH Zurich
+date: 08-31-2023
+categories: [plant water potential, water stress]
+image: headshot.png
+draft: false
+---
+
+In the dynamic world of ecosystems, water plays a central role. The sensitivity of vegetation to drought, especially, hinges upon understanding water limitation. However, in trying to unravel this complex relationship, the scientific community has often been hamstrung by the immense variety of vegetation types, different climates, and the unpredictability of root zones. Our recent study in New Phytologist, titled [Diagnosing evapotranspiration responses to water deficit across biomes using deep learning](https://nph.onlinelibrary.wiley.com/doi/full/10.1111/nph.19197), sheds light on some of these open questions, but it also highlights where the knowledge gaps remain.
+
+By employing deep neural networks, we've taken a closer look at how vegetation responds when faced with drought conditions. We've been able to isolate and measure a water stress factor (fET) that indicates evapotranspiration (ET) reductions during drought. Notably, our results have shown varying ET responses to water stress. From the rapid decline of fET in some savannah and grassland sites to the subtle reduction in most forests, the range is broad. But here's the catch: in most arid sites, after an initial drop, the relationship between fET and the cumulative water deficit seems to level off (@fig-1). But why?
+
+![Evolution of the fractional reduction in evapotranspiration (fET) with the cumulative water deficit (CWD) for sites classified in the 'low fET' group. Colored dots: fET. Green line: MODIS Enhanced Vegetation Index (EVI). EVI was binned by CWD intervals of 50 points. Shading represents the lower and upper quartiles, and the solid line the median in every bin.[^1].](/posts/2023-08-31-ETpaper/fig1.png){#fig-1 fig-align="center" width="80%"}
+
+When initially presented with these findings, we wrestled with the question: was this due to increased xylem resistance at these sites, or could these locations access deeper underground water reserves? The answer, or at least a part of it, was found in previous field studies. These studies revealed that vegetation, especially in drier areas, can sustain ET during drought due to groundwater or deeper soil moisture access. At the same time, plants also strategically adjust their stomatal closure based on the progression of water deficits. However, many conventional land surface models don't account for these intricacies, leading to an incomplete understanding of water stress and its impacts.
+
+And this brings us to a critical gap. Despite their undeniable importance, field studies and measurements, particularly those focusing on water potential (@fig-predawn), are not easily accessible and not commonly co-located with ecosystem-scale measurements. This lack of data poses challenges for researchers aiming to refine global understanding of water limitation in terrestrial ecosystems.
+
+![Pre-dawn leaf water potentials being taken in the field.](/posts/2023-08-31-ETpaper/predawn.png){#fig-predawn fig-align="center" width="70%"}
+
+Imagine the breakthroughs possible if researchers had access to a standardised and comprehensive database of water potential measurements across various biomes! Our exploration into ET responses to drought using deep learning has shown promising results. But the road ahead requires collaboration, shared resources, and a concerted effort to fill the data gaps. <b>The scientific community would greatly benefit from a global network of water potential measurements, giving us the tools to better understand our planet's ecosystems.</b> To contribute your water potential data to this effort, visit '[Get Involved](file:///C:/Users/jessi/Documents/Projects/PSInet/PSInetRCN-repos/PSInetRCN.github.io/docs/join.html)' and '[Submit Data](file:///C:/Users/jessi/Documents/Projects/PSInet/PSInetRCN-repos/PSInetRCN.github.io/docs/submit.html)'. 
+
+[^1]: R package 'LSD' was used to plot the point density ([Schwalb et al., 2020](https://cran.utstat.utoronto.ca/web/packages/LSD/LSD.pdf))
