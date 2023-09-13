@@ -34,7 +34,7 @@ PSInet meetup at the [Physiological Ecology Mixer](https://esa2023.eventscribe.n
 ::: {.d-flex .justify-content-between}
 <div>
 
-PSInet datathon and social at [AGU](https://www.agu.org/fall-meeting)
+PSInet social gathering at [AGU](https://www.agu.org/fall-meeting)
 
 </div>
 
