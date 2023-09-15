@@ -1,0 +1,25 @@
+---
+title: "How hot can leaves get?"
+description: "Leaf thermistors deployed in a heat island"
+author: 
+  - name: <a href="https://dbg.org/research-conservation-staff/alexandra-ali-schuessler-m-s/" title = "Visit website">Alexandra Schuessler</a>
+    affiliation: Desert Botanical Garden
+date: 09-28-2023
+categories: [heat stress, thermal tolerance, plant hydraulics]
+image: Ali-Headshot.jpg
+draft: true
+---
+
+How hot is too hot? I often wonder this while watching my dog bask in the sun on a 110°F day here in Phoenix, AZ. This is perhaps an idle question about snoozing pups but also a serious one for plants that are rooted in place. At the Desert Botanical Garden, we are deploying leaf thermistors on cottonwood saplings to understand how a foundation species can regulate their water for heat loss trade off. 
+
+
+Leaf temperature can be tricky to measure <i>in situ</i>. The thermistor element small and must be in constant contact with the leaf surface. However, the wires are also fragile and thin enough to snap in the wind if they are not installed correctly. Our team has devised a way to create and install leaf thermistors that can withstand the extremes of a Phoenix summer and monsoon storms. 
+
+![Example of thermistor installation on a cottonwood leaf in at the Desert Botanical Garden.](/posts/2023-09-28-leafT/leaf_therm.jpg){#fig-1 fig-align="center" width="70%"}
+
+The method involves attaching the thermistor head to the leaf using medical tape and avoiding major veins. As the leaf moves in the wind, it puts strain on the attachment wire; attaching the wire to follow the petiole is important so both can move in tandem. The thermistor element and its lead wire are soldered to Belden cable, and to keep the cable from straining the thermistor heads, we ziptied the cable to the trees as part of the overall cable management plan. [Susan Bush](https://scholar.google.com/citations?user=ouQt0scAAAAJ&hl=en) masterminded the deployment of 30 thermistors on 10 trees, with help from [Dan Koepke](https://dbg.org/research-conservation-staff/dan-koepke/). 
+
+![DBG researchers Susan Bush and Dan Koepke checking on the leaf thermistor data under some shade.](/posts/2023-09-28-leafT/Susan_Dan.jpg){#fig-2 fig-align="center" width="70%"}
+
+Methods like these can be used to supplement timeseries data such as sap flow and stem psychrometry to help us better understand leaf and whole-plant tradeoffs between limiting water loss and shedding heat through transpiration. The record heat in Phoenix makes the Desert Botanical Garden a compelling natural laboratory for what future climate will bring. 
+
