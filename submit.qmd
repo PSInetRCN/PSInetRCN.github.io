@@ -11,6 +11,8 @@ By filling out this survey, you are indicating your interest in sharing a plant 
 
 <b>This survey will take about 15 minutes and should describe a single dataset</b>. If you have questions or need clarification, please contact [Michael Benson](mailto:micbenso@iu.edu) or [Jessica Guo](mailto:jessicaguo@arizona.edu). After you fill out this survey, you will receive more detailed instructions about how to prepare your data for submission using an Excel template. PSInet will also be holding online help sessions (datathons) to provide additional instructions and answer contributor questions.
 
+<b> Please note: Some fields of the survey are required (marked by red *). If the Submit button is greyed out, please go back and check that all of the questions are filled in. Thank you!</b>
+
 ```{=html}
 <iframe id = "presub_survey" src = "https://viz.datascience.arizona.edu/PSInet_presubmission_survey/" style="border: none; width: 100%; height: 640px" frameborder="0"></iframe>
 ```
