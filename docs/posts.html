@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.353">
+<meta name="generator" content="quarto-1.4.383">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -48,6 +48,12 @@ ul.task-list li input[type="checkbox"] {
   "panel-placement": "end",
   "type": "overlay",
   "limit": 20,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -57,7 +63,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <script>
@@ -102,7 +109,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">PSInet</span>
     </a>
@@ -114,33 +121,33 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
- <span class="menu-text">Home</span></a>
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
- <span class="menu-text">About</span></a>
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./join.html" rel="" target="">
- <span class="menu-text">Get Involved</span></a>
+    <a class="nav-link" href="./join.html"> 
+<span class="menu-text">Get Involved</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./submit.html" rel="" target="">
- <span class="menu-text">Submit Data</span></a>
+    <a class="nav-link" href="./submit.html"> 
+<span class="menu-text">Submit Data</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./events.html" rel="" target="">
- <span class="menu-text">Events</span></a>
+    <a class="nav-link" href="./events.html"> 
+<span class="menu-text">Events</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./posts.html" rel="" target="" aria-current="page">
- <span class="menu-text">Posts</span></a>
+    <a class="nav-link active" href="./posts.html" aria-current="page"> 
+<span class="menu-text">Posts</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -150,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="electrical resistivity imaging">electrical resistivity imaging <span class="quarto-category-count">(1)</span></div><div class="category" data-category="plant water potential">plant water potential <span class="quarto-category-count">(2)</span></div><div class="category" data-category="psychrometry">psychrometry <span class="quarto-category-count">(1)</span></div><div class="category" data-category="soil water potential">soil water potential <span class="quarto-category-count">(1)</span></div><div class="category" data-category="water stress">water stress <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="electrical resistivity imaging">electrical resistivity imaging <span class="quarto-category-count">(1)</span></div><div class="category" data-category="heat stress">heat stress <span class="quarto-category-count">(1)</span></div><div class="category" data-category="plant hydraulics">plant hydraulics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="plant water potential">plant water potential <span class="quarto-category-count">(2)</span></div><div class="category" data-category="psychrometry">psychrometry <span class="quarto-category-count">(1)</span></div><div class="category" data-category="soil water potential">soil water potential <span class="quarto-category-count">(1)</span></div><div class="category" data-category="thermal tolerance">thermal tolerance <span class="quarto-category-count">(1)</span></div><div class="category" data-category="water stress">water stress <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -169,7 +176,9 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
+
 
 
 
@@ -177,7 +186,43 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="plant water potential,water stress" data-listing-date-sort="1693465200000" data-listing-file-modified-sort="1693514649628" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="g-col-1" data-index="0" data-categories="heat stress,thermal tolerance,plant hydraulics" data-listing-date-sort="1695884400000" data-listing-file-modified-sort="1696257435037" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="427">
+<a href="./posts/2023-09-28-leafT/index.html" class="quarto-grid-link">
+</a><div class="quarto-grid-item card h-100 card-left"><a href="./posts/2023-09-28-leafT/index.html" class="quarto-grid-link">
+<p class="card-img-top">
+<img src="./posts/2023-09-28-leafT/Ali-Headshot.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+</a><div class="card-body post-contents"><a href="./posts/2023-09-28-leafT/index.html" class="quarto-grid-link">
+<h5 class="no-anchor card-title listing-title">
+How hot can leaves get?
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('heat stress'); return false;">
+heat stress
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('thermal tolerance'); return false;">
+thermal tolerance
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('plant hydraulics'); return false;">
+plant hydraulics
+</div>
+</div>
+<div class="card-text listing-description">
+Leaf thermistors deployed in a heat island
+</div>
+</a><div class="card-attribution card-text-small justify"><a href="./posts/2023-09-28-leafT/index.html" class="quarto-grid-link">
+</a><div class="listing-author"><a href="./posts/2023-09-28-leafT/index.html" class="quarto-grid-link">
+</a><a href="https://dbg.org/research-conservation-staff/alexandra-ali-schuessler-m-s/" title="Visit website">Alexandra Schuessler</a>
+</div>
+<div class="listing-date">
+Sep 28, 2023
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="g-col-1" data-index="1" data-categories="plant water potential,water stress" data-listing-date-sort="1693465200000" data-listing-file-modified-sort="1696259168577" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="518">
 <a href="./posts/2023-08-31-ETpaper/index.html" class="quarto-grid-link">
 </a><div class="quarto-grid-item card h-100 card-left"><a href="./posts/2023-08-31-ETpaper/index.html" class="quarto-grid-link">
 <p class="card-img-top">
@@ -210,7 +255,7 @@ Aug 31, 2023
 </div>
 
 </div>
-<div class="g-col-1" data-index="1" data-categories="electrical resistivity imaging,soil water potential" data-listing-date-sort="1684911600000" data-listing-file-modified-sort="1684961184653" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="g-col-1" data-index="2" data-categories="electrical resistivity imaging,soil water potential" data-listing-date-sort="1684911600000" data-listing-file-modified-sort="1696259256600" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="613">
 <a href="./posts/2023-05-24-eri/index.html" class="quarto-grid-link">
 </a><div class="quarto-grid-item card h-100 card-left"><a href="./posts/2023-05-24-eri/index.html" class="quarto-grid-link">
 <p class="card-img-top">
@@ -243,7 +288,7 @@ May 24, 2023
 </div>
 
 </div>
-<div class="g-col-1" data-index="2" data-categories="psychrometry,plant water potential" data-listing-date-sort="1682406000000" data-listing-file-modified-sort="1684970100387" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="g-col-1" data-index="3" data-categories="psychrometry,plant water potential" data-listing-date-sort="1682406000000" data-listing-file-modified-sort="1684970100387" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="392">
 <a href="./posts/2023-04-25-intro/index.html" class="quarto-grid-link">
 </a><div class="quarto-grid-item card h-100 card-left"><a href="./posts/2023-04-25-intro/index.html" class="quarto-grid-link">
 <p class="card-img-top">
@@ -360,10 +405,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -373,8 +417,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -387,6 +440,128 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    const typesetMath = (el) => {
+      if (window.MathJax) {
+        // MathJax Typeset
+        window.MathJax.typeset([el]);
+      } else if (window.katex) {
+        // KaTeX Render
+        var mathElements = el.getElementsByClassName("math");
+        var macros = [];
+        for (var i = 0; i < mathElements.length; i++) {
+          var texText = mathElements[i].firstChild;
+          if (mathElements[i].tagName == "SPAN") {
+            window.katex.render(texText.data, mathElements[i], {
+              displayMode: mathElements[i].classList.contains('display'),
+              throwOnError: false,
+              macros: macros,
+              fleqn: false
+            });
+          }
+        }
+      }
+    }
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        for (let i = 0; i < 2; i++) {
+          container.appendChild(note.children[i].cloneNode(true));
+        }
+        typesetMath(container);
+        return container.innerHTML
+      } else {
+        typesetMath(note);
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      typesetMath(note);
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -430,6 +605,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -455,6 +631,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -515,6 +717,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 
