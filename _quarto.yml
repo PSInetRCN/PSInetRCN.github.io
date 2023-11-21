@@ -10,6 +10,8 @@ website:
         text: Home
       - href: about.qmd
         text: About
+      - href: dtc_faq.qmd
+        text: FAQ for Contributors
       - join.qmd
       - submit.qmd
       - events.qmd
