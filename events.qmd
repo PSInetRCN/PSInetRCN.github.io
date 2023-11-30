@@ -10,6 +10,95 @@ toc-location: left
 ::: {.d-flex .justify-content-between}
 <div>
 
+PSInet social gathering at [AGU](https://www.agu.org/fall-meeting)
+
+</div>
+
+::: {.text-end .text-nowrap}
+SOMArts Cultural Center, **Dec 11**, [RSVP](https://forms.office.com/Pages/ResponsePage.aspx?id=NL4TEdGuAE2rS83QJRC-kcvvN-vy0YlAr53RIm7OxMhUMk40TjlaTTlOQlZJQTA3SE1MSDc4TjdKQi4u) 
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+<div>
+
+PSInet-sponsored oral session [B41C](https://agu.confex.com/agu/fm23/meetingapp.cgi/Session/212762)
+
+</div>
+
+::: {.text-end .text-nowrap}
+**Dec 14, 8:30 - 10:00**
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+<div>
+
+PSInet-sponsored poster session [B43H](https://agu.confex.com/agu/fm23/meetingapp.cgi/Session/190332)
+
+</div>
+
+::: {.text-end .text-nowrap}
+**Dec 14, 14:10 - 18:30**
+:::
+:::
+
+### 2024
+
+::: {.d-flex .justify-content-between}
+<div>
+
+PSInet-sponsored [session](https://meetingorganizer.copernicus.org/EGU24/sessionprogramme#) at EGU
+</div>
+
+::: {.text-end .text-nowrap}
+Vienna, Austria, **April 14 - 19**
+:::
+:::
+
+
+::: {.d-flex .justify-content-between}
+<div>
+
+Gordon Research [Seminar](https://www.grc.org/multiscale-plant-vascular-biology-grs-conference/2024/#:~:text=The%20Multiscale%20Plant%20Vascular%20Biology,collaborative%20relationships%20with%20their%20peers.)
+</div>
+
+::: {.text-end .text-nowrap}
+University of Southern Maine, **June 8 - 9**
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+<div>
+
+Gordon Research [Conference](https://www.grc.org/multiscale-plant-vascular-biology-conference/2024/)
+
+</div>
+
+::: {.text-end .text-nowrap}
+University of Southern Maine, **June 9 - 14**
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+<div>
+
+Plant Hydraulics Methods workshop
+
+</div>
+
+::: {.text-end .text-nowrap}
+[Highlands Biological Station](https://highlandsbiological.org/), **July 16-20**
+:::
+:::
+
+## Past
+
+### 2023
+
+::: {.d-flex .justify-content-between}
+<div>
+
 PSInet meetup at the [Physiological Ecology Mixer](https://esa2023.eventscribe.net/fsPopup.asp?PresentationID=1265067&query=physiological+ecology&Mode=presInfo) at [ESA](https://esa.org/portland2023/)
 
 </div>
@@ -27,46 +116,6 @@ PSInet meetup at the [Physiological Ecology Mixer](https://esa2023.eventscribe.n
 </div>
 
 ::: {.text-end .text-nowrap}
-**October 15 - 20**
+[Sevilleta Field Station](https://unmsevilletafieldstation.wordpress.com/), **October 15 - 20**
 :::
 :::
-
-::: {.d-flex .justify-content-between}
-<div>
-
-PSInet social gathering at [AGU](https://www.agu.org/fall-meeting)
-
-</div>
-
-::: {.text-end .text-nowrap}
-**TBD**
-:::
-:::
-
-::: {.d-flex .justify-content-between}
-<div>
-
-PSInet-sponsored AGU session B031 - Ecosystem Hydraulics: Bridging Plant and Soil Water Status Across Scales
-
-</div>
-
-::: {.text-end .text-nowrap}
-**TBD**
-:::
-:::
-
-### 2024
-
-::: {.d-flex .justify-content-between}
-<div>
-
-Gordon Research Conference/Seminar in Multiscale Plant Vascular Biology. Hosted at [Mount Snow](https://www.grc.org/venues/north-america/mount-snow/)
-
-</div>
-
-::: {.text-end .text-nowrap}
-**June 9 - 14**
-:::
-:::
-
-## Past
