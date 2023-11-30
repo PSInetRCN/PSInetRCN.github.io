@@ -1,0 +1,31 @@
+---
+title: "Putting microtensiometry to the test"
+description: "Continuous stem water potential in beech and ash"
+author: 
+  - name: <a href="https://www.ecohydrology.uni-jena.de/people/ruth-magh" title = "Visit website">Ruth-Kristina Magh</a>
+    affiliation: Friedrich Schiller University Jena
+date: 12-01-2023
+categories: [plant water potential, water stress, microtensiometry]
+image: RuthMagh.png
+draft: false
+---
+
+Measuring tree water potentials has traditionally been a pain\... Picture this: climbing trees, digging up roots -- basically, a full workout just to get to the right spot. And that's just the warm-up! Then you need to either have your pressure chamber in the field, or you need to pack your sampling material safely and bring it to the lab in a timely manner. Oh, and did I mention the early wake-up calls to get pre-dawn water potentials and the hustle until the afternoon? All that effort just for two data points! So, you can imagine the excitement when we stumbled upon a way to measure stem water potentials continuously, without breaking the bank.
+
+We obtained some [Florapulse](https://www.florapulse.com/) sensors and decided to give them a go in a nature reserve in central Germany. We installed them in <i>Fagus sylvatica</i> and <i>Fraxinus excelsior</i> trees. The sensor works similarly to other tensiometers but in reduced format within xylem tissue -- it equilibrates between a sample of interest and an internal volume of liquid water. Setting it up was easy enough, taking only about 15 minutes per tree ([@fig-1](.
+
+![Microtensiometer installed in a beech tree](/posts/2023-12-01-florapulse/microtensiometer-beech.jpg){#fig-1 fig-align="center" width="70%"}
+
+But of course, nothing is that easy – the readings we initially got were just confusing. Turns out, these sensors don't run at all on a multiplexer, so we had to shuffle things around and run them directly on the logger. Once we sorted that out, the data started making sense, and we could finally breathe easy ([@fig-2]).
+
+![Daily stem water potential cycles in a beech tree in July 2023, as measured by a Florapulse sensor.](/posts/2023-12-01-florapulse/fig2.png){#fig-2 fig-align="center" width="65%"}
+
+Just when we thought we had it all figured out, summer rain threw us a curveball. The data got wonky again, leading to a series of back-and-forth trips between the lab and the field. We played detective, checking sensor functionality in the lab and trekking back to the trees for reinstallations, but the data quality remained a bit of a head-scratcher ([@fig-3]). 
+
+![Daily stem water potential cycles in a beech tree after some rain showers in early August 2023, as measured by a Florapulse sensor. ](/posts/2023-12-01-florapulse/fig3.png){#fig-3 fig-align="center" width="65%"}
+
+In parallel, we decided to compare sensor output with leaf water potential measured by the pressure chamber. We installed two sensors in <i>Fagus sylvatica</i> and <i>Carpinus betulus</i> trees close to the lab and were relieved that they seemed to agree well ([@fig-4]). 
+
+![Correlation between leaf water potential (pressure chamber) and stem water potential (Florapulse sensors) in <i>F. sylvatica</i> (beech) and <i>C. betulus</i> (hornbeam).](/posts/2023-12-01-florapulse/fig4.png){#fig-4 fig-align="center" width="65%"}
+
+Now, there's a ton of data analysis waiting for us, but looking back at the quirks and challenges, we're excited to dive back in next year. Our big plan? Integrate stem and soil water potential measurements to understand flow dynamics during the growing season. 
