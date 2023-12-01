@@ -10,12 +10,24 @@ toc-location: left
 ::: {.d-flex .justify-content-between}
 <div>
 
-PSInet social gathering at [AGU](https://www.agu.org/fall-meeting)
+Joint PSInet/FLUXNET mixer at AGU, [RSVP](https://forms.office.com/Pages/ResponsePage.aspx?id=NL4TEdGuAE2rS83QJRC-kcvvN-vy0YlAr53RIm7OxMhUMk40TjlaTTlOQlZJQTA3SE1MSDc4TjdKQi4u) 
 
 </div>
 
 ::: {.text-end .text-nowrap}
-SOMArts Cultural Center, **Dec 11**, [RSVP](https://forms.office.com/Pages/ResponsePage.aspx?id=NL4TEdGuAE2rS83QJRC-kcvvN-vy0YlAr53RIm7OxMhUMk40TjlaTTlOQlZJQTA3SE1MSDc4TjdKQi4u) 
+SOMArts Cultural Center, **Dec 11 18:00 - 21:00**, 
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+<div>
+
+PSInet office hours [pod](https://agu.confex.com/agu/fm23/meetingapp.cgi/Session/219640) 
+
+</div>
+
+::: {.text-end .text-nowrap}
+Poster Hall A-C South, Pod 1, **Dec 12 14:00 - 15:00**
 :::
 :::
 
@@ -111,7 +123,7 @@ PSInet meetup at the [Physiological Ecology Mixer](https://esa2023.eventscribe.n
 ::: {.d-flex .justify-content-between}
 <div>
 
-[Physfest4](https://physfest.wixsite.com/physfest), an early career workshop for graduate students and postdocs to learn ecophysiological tools and techniques. [Apply](https://docs.google.com/forms/d/e/1FAIpQLSeodvfjx2zrGbeQ9y1c6n_COmLmU-WBv9GPNAkAwrH6L7YPlA/viewform?pli=1) by August 31
+[Physfest4](https://physfest.wixsite.com/physfest), an early career workshop on ecophysiological tools and techniques. [Apply](https://docs.google.com/forms/d/e/1FAIpQLSeodvfjx2zrGbeQ9y1c6n_COmLmU-WBv9GPNAkAwrH6L7YPlA/viewform?pli=1) by August 31
 
 </div>
 
