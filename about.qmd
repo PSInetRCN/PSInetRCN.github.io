@@ -1,11 +1,10 @@
 ---
+title: "About"
 format: 
   html: 
     page-layout: article
 toc-location: left
 ---
-
-## About
 
 Anticipating and preparing for life on a warming planet requires a predictive understanding of how increasing drought and heat stress will affect terrestrial plants and the many services they provide. The water potential of soils and plants -- which can be imagined as the blood pressure of the natural world -- is a fundamental driver of ecosystem water flows, and directly controls many aspects of plant functioning during drought. However, observations of water potential (commonly abbreviated with the Greek letter 'Psi', $\Psi$) are relatively sparse, discontinuous, and unaggregated, and plagued by methodological challenges and disparities that constrain the synthetic research necessary to improve conceptual understanding and predictive models of plant drought responses.
 

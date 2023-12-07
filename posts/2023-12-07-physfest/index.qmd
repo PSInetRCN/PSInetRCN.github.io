@@ -1,0 +1,86 @@
+---
+title: "PhysFest 2023"
+description: "PhysFest 4 - October 2023"
+author: 
+  - name: <a href="https://anderegglab.eemb.ucsb.edu/people/graduate-students/piper-lovegreen" title = "Visit website">Piper Lovegreen</a>
+    affiliation: University of California, Santa Barbara
+date: 12-07-2023
+categories: [plant water potential, conferences]
+image: PiperLovegreen.png
+draft: false
+filters:
+   - lightbox
+lightbox: auto
+---
+
+Phys-Fest 4 took place in October 2023 at the SEV LTER in the Sevilleta National Wildlife Refuge, NM!
+
+# Day 0
+
+## Travel from SBA to ABQ
+
+::: {layout="[[1,1,1]]"}
+
+![](image11.jpg){group="my-gallery"}
+
+![](image16.jpg){group="my-gallery"}
+
+![](image17.jpg){group="my-gallery"}
+:::
+
+
+## Hike around the UNM Sevilleta Field Station
+
+
+::: {layout="[[70, 30], [20, 20, 60]]"}
+
+![](image14.jpg){group="my-gallery1"}
+
+![](image19.jpg){group="my-gallery1"}
+
+![](image12.jpg){group="my-gallery1"}
+
+
+![](image21.jpg){group="my-gallery1"}
+
+![](image15.jpg){group="my-gallery1"}
+
+:::
+
+# Day 1
+
+**Research Topic of the day - Thermal and Hyperspectral Imagery**
+
+Led by Bill Hammond and Dan Griffith
+
+Taking hyperspectral images of vegetation (left & middle) and a soil profile (right)
+
+Field trip led by Prof. Will Pockman to the Pinyon(left)-Juniper(middle) Experiment(right)
+
+# Day 2
+
+**Research Topic of the day - Gas Exchange**
+
+Led by Doug Lynch and Elizabeth Gordon
+
+I was so enthralled learning about gas exchange and the use of LI-6800, LI-600, and LI-600N that I do not have photographs.
+
+Field trip led by Prof. Marcy Litvak showing us eddy flux sites in her network
+
+# Day 3
+
+**Research Topic of the day - Water Potential**
+
+Led by Jessica Guo
+
+Jess teaching the Pinyon group about psychrometers
+
+Field trip led by Prof. Scott Collins to several SEV LTER experiments including Mean-Variance Experiment, EDGE, and the Monsoon rainfall manipulation experiment.
+
+# Day 4
+
+**Research Topic of the day - Environmental Sensors**
+
+Led by Jeff Ritter and Chris Chambers
+
+Learned all about METER group sensors and how to properly install them. The two left photos are of the Pinyon group installing weather and soil sensors. The middle photo is of Xander Redlins with a LAI sensor. On the right is Jeff Ritter explaining existing sensors at the UNM Sevilleta Field Station.
