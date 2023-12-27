@@ -1,0 +1,216 @@
+---
+title: "PhysFest 2023"
+description: "PhysFest 4 - October 2023"
+author: 
+  - name: <a href="https://anderegglab.eemb.ucsb.edu/people/graduate-students/piper-lovegreen" title = "Visit website">Piper Lovegreen</a>
+    affiliation: University of California, Santa Barbara
+date: 12-07-2023
+categories: [plant water potential, conferences]
+image: PiperLovegreen.png
+draft: false
+filters:
+   - lightbox
+lightbox: auto
+---
+
+Phys-Fest 4 took place in October 2023 at the SEV LTER in the Sevilleta National Wildlife Refuge, NM!
+
+# Day 0
+
+## Travel from SBA to ABQ
+
+::: {layout="[[30, -2, 30, -2, 30]]"}
+![](image11.jpg){group="my-gallery"}
+
+![](image16.jpg){group="my-gallery"}
+
+![](image17.jpg){group="my-gallery"}
+:::
+
+## Hike around the UNM Sevilleta Field Station
+
+::: {layout="[[45, -5, 45]]"}
+![](image14.jpg){group="my-gallery1"}
+
+![](image15.jpg){group="my-gallery1"}
+:::
+
+::: {layout="[[30, -2, 30, -2, 30]]"}
+![](image21.jpg){group="my-gallery1"}
+
+![](image19.jpg){group="my-gallery1"}
+
+![](image12.jpg){group="my-gallery1"}
+:::
+
+# Day 1
+
+## Research Topic of the Day - Thermal and Hyperspectral Imagery
+
+Led by Bill Hammond and Dan Griffith
+
+::: {layout="[[45, -5, 45]]" layout-valign="center"}
+::: {#first-column}
+![Taking hyperspectral images](image27.jpg){group="mygallery2"}
+:::
+
+::: {#second-column}
+![Taking hyperspectral images](image28.jpg){group="mygallery2"}
+
+![Taking a soil profile](image30.jpg){group="mygallery2"}
+:::
+:::
+
+## Field trip led by Prof. Will Pockman
+
+::: {layout-nrow="2" layout-halign="center"}
+::: {#first-row}
+::: {layout="[[50, -2, 50]]"}
+![Pinyon](image33.jpg){group="mygallery3"}
+
+![Juniper](image32.jpg){group="mygallery3"}
+:::
+:::
+
+::: {#second-row}
+![Experiment](image31.jpg){group="mygallery3"}
+:::
+:::
+
+# Day 2
+
+## Research Topic of the Day - Gas Exchange
+
+Led by Doug Lynch and Elizabeth Gordon
+
+I was so enthralled learning about gas exchange and the use of LI-6800, LI-600, and LI-600N that I do not have photographs!
+
+## Field trip led by Prof. Marcy Litvak showing us eddy flux sites in her network
+
+::: {layout="[[50, -2, 50]]" layout-valign="center"}
+::: {#first-column}
+
+![](image25.jpg){group="mygallery4"}
+
+:::
+
+::: {#second-column}
+
+
+::: {layout-nrow=2}
+
+::: {#first-row}
+
+::: {layout="[[50, -2, 50]]"}
+
+
+![](image22.jpg){group="mygallery4"}
+
+![](image18.jpg){group="mygallery4"}
+
+:::
+
+
+:::
+
+::: {#second-row}
+
+![](image24.jpg){group="mygallery4"}
+
+:::
+
+
+:::
+
+:::
+
+:::
+
+# Day 3
+
+## Research Topic of the day - Water Potential
+
+Led by Jessica Guo
+
+::: {layout="[[50]]" layout-halign="center"}
+
+![Jess teaching the Pinyon group about psychrometers](image1.jpg){group="mygallery5"}
+
+:::
+
+## Field trip led by Prof. Scott Collins to SEV LTER experiments
+
+Including the Mean-Variance Experiment, EDGE, and the Monsoon Rainfall Manipulation experiment.
+
+
+::: {layout="[[50, -2, 60]]" layout-valign="center"}
+
+:::{#first-column}
+
+![](image23.jpg){group="mygallery6"}
+
+![](image13.jpg){group="mygallery6"}
+
+:::
+
+:::{#second-column}
+
+
+![](image20.jpg){group="mygallery6"}
+
+:::
+
+
+:::
+
+
+# Day 4
+
+## Research Topic of the day - Environmental Sensors
+
+Led by Jeff Ritter and Chris Chambers
+
+We learned all about METER group sensors and how to properly install them. 
+
+::: {layout="[[50, -2, 50]]"}
+
+
+:::{#first-column}
+
+::: {layout-nrow=2 layout-valign="center"}
+
+
+:::#{first-row}
+
+![Installing weather and soil sensors](image9.jpg){group="mygallery7"}
+
+:::
+
+
+:::{#second-row}
+
+::: {layout="[[50, -2, 50]]" layout-valign="center"}
+
+![Installing weather and soil sensors](image10.jpg){group="mygallery7"}
+
+![Xander Redlins with a LAI sensor](image26.jpg){group="mygallery7"}
+
+:::
+
+
+:::
+
+
+:::
+
+
+:::
+
+:::{#second-column}
+
+![Jeff Ritter explaining sensors at the UNM Sevilleta Field Station](image29.jpg){group="mygallery7"}
+
+:::
+
+
+:::
