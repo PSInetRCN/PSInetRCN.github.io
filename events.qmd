@@ -5,62 +5,12 @@ toc-location: left
 
 ## Upcoming
 
-### 2023
-
-::: {.d-flex .justify-content-between}
-<div>
-
-Joint PSInet/FLUXNET mixer at AGU, [RSVP](https://forms.office.com/Pages/ResponsePage.aspx?id=NL4TEdGuAE2rS83QJRC-kcvvN-vy0YlAr53RIm7OxMhUMk40TjlaTTlOQlZJQTA3SE1MSDc4TjdKQi4u) 
-
-</div>
-
-::: {.text-end .text-nowrap}
-SOMArts Cultural Center, **Dec 11 18:00 - 21:00**, 
-:::
-:::
-
-::: {.d-flex .justify-content-between}
-<div>
-
-PSInet office hours [pod](https://agu.confex.com/agu/fm23/meetingapp.cgi/Session/219640) 
-
-</div>
-
-::: {.text-end .text-nowrap}
-Poster Hall A-C South, Pod 1, **Dec 12 14:00 - 15:00**
-:::
-:::
-
-::: {.d-flex .justify-content-between}
-<div>
-
-PSInet-sponsored oral session [B41C](https://agu.confex.com/agu/fm23/meetingapp.cgi/Session/212762)
-
-</div>
-
-::: {.text-end .text-nowrap}
-**Dec 14, 8:30 - 10:00**
-:::
-:::
-
-::: {.d-flex .justify-content-between}
-<div>
-
-PSInet-sponsored poster session [B43H](https://agu.confex.com/agu/fm23/meetingapp.cgi/Session/190332)
-
-</div>
-
-::: {.text-end .text-nowrap}
-**Dec 14, 14:10 - 18:30**
-:::
-:::
-
 ### 2024
 
 ::: {.d-flex .justify-content-between}
 <div>
 
-PSInet-sponsored [session](https://meetingorganizer.copernicus.org/EGU24/sessionprogramme#) at EGU
+PSInet-sponsored [session](https://meetingorganizer.copernicus.org/EGU24/session/49867) at EGU
 </div>
 
 ::: {.text-end .text-nowrap}
@@ -129,5 +79,53 @@ PSInet meetup at the [Physiological Ecology Mixer](https://esa2023.eventscribe.n
 
 ::: {.text-end .text-nowrap}
 [Sevilleta Field Station](https://unmsevilletafieldstation.wordpress.com/), **October 15 - 20**
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+<div>
+
+Joint PSInet/FLUXNET mixer at AGU, [RSVP](https://forms.office.com/Pages/ResponsePage.aspx?id=NL4TEdGuAE2rS83QJRC-kcvvN-vy0YlAr53RIm7OxMhUMk40TjlaTTlOQlZJQTA3SE1MSDc4TjdKQi4u) 
+
+</div>
+
+::: {.text-end .text-nowrap}
+SOMArts Cultural Center, **Dec 11 18:00 - 21:00**, 
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+<div>
+
+PSInet office hours [pod](https://agu.confex.com/agu/fm23/meetingapp.cgi/Session/219640) 
+
+</div>
+
+::: {.text-end .text-nowrap}
+Poster Hall A-C South, Pod 1, **Dec 12 14:00 - 15:00**
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+<div>
+
+PSInet-sponsored oral session [B41C](https://agu.confex.com/agu/fm23/meetingapp.cgi/Session/212762)
+
+</div>
+
+::: {.text-end .text-nowrap}
+**Dec 14, 8:30 - 10:00**
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+<div>
+
+PSInet-sponsored poster session [B43H](https://agu.confex.com/agu/fm23/meetingapp.cgi/Session/190332)
+
+</div>
+
+::: {.text-end .text-nowrap}
+**Dec 14, 14:10 - 18:30**
 :::
 :::
