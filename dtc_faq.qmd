@@ -1,0 +1,62 @@
+---
+format: 
+  html: 
+    page-layout: article
+toc-location: left
+---
+
+## Frequently Asked Questions for Data Contributors
+
+### What is PSInet?
+
+PSInet is an NSF-funded RCN comprising a network of researchers, a database, and a set of data access tools, and training related to plant water potential. For more about the PSInet project in general, see the [About](about.qmd) page.
+
+### What is the PSInet database?
+
+PSInet is building a database of plant water potential timeseries data and associated environmental covariates. This database will support synthesis papers and data discovery surrounding plant water potential and its measurement. **We are actively collecting data at this time!**
+
+### What types of data can be included in PSInet?
+
+At its core, PSInet is collecting **automated measurements** (e.g. with a psychrometer) and **pressure chamber measurements** of **plant water potential.** We are collecting data from all types of studies, including observational and experimental studies and studies conducted under field, greenhouse, or growth chamber conditions.
+
+In addition to plant water potential data, PSInet is collecting data on environmental conditions, meteorological data, and soil moisture to accompany measurements of water potential.
+
+### What are the incentives to contribute data to PSInet?
+
+Data contributors to the initial PSInet database will receive:
+
+-   Authorship on a (potentially highly-cited) data paper describing the database
+
+-   Embargoed access to the completed database for a 1-year period before the database is released publicly
+
+-   Support from the PSInet team in cleaning and archiving plant water potential data with a citeable DOI
+
+-   Scholarly attribution (citations) for your data when users publish using the entirety of PSInet, or when they discover and use your data through PSInet's infrastructure.
+
+### What will happen to data contributed to PSInet?
+
+Data submitted to PSInet will be cleaned and organized to match the database formatting. The cleaned and prepared data will be returned to the authors for final approval and for submission to a data respository to obtain a dataset-specific DOI.
+
+The compiled PSInet database will be under embargoed, restricted access for 1 year. During this time, only data contributors will have access to the data. At the end of this year, the PSInet database will be released as an open-source data resource, free for any research team to use. Users of the database will be expected to cite the entire database and/or any specific datasets they access or discover using PSInet.
+
+### How long will it take me to contribute my data?
+
+We expect it will take a few hours to populate the data submission template with your data.
+
+After this, members of the PSInet data working group will correspond with you to resolve any outstanding questions regarding your data. We will also reach out to you with the final version of your data formatted for inclusion in the database, and ask you to review the data and provide final approval.
+
+### Can I contribute data that have been published previously?
+
+Yes; please provide the associated DOI(s) as part of the data submission process.
+
+### Can I contribute unpublished data?
+
+Yes. If your data does not yet have an associated DOI, we will work with you to acquire one before the dataset is incorporated into PSInet. This will help ensure you get appropriate scholarly credit when users of the database use your data specifically.
+
+### Is there a deadline to contribute data?
+
+There will be a deadline (to be specified, in 2024) for contributing data to the initial PSInet database, which will come with inclusion on the data paper and embargoed access to the database. PSInet will continue to grow and accept data after this time, but we will not be able to guarantee inclusion in the data paper, etc.
+
+### Who do I reach out to with additional questions?
+
+Please contact Jessica Guo (jessicaguo\@arizona.edu), Kim Novick (kim.novick\@indiana.edu), and/or Renata Diaz (renatadiaz\@arizona.edu) with additional questions not answered here!

@@ -1,0 +1,25 @@
+---
+title: "Data terms of use"
+---
+
+Data submitted to PSInet will become part of the PSInet database. The PSInet database will be subject to a one year embargo, during which time only authors will have access to it. **After this period, the database will be published as an open-access resource with a [CC-By-4.0](https://creativecommons.org/licenses/by/4.0/) license.** 
+
+## **What this means for database end users**
+
+Database users can freely share and adapt the data with appropriate credit by:
+
+-   Citing the PSInet data publication, or 
+
+-   If five or fewer datasets are utilized, citing the PSInet data publication and each individual dataset. 
+
+## **What this means for database contributors**
+
+**Before you submit data, please ensure that you and all relevant data creators have read, understand, and fully agree to the PSInet data use policy (this policy).**
+
+In exchange for your dataset(s), you and your coauthors will receive:
+
+-   Up to two individuals per dataset will be named as co-authors on the PSInet data publication.
+
+-   Advanced access to the PSInet database during the one-year embargo period prior to data publication.
+
+-   Priority access to PSInet activities such as training workshops, conference meet-ups, and the synthesis workshop.
