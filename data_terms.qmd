@@ -10,7 +10,7 @@ Database users can freely share and adapt the data with appropriate credit by:
 
 -   Citing the PSInet data publication, or 
 
--   If five or fewer datasets are utilized, citing the PSInet data publication and each individual dataset. 
+-   If five or fewer datasets are utilized, citing the PSInet data publication and each individual dataset. In this case, database end-users will also be strongly encouraged to contact the dataset contributors to invite their collaboration on the paper, though this can not be strictly enforced.
 
 ## **What this means for database contributors**
 
