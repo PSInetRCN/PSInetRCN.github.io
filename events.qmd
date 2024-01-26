@@ -45,7 +45,7 @@ University of Southern Maine, **June 9 - 14**
 ::: {.d-flex .justify-content-between}
 <div>
 
-Plant Hydraulics Methods workshop
+[Plant Hydraulics Methods workshop](https://psinetrcn.github.io/posts/2024-01-26-hydraulics-workshop/)
 
 </div>
 
