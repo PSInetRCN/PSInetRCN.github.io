@@ -1,0 +1,62 @@
+---
+title: "Register for the 2024 Plant Hydraulics Methods Workshop"
+description: "Highlands Biological Station, July 16-20"
+author: 
+  - name: <a href="https://warnell.uga.edu/directory/people/dr-dan-johnson" title = "Visit website">Dan Johnson</a>
+    affiliation: University of Georgia
+date: 01-26-2024
+categories: [plant hydraulics, workshops]
+image: danjohnson.jpg
+draft: false
+filters:
+   - lightbox
+lightbox: auto
+---
+
+![Participants of the 2017 Plant Hydraulics workshop in Idaho. This could be you in July!](/posts/2024-01-26-hydraulics-workshop/idahydraulics.JPG){#fig-1 fig-align="center" width="70%"}
+
+# Overview
+
+We're announcing the long-awaited return of the Plant Hydraulics Methods Workshop, organized by Dan Johnson and sponsored by PSInet. Potential topics include:
+
+-   Sample collection, storage, and preparation
+-   Leaf pressure-volume curves and measurement of leaf water potential
+-   Measurements of hydraulic conductance and conductivity
+-   Measurements of xylem vulnerability to embolism
+-   Whole-tree water use: sap flow and eddy covariance methods
+-   Active xylem staining
+-   Optical dendrometry
+
+![Need to measure hydraulic conductance? Learn from the experts so you don't flood a microbalance!](/posts/2024-01-26-hydraulics-workshop/fig-sperry2.jpg){#fig-2 fig-align="center" width="50%"}
+
+## When and where?
+
+The workshop will be held at the [Highlands Biological Station](https://highlandsbiological.org/) (HBS). All housing and catered lunches and dinners will be covered by the workshop funds and up to \$700 in travel reimbursement will be available to all attendees. There are full kitchens in each housing unit where attendees can make breakfast, coffee, etc. and there is a grocery store that is less than a ten minute walk from the station.
+
+![Picture yourself immersed in hydraulics methods amidst the beauty of Highlands Biological Station](/posts/2024-01-26-hydraulics-workshop/visit-HBS.JPG){#fig-3 fig-align="center" width="50%"}
+
+## Getting there
+
+Attendees should fly into Hartsfield-Jackson Atlanta airport (ATL) with an arrival of no later than 6 pm on July 16th. Shuttles will be waiting at the Atlanta airport to transport attendees to HBS. Shuttles will depart HBS at 7 am on July 20th to take attendees back to ATL. Departing flights should be scheduled to take off at noon or later on July 20th.
+
+## Tentative schedule
+
+| *Date*               | *Morning*                | *Afternoon*        | *Evening*        |
+|------------------|------------------|------------------|------------------|
+| Tuesday, July 16th   | Travel                   | Travel             | Sleep!           |
+| Wednesday, July 17th | Intros + kickoff lecture | Workshop rotations | Group meetings   |
+| Thursday, July 18th  | Workshop rotations       | Free               | Career panel     |
+| Friday, July 19th    | Workshop rotations       | Group work         | Big data evening |
+| Saturday, July 20th  | Travel                   | Travel             | Travel           |
+
+## Applications
+
+Please provide a 1-page statement of interest and a current CV to Dan Johnson ([danjohnson\@uga.edu](mailto:danjohnson@uga.edu){.email}) by March 1, 2024. Applicants will be notified by April 1, 2024.
+
+## Instructors
+
+-   Dan Johnson, University of Georgia
+-   Jessica Guo, Harvey Mudd College
+-   Bill Hammond, University of Florida
+-   Kate McCulloh, University of Wisconsin
+-   Chris Oishi, US Forest Service
