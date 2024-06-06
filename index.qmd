@@ -12,6 +12,27 @@ about:
       href: https://github.com/PSInetRCN
     - text: Podcast episode
       href: https://www.metergroup.com/en/meter-environment/podcast/episode-24-building-national-water-potential-network
+execute:
+  freeze: true 
 ---
 
 Welcome to PSInet, an NSF-funded Research Coordination Network aimed at building a community of people and data to harness the potential of plant water potential.
+
+
+### PSInet Sites
+
+```{r, echo = F, message = F, warning = F}
+
+library(dplyr)
+library(tidyr)
+library(googlesheets4)
+library(ggplot2)
+library(leaflet)
+theme_set(theme_bw())
+
+locs <- read.csv(here::here(".secrets", "data_for_website_map.csv"))
+
+leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addCircleMarkers(lng = locs$longitude_wgs84, lat=locs$latitude_wgs84, popup="PSInet site")
+```

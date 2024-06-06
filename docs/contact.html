@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>PSInet - About</title>
+<title>PSInet - Contact</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -67,35 +67,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -122,7 +93,7 @@ window.Quarto = {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
@@ -142,7 +113,7 @@ window.Quarto = {
 <span class="menu-text">Posts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
+    <a class="nav-link active" href="./contact.html" aria-current="page"> 
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
@@ -160,9 +131,10 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#goals-objectives" id="toc-goals-objectives" class="nav-link active" data-scroll-target="#goals-objectives">Goals &amp; Objectives</a></li>
-  <li><a href="#origins" id="toc-origins" class="nav-link" data-scroll-target="#origins">Origins</a></li>
-  <li><a href="#the-team" id="toc-the-team" class="nav-link" data-scroll-target="#the-team">The Team</a></li>
+  <li><a href="#jessica-guo" id="toc-jessica-guo" class="nav-link active" data-scroll-target="#jessica-guo">Jessica Guo</a></li>
+  <li><a href="#kim-novick" id="toc-kim-novick" class="nav-link" data-scroll-target="#kim-novick">Kim Novick</a></li>
+  <li><a href="#ana-maria-restrepo" id="toc-ana-maria-restrepo" class="nav-link" data-scroll-target="#ana-maria-restrepo">Ana Maria Restrepo</a></li>
+  <li><a href="#renata-diaz" id="toc-renata-diaz" class="nav-link" data-scroll-target="#renata-diaz">Renata Diaz</a></li>
   </ul>
 </nav>
 </nav>
@@ -175,7 +147,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">Contact</h1>
 </div>
 
 
@@ -192,59 +164,25 @@ window.Quarto = {
 </header>
 
 
-<p>Anticipating and preparing for life on a warming planet requires a predictive understanding of how increasing drought and heat stress will affect terrestrial plants and the many services they provide. The water potential of soils and plants – which can be imagined as the blood pressure of the natural world – is a fundamental driver of ecosystem water flows, and directly controls many aspects of plant functioning during drought. However, observations of water potential (commonly abbreviated with the Greek letter ‘Psi’, <span class="math inline">\(\Psi\)</span>) are relatively sparse, discontinuous, and unaggregated, and plagued by methodological challenges and disparities that constrain the synthetic research necessary to improve conceptual understanding and predictive models of plant drought responses.</p>
-<div id="fig-1" class="quarto-figure quarto-figure-center quarto-float anchored" data-fig-align="center">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="networks.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="600">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: Gradients in water potential (<span class="math inline">\(\Psi\)</span>) form a connected continuum, moving water through ecosystems and profoundly influencing plant function. PSInet will increase the quality and accessibility of data (in soils and plants, blue circles), filling a critical missing link between information about environmental drivers and physiological responses that is already widely available from existing networks and remote sensing platforms (pink text). Modified from Novick et al.&nbsp;2022.
-</figcaption>
-</figure>
-</div>
-<section id="goals-objectives" class="level2">
-<h2 class="anchored" data-anchor-id="goals-objectives">Goals &amp; Objectives</h2>
-<p><b>Our goal is to create a network – <i>PSInet</i> – that will confront the water potential information gap and enable the pursuit of previously intractable questions about plant responses to drought and heat stress.</b> PSInet will be a network of data and a network of people, organized around coordinated research, training, and community-building activities designed to increase the availability, integrity, and accessibility of information to a diverse scientific community.</p>
-<p>Specific objectives include:</p>
-<ol type="1">
-<li><p><b>Promote</b> consistent collection and interpretation of data by a diverse global community of scientists through shared protocols, best practices, and early career training.</p></li>
-<li><p><b>Create</b> an open, global database for plant and soil time series that is harmonized with information available from other environmental observation networks.</p></li>
-<li><p><b>Support</b> synthetic end-use of the PSInet database to address pressing knowledge gaps.</p></li>
-<li><p><b>Foster</b> a diverse and inclusive network environment with multiple mechanisms to advance the careers of demographically, geographically, and intellectually diverse cohorts of early career scientists.</p></li>
-<li><p><b>Broaden</b> the impact of plant drought research through public outreach activities organized around a network of “Talking Trees” at public gardens and arboreta.</p></li>
-</ol>
-<p><br></p>
-<div id="fig-2" class="quarto-figure quarto-figure-center quarto-float anchored" data-fig-align="center">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="timeline.png" class="img-fluid quarto-figure quarto-figure-center figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2: PSInet project activities and timeline.
-</figcaption>
-</figure>
-</div>
+<section id="jessica-guo" class="level2">
+<h2 class="anchored" data-anchor-id="jessica-guo">Jessica Guo</h2>
+<p>Assistant Professor, Harvey Mudd College</p>
+<p><a href="mailto:jessicaguo@g.hmc.edu">jessicaguo@g.hmc.edu</a></p>
 </section>
-<section id="origins" class="level2">
-<h2 class="anchored" data-anchor-id="origins">Origins</h2>
-<p>The PSInet idea represents a convergence of prior initiatives linked by their focus on network-enabled and/or global-scale understanding of ecosystem water status and flows. The first call from a water potential network may be traced to at 2012 American Geophysical Union presentation by PSInet Steering Committee member George Koch, which coincided with the publication of the first iteration of the Xylem Functional Traits (XFT) database. Since then, the SAPFLUXNET network was conceived and built, and flux tower networks have grown larger and become more open.</p>
-<p>The last decade has seen an explosion of interest in using plant hydraulic concepts to address pressing eco-physiological research questions.However, a centralized repository for water potential time series, which are critical for connecting meteorological drivers to plant responses, does not yet exist. The need for such a database was again raised at the 2020 Ecological Society of America (ESA) meeting, where several team members (Guo, Novick, Kannenberg) convened the session “Plant Water Use Strategies in a Changing World.” The journal <i>Functional Ecology</i> invited the session organizers and speakers to prepare a <a href="https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/1365-2435.13945">review article</a> on the topic which proposes that fully characterizing plant drought responses “require[s] water potential datasets of greater quantity and quality to pair with flux measurements, model output, and remote sensing approaches.”</p>
-<p>At the same time, <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/gcb.15872">interest has been growing</a> in the potential to use remotely-sensed vegetation optical depth data as a proxy for ecosystem water content and potential at continental and global scales. However, this research priority requires a centralized network of in-situ water potential observations for algorithm development and benchmarking. The emergence of psychrometers and other methodologies as tools for <a href="https://nph.onlinelibrary.wiley.com/doi/full/10.1111/nph.16196">continuous monitoring of in-situ plant water potential</a> has revealed a clear need for community-developed best practices and standards for deploying these instruments. Finally, there is a growing appreciation of the value of collecting, and aggregating, information on soil water potential (and its relationship with soil moisture content) in ecological field research settings, which is already being addressed to some extent by activities born out of the AmeriFlux “Year of Water” initiative (including the deployment of in-situ matric potential sensors at AmeriFlux sites, and a systematic effort to generate laboratory-derived water retention curves).</p>
-<p>With support from this RCN, we can grow these individual efforts into a much larger global database that also includes continuous plant Ψ timeseries, and with links to data across multiple networks. This RCN will also provide diverse networking and training opportunities through collaborations with multiple established workshops and short-courses, including PhysFest, the Summer Workshop in Plant Hydraulic Techniques, and FluxCourse. Thus, our network design brings together many ongoing but thus-far disjunct and incomplete activities into a broader vision for a global plant water potential network and associated Community of Practice.</p>
+<section id="kim-novick" class="level2">
+<h2 class="anchored" data-anchor-id="kim-novick">Kim Novick</h2>
+<p>Professor, Indiana University</p>
+<p><a href="mailto:knovick@indiana.edu">knovick@indiana.edu</a></p>
 </section>
-<section id="the-team" class="level2">
-<h2 class="anchored" data-anchor-id="the-team">The Team</h2>
-<p><i>Leadership</i>: Kim Novick (Indiana U.), Jessica Guo (U. of Arizona), Dan Johnson (U. of Georgia), Kate McCulloh (U. of Wisconsin), Jesse Nippert (Kansas State U.), Steve Kannenberg (West Virginia U.), Michael Benson (Indiana U.).</p>
-<p><i>Steering Committee</i>: William Anderegg (U. of Utah), Brendan Choat (Western Sydney U.), Kevin Hultine (Desert Botanical Garden), George Koch (Northern Arizona U.), Alexandra Konings (Stanford U.), Lauren Lowman (Wake Forest U.), Jordi Martínez-Vilalta (Autonomous U. of Barcelona), Ashley Matheny (U. of Texas), Rafael Poyatos (CREAF, Barcelona), H. Jochen Schenk (California State U. – Fullerton), and Russell Scott (USDA-ARS).</p>
-<p>Working groups:</p>
-<ol type="1">
-<li><p><i>Data WG</i>: Guo and Poyatos, plus Francesco Giardina (ETH-Zurich) Sandra Bucchi (Institute of Biosciences of the Patagonia, Argentina), Celia Rodriguez- Dominguez (IRNAS-CSIC, Spain), Aurora Kagawa-Viviani (U. of Hawaii), Jess Gersony (Smith College.), Rafael Oliveira (University of Campinas, Brazil), Angela Rigden (UC Irvine), Jennifer Peters (Oak Ridge Natl. Lab), Tonantzin Tarin (U. Nacional Autónoma de México), Quan Zhang (Wuhan U., China), and new members to be added.</p></li>
-<li><p><i>Cyberinfrastucture WG</i>: Guo, Poyatos (SAPFLUXNET), plus William Hammond (U. of Florida, XFT), Housen Chu (LBNL, Ameriflux), and new members added after the project begins.</p></li>
-<li><p><i>Continuous Data WG</i>: Guo, Schenk, Koch, Choat, Matheny, and Novick, plus Steve Kannenberg (U. of Utah), Daniel Beverly (Indiana U.), and new members added after the project begins.</p></li>
-<li><p><i>Synthesis WG</i>: Novick, Scott, Martínez-Vilalta, Konings, Matheny, Lowman, Hultine, and Anderegg, and new members to be added.</p></li>
-<li><p><i>Community WG</i>: Johnson, McCulloh, Schenk, Hultine, and Novick, plus Juliana Medeiros (Holden Arboretum), Chis Oishi (Coweeta), Jesse Nippert (Kansas State U.), and new members to be added.</p></li>
-</ol>
+<section id="ana-maria-restrepo" class="level2">
+<h2 class="anchored" data-anchor-id="ana-maria-restrepo">Ana Maria Restrepo</h2>
+<p>Postdoc, Indiana University</p>
+<p><a href="mailto:anarest@iu.edu">anarest@iu.edu</a></p>
+</section>
+<section id="renata-diaz" class="level2">
+<h2 class="anchored" data-anchor-id="renata-diaz">Renata Diaz</h2>
+<p>Data Scientist, University of Arizona</p>
+<p><a href="mailto:rediaz@g.hmc.edu">rediaz@g.hmc.edu</a></p>
 
 
 </section>

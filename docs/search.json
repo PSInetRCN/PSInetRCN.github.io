@@ -11,7 +11,7 @@
     "href": "about.html#goals-objectives",
     "title": "About",
     "section": "Goals & Objectives",
-    "text": "Goals & Objectives\nOur goal is to create a network – PSInet – that will confront the water potential information gap and enable the pursuit of previously intractable questions about plant responses to drought and heat stress. PSInet will be a network of data and a network of people, organized around coordinated research, training, and community-building activities designed to increase the availability, integrity, and accessibility of information to a diverse scientific community.\nSpecific objectives include:\n\nPromote consistent collection and interpretation of data by a diverse global community of scientists through shared protocols, best practices, and early career training.\nCreate an open, global database for plant and soil time series that is harmonized with information available from other environmental observation networks.\nSupport synthetic end-use of the PSInet database to address pressing knowledge gaps.\nFoster a diverse and inclusive network environment with multiple mechanisms to advance the careers of demographically, geographically, and intellectually diverse cohorts of early career scientists.\nBroaden the impact of plant drought research through public outreach activities organized around a network of “Talking Trees” at public gardens and arboreta.\n\n\n\n\n\nFigure 2: PSInet project activities and timeline."
+    "text": "Goals & Objectives\nOur goal is to create a network – PSInet – that will confront the water potential information gap and enable the pursuit of previously intractable questions about plant responses to drought and heat stress. PSInet will be a network of data and a network of people, organized around coordinated research, training, and community-building activities designed to increase the availability, integrity, and accessibility of information to a diverse scientific community.\nSpecific objectives include:\n\nPromote consistent collection and interpretation of data by a diverse global community of scientists through shared protocols, best practices, and early career training.\nCreate an open, global database for plant and soil time series that is harmonized with information available from other environmental observation networks.\nSupport synthetic end-use of the PSInet database to address pressing knowledge gaps.\nFoster a diverse and inclusive network environment with multiple mechanisms to advance the careers of demographically, geographically, and intellectually diverse cohorts of early career scientists.\nBroaden the impact of plant drought research through public outreach activities organized around a network of “Talking Trees” at public gardens and arboreta.\n\n\n\n\n\n\n\n\nFigure 2: PSInet project activities and timeline."
   },
   {
     "objectID": "about.html#origins",
@@ -95,7 +95,7 @@
     "href": "index.html",
     "title": "PSInet: A global water potential network",
     "section": "",
-    "text": "Welcome to PSInet, an NSF-funded Research Coordination Network aimed at building a community of people and data to harness the potential of plant water potential."
+    "text": "Welcome to PSInet, an NSF-funded Research Coordination Network aimed at building a community of people and data to harness the potential of plant water potential.\n\nPSInet Sites"
   },
   {
     "objectID": "join.html",
@@ -292,5 +292,40 @@
     "title": "Register for the 2024 Plant Hydraulics Methods Workshop",
     "section": "Instructors",
     "text": "Instructors\n\nDan Johnson, University of Georgia\nDaniel Beverly, Indiana University\nBill Hammond, University of Florida\nKate McCulloh, University of Wisconsin\nChris Oishi, US Forest Service"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Assistant Professor, Harvey Mudd College\njessicaguo@g.hmc.edu"
+  },
+  {
+    "objectID": "contact.html#jessica-guo",
+    "href": "contact.html#jessica-guo",
+    "title": "Contact",
+    "section": "",
+    "text": "Assistant Professor, Harvey Mudd College\njessicaguo@g.hmc.edu"
+  },
+  {
+    "objectID": "contact.html#kim-novick",
+    "href": "contact.html#kim-novick",
+    "title": "Contact",
+    "section": "Kim Novick",
+    "text": "Kim Novick\nProfessor, Indiana University\nknovick@indiana.edu"
+  },
+  {
+    "objectID": "contact.html#ana-maria-restrepo",
+    "href": "contact.html#ana-maria-restrepo",
+    "title": "Contact",
+    "section": "Ana Maria Restrepo",
+    "text": "Ana Maria Restrepo\nPostdoc, Indiana University\nanarest@iu.edu"
+  },
+  {
+    "objectID": "contact.html#renata-diaz",
+    "href": "contact.html#renata-diaz",
+    "title": "Contact",
+    "section": "Renata Diaz",
+    "text": "Renata Diaz\nData Scientist, University of Arizona\nrediaz@g.hmc.edu"
   }
 ]
