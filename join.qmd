@@ -5,8 +5,8 @@ toc-location: left
 
 ## Sign up for PSInet
 
-Please use the form below to register your interest in joining network activities. 
+Please use the form below to register your interest in joining network activities.
 
 ```{=html}
-<iframe id = "registration" src = "https://viz.datascience.arizona.edu/psinet-registration/" style="border: none; width: 100%; height: 640px" frameborder="0"></iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd2z6aLMU_eUYbzu8C8U16HXmfPp2_TyGRnAqVwN-fMlEKSzQ/viewform?embedded=true" width="640" height="3191" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 ```
