@@ -22,7 +22,7 @@ toc-location: left
 ::: {.d-flex .justify-content-between}
 <div>
 
-[ESA]() Physiological Ecology Mixer
+[ESA](https://www.esa.org/longbeach2024/) Physiological Ecology Mixer
 </div>
 
 ::: {.text-end .text-nowrap}
