@@ -12,6 +12,7 @@ website:
         text: About
       - join.qmd
       - submit.qmd
+      - data_terms.qmd
       - events.qmd
       - posts.qmd
       - contact.qmd
