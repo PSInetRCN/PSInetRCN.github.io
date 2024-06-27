@@ -10,7 +10,46 @@ toc-location: left
 ::: {.d-flex .justify-content-between}
 <div>
 
+[Plant Hydraulics Methods workshop](https://psinetrcn.github.io/posts/2024-01-26-hydraulics-workshop/)
+
+</div>
+
+::: {.text-end .text-nowrap}
+[Highlands Biological Station](https://highlandsbiological.org/), **July 16-20**
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+<div>
+
+[ESA](https://www.esa.org/longbeach2024/) Physiological Ecology Mixer
+</div>
+
+::: {.text-end .text-nowrap}
+Long Beach, **August 7, 6:30 pm**
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+<div>
+
+[AGU](https://www.agu.org/annual-meeting) [H055: Ecosystem Hydraulics](https://agu.confex.com/agu/agu24/prelim.cgi/Session/228500)
+</div>
+
+::: {.text-end .text-nowrap}
+Washington DC, **December 9-13**
+:::
+:::
+
+## Past
+
+### 2024
+
+::: {.d-flex .justify-content-between}
+<div>
+
 EGU: Kim's invited [talk](https://meetingorganizer.copernicus.org/EGU24/EGU24-10166.html)
+
 </div>
 
 ::: {.text-end .text-nowrap}
@@ -22,6 +61,7 @@ Room N1, **April 16, 8:30 - 8:50**
 <div>
 
 EGU: PSInet meetup/[splinter meeting](https://meetingorganizer.copernicus.org/EGU24/session/51379)
+
 </div>
 
 ::: {.text-end .text-nowrap}
@@ -33,6 +73,7 @@ Room 2.42, **April 18, 8:30 - 10:15**
 <div>
 
 EGU: PSInet/VPD poster [session](https://meetingorganizer.copernicus.org/EGU24/session/49912)
+
 </div>
 
 ::: {.text-end .text-nowrap}
@@ -44,6 +85,7 @@ Hall X1, **April 18, 14:00 - 18:00**
 <div>
 
 EGU: PSInet/VPD oral [session](https://meetingorganizer.copernicus.org/EGU24/session/49912)
+
 </div>
 
 ::: {.text-end .text-nowrap}
@@ -51,11 +93,11 @@ Room 2.95, **April 19, 14:00 - 17:55**
 :::
 :::
 
-
 ::: {.d-flex .justify-content-between}
 <div>
 
 Gordon Research [Seminar](https://www.grc.org/multiscale-plant-vascular-biology-grs-conference/2024/#:~:text=The%20Multiscale%20Plant%20Vascular%20Biology,collaborative%20relationships%20with%20their%20peers.)
+
 </div>
 
 ::: {.text-end .text-nowrap}
@@ -74,20 +116,6 @@ Gordon Research [Conference](https://www.grc.org/multiscale-plant-vascular-biolo
 University of Southern Maine, **June 9 - 14**
 :::
 :::
-
-::: {.d-flex .justify-content-between}
-<div>
-
-[Plant Hydraulics Methods workshop](https://psinetrcn.github.io/posts/2024-01-26-hydraulics-workshop/)
-
-</div>
-
-::: {.text-end .text-nowrap}
-[Highlands Biological Station](https://highlandsbiological.org/), **July 16-20**
-:::
-:::
-
-## Past
 
 ### 2023
 
@@ -118,19 +146,19 @@ ESA: PSInet meetup at the [Physiological Ecology Mixer](https://esa2023.eventscr
 ::: {.d-flex .justify-content-between}
 <div>
 
-AGU: Joint PSInet/FLUXNET mixer, [RSVP](https://forms.office.com/Pages/ResponsePage.aspx?id=NL4TEdGuAE2rS83QJRC-kcvvN-vy0YlAr53RIm7OxMhUMk40TjlaTTlOQlZJQTA3SE1MSDc4TjdKQi4u) 
+AGU: Joint PSInet/FLUXNET mixer, [RSVP](https://forms.office.com/Pages/ResponsePage.aspx?id=NL4TEdGuAE2rS83QJRC-kcvvN-vy0YlAr53RIm7OxMhUMk40TjlaTTlOQlZJQTA3SE1MSDc4TjdKQi4u)
 
 </div>
 
 ::: {.text-end .text-nowrap}
-SOMArts Cultural Center, **Dec 11 18:00 - 21:00**, 
+SOMArts Cultural Center, **Dec 11 18:00 - 21:00**,
 :::
 :::
 
 ::: {.d-flex .justify-content-between}
 <div>
 
-AGU: PSInet office hours [pod](https://agu.confex.com/agu/fm23/meetingapp.cgi/Session/219640) 
+AGU: PSInet office hours [pod](https://agu.confex.com/agu/fm23/meetingapp.cgi/Session/219640)
 
 </div>
 
