@@ -6,7 +6,7 @@ author:
     affiliation: University of Arizona
 date: 08-21-2024
 categories: [plant hydraulics, plant water potential, workshops]
-image: Daphna_Uni.jpg
+image: Daphna_Uni.jpeg
 draft: false
 filters:
    - lightbox
