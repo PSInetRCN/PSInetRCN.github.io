@@ -1,0 +1,51 @@
+---
+title: "Drumroll, please… The  PSInet Data Leaderboards Are Here! 🎉"
+description: "Noteworthy contributions to our database with some fun award categories!"
+author: 
+  - name: <a href="https://scholar.google.com/citations?user=K3FbEbAAAAAJ&hl=en/" title = "Visit website">Ana Maria Restrepo-Acevedo</a>
+    affiliation: Indiana University & West Virginia University
+date: 12-05-2024
+categories: [plant water potential, network, data]
+image: ana_pic.png
+draft: true
+---
+
+As we approach the close of the PSInet data submission period, we want to celebrate a few particularly noteworthy contributions to our database with some fun award categories. You can see the current leaderboards below. Congratulations to everyone who is pushing the boundaries of scientific discovery and collaboration!  
+
+The definitive list of awardees will be announced after we close submissions on January 31st, 2025. Until then, we will continue to welcome your contributions and look forward to seeing if there are any late-breaking shakeups to these leaderboards! 
+
+If you’d like to share data, please visit our website ([PSInet](https://psinetrcn.github.io/submit.html)).  
+
+   
+<b>🕒 Temporal Triumphs<b> 
+
+<b>Most Water Potential Measurements (Pressure Chamber):<b> For the largest number of pressure chamber measurements from a given site — <b>Will Pockman (4212) - dataset_name: Poc_1 <b>
+
+<b>Longest Water Potential Measurements (Pressure Chamber):<b> For the longest recorded dataset — <b> Lee Turin Dickman - dataset_name: Dic_1, Dave Breshears & Nate McDowell - Multiple datasets (spanning 9182 days) <b> 
+
+<b>Most Individuals Measured:<b> For datasets covering the greatest number of individuals — <b> Sharath Paligi - & Christoph Leuschner (549) 
+
+<b>Most Species Measured:<b> For datasets including the widest range of species — Clément Stahl (37) 
+
+<b>🌍 Impact and Innovation<b> 
+
+<b>Most Datasets Submitted:<b> For the contributor submitting the highest number of datasets — Joseph Verfaille & Dennis Baldocchi (17) 
+
+<b>Most Sapfluxnet-Datasets Submitted:<b> For the contributor submitting the most datasets related to Sapfluxnet — Virginia Hernandez-Santana & Rafael Poyatos (5) 
+
+<b>📍 Global and Collaborative Efforts<b> 
+
+<b>Most Field Sites Represented Across Studies:<b> For datasets collected from the highest number of distinct field sites  — Erik Hamerlynck (7) 
+
+<b>Most Field Sites Represented Within Studies:<b> For datasets collected from the highest number of locations within a broader field site  —site — Drew Peltier & Kiona Ogle (22) 
+
+
+<b>🎉 Special Mentions 🎉<b> 
+A huge shoutout to <b>Nate McDowell, Rafael Poyatos, and Jordi Martinez Vilalta<b> for their invaluable help in encouraging a geographically diverse set of submissions from their network of collaborators!  
+
+
+Let’s give a big round of applause 👏 to all our collaborators and contributors! You’ve set a high standard for excellence, and we can’t wait to see what we achieve together as we prepare for the data release in 2025. 
+
+ 
+
+<b>🌟 Thank you for being part of this journey! <b>
