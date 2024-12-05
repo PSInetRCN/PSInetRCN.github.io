@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Daphna Uni">
+<meta name="dcterms.date" content="2024-08-21">
+<meta name="description" content="Plant hydraulics workshop - July 2024">
 
-<title>PSInet: A global water potential network – PSInet</title>
+<title>Plant Hydraulics Workshop 2024 – PSInet</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,21 +26,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -65,39 +72,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<link href="site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
-
-<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
-
-<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-
-<link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
-
-<script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
-
-<link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
-
-<script src="site_libs/proj4-2.6.2/proj4.min.js"></script>
-
-<script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
-
-<link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
-
-<script src="site_libs/leaflet-binding-2.2.2/leaflet.js"></script>
 
 
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">PSInet</span>
     </a>
   </div>
@@ -108,31 +95,31 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./join.html"> 
+    <a class="nav-link" href="../../join.html"> 
 <span class="menu-text">Get Involved</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./submit.html"> 
+    <a class="nav-link" href="../../submit.html"> 
 <span class="menu-text">Submit Data</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./events.html"> 
+    <a class="nav-link" href="../../events.html"> 
 <span class="menu-text">Events</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./posts.html"> 
+    <a class="nav-link" href="../../posts.html"> 
 <span class="menu-text">Posts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
+    <a class="nav-link" href="../../contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
@@ -143,55 +130,245 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Plant Hydraulics Workshop 2024</h1>
+                  <div>
+        <div class="description">
+          Plant hydraulics workshop - July 2024
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">plant hydraulics</div>
+                <div class="quarto-category">plant water potential</div>
+                <div class="quarto-category">workshops</div>
+              </div>
+                  </div>
+  </div>
+    
+  <div class="quarto-title-meta-author">
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-heading">Affiliation</div>
+    
+      <div class="quarto-title-meta-contents">
+      <p class="author"><a href="https://www.bard-isus.org/news/dr-daphna-uni/" title="Visit website">Daphna Uni</a> </p>
+    </div>
+    <div class="quarto-title-meta-contents">
+          <p class="affiliation">
+              University of Arizona
+            </p>
+        </div>
+    </div>
+
+  <div class="quarto-title-meta">
+
+        
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">August 21, 2024</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
+   
   <ul>
-  <li><a href="#psinet-sites" id="toc-psinet-sites" class="nav-link active" data-scroll-target="#psinet-sites">PSInet Sites</a></li>
+  <li><a href="#day-1" id="toc-day-1" class="nav-link active" data-scroll-target="#day-1">Day 1</a>
+  <ul class="collapse">
+  <li><a href="#learning-topic-leaf-water-potential" id="toc-learning-topic-leaf-water-potential" class="nav-link" data-scroll-target="#learning-topic-leaf-water-potential">Learning topic: Leaf water potential</a></li>
+  </ul></li>
+  <li><a href="#day-2" id="toc-day-2" class="nav-link" data-scroll-target="#day-2">Day 2</a>
+  <ul class="collapse">
+  <li><a href="#learning-topic-sapflow-and-data-loggers" id="toc-learning-topic-sapflow-and-data-loggers" class="nav-link" data-scroll-target="#learning-topic-sapflow-and-data-loggers">Learning topic: Sapflow and data loggers</a></li>
+  <li><a href="#afternoon-trip-to-a-waterfall" id="toc-afternoon-trip-to-a-waterfall" class="nav-link" data-scroll-target="#afternoon-trip-to-a-waterfall">Afternoon trip to a waterfall</a></li>
+  </ul></li>
+  <li><a href="#day-3" id="toc-day-3" class="nav-link" data-scroll-target="#day-3">Day 3</a>
+  <ul class="collapse">
+  <li><a href="#learning-topic-conductivity" id="toc-learning-topic-conductivity" class="nav-link" data-scroll-target="#learning-topic-conductivity">Learning topic: Conductivity</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<div class="quarto-about-jolla">
-  <img src="logos_vf_crop.jpg" class="about-image
-  rounded " style="width: 400px;">
- <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">PSInet: A global water potential network</h1>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header><main class="content" id="quarto-document-content">
-
-<p>Welcome to PSInet, an NSF-funded Research Coordination Network aimed at building a community of people and data to harness the potential of plant water potential.</p>
-<section id="psinet-sites" class="level3">
-<h3 data-anchor-id="psinet-sites">PSInet Sites</h3>
-<div class="cell">
-<div class="cell-output-display">
-<div class="leaflet html-widget html-fill-item" id="htmlwidget-9b08c446761343067175" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-9b08c446761343067175">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addCircleMarkers","args":[[46.84091,-51.58,-51.32,-37.58,-33.6177777777778,34.073522,45.3238,41.343741,41.312593,43.531421,39.323007,45.5598,-22.69,-1.79,41.612467369974,42.6854915389128,43.0384989878009,46.3917833333333,46.3,5.49083333333333,41.414982,9.267141666666671,50,48.476357,35.8333333333333,35.9666666666667,-33.6129300728911,-43.6402455670272,19.5128242840216,19.3219512821214,40.8952777777778,40.6002777777778,36.692881,37.249105,41.33262995,41.33262416,41.328113,42.2029333333333,42.19605278,36.724558,36.724455,36.724232,42.572301,42.56472,46.39336,40.78,42.083,39.583,48.47634,43.74138889,57.27,6.81533333333333,-2.59861111111111,10.2993055555556,47.3633333333333,5.28166666666667,44.7397969444444,48.3176736111111,38.791716,34.950961,34.896556,34.898067,34.894552,34.98391,31.78666,31.8214,42.529914,42.528985,31.345,31.0630555555556,39.0966666666667,40.775085,40.71,40.77283,41.31496,31.7166666666667,39.686333,42.54,9.2810778,40.089496,41.111294,40.15,44.020199,38.0235925211553,41.3359414919364,41.3298841547481,34.3212541734637,49.2451747222222,-22.373,38.43043,49.36965,49.254083,41.112578,38.87403,37.5241,-46.5166666666667,-45.4030555555556,51.55,51.079407,53.4166666666667,34.387,36.5,35.92,35.06,34.57,38.24,36.97,33.92,36.4,38.08,37.22,38.25,35.16,36.41,33.97,37.74,37.46,37.81,38.26,36.64,33.68,38,38.25,41.343929,47.468642,47.438496,-16.105556,34.386388,31.8166666666667,31.5666666666667,38.83333333,38.54056,41.1222222222222,43.6388888888889,43.4511111111111,4.68333333333333,41.3505388888889,41.5016666666667,9.281499999999999,34.070459,48.0194444444444,16.344,47.478333,43.240833,5.27388888888889,40.1219166666667,31.913278,15.273,48.4,49.5851289,56.49511,64.26667,35.9736,39.3232,40.8952777777778,40.456765,38.4309,46.17,46.32,46.3,46.9060444444444,38.7441,52.251111],[-116.77642,-72.29000000000001,-72.18000000000001,149.17,150.740277777778,-116.033273,-112.1072,-106.213373,-105.584839,-109.47201,-86.41309099999999,-84.71380000000001,-45.52,-51.43,2.17093361267881,-89.501167985536,-89.4307192585911,7.76133333333333,7.6,-54.0377777777778,-74.00091399999999,-79.9745194444444,4.98333333333333,2.780096,-106.266666666667,-79.1333333333333,150.753473638283,172.476801010708,-96.9439656932533,-99.1919485919519,4.03388888888889,6.01666666666667,-5.019568,-5.797067,1.0144288,1.01409989,1.006642,1.82048611111111,1.8135611,-4.968905,-4.965737,-4.967474,0.934497,1.00514,7.76385,-2.33,-3.75,-3.033,2.78014,3.595833,-4.82,9.855972222222221,-60.0372222222222,-84.791,8.45638888888889,52.9122222222222,-0.796299444444444,16.0668930555556,-7.42386,-115.643288,-115.633821,-115.641159,-115.644494,-115.651165,-110.825312,-110.8661,-72.18012899999999,72.186419,35.0515,98.50416666666671,-96.5727777777778,-123.866121111111,-123.9,-123.99673,123.95236,34.95,-121.818556,-72.17,-79.9744132,-0.827409,-3.49975,-0.838,4.624465,-0.660822072021493,1.01339584423409,1.02366729846502,-106.955977207306,16.5999266666667,-44.7043,-76.22852,-123.18181,-123.248863,-3.497108,-76.55168999999999,-109.7471,-71.05,-70.2936111111111,9.949999999999999,10.452089,10.4833333333333,-106.528,-112.73,-111.83,-112.21,-110.78,-108.43,-107.81,-108.46,-107.12,-109.52,-112.8,-110.11,-112.17,-112.17,-109.32,-108.22,-106.24,-107.91,-108.05,-106.18,-108.58,-111.8,-112.42,1.033312,7.502348,7.776072,145.444444,106.529444,-110.85,-110.133333333333,-8.816666667,-8.00028,-3.50083333333333,-3.86361111111111,-3.7225,-73.7873611111111,-106.271483333333,-83.04583333333331,-79.974,-116.597835,7.82694444444444,15.428,8.364388999999999,5.679167,-52.9238888888889,-105.130527777778,-109.140944,103.081,18.95,16.5636989,93.27905,100.27,-79.10039999999999,-86.4131,-4.03388888888889,-3.752262,-120.966,7.17,7.78,7.58,-123.978275,-92.2,5.690277],10,null,null,{"interactive":true,"className":"","stroke":true,"color":"#03F","weight":5,"opacity":0.5,"fill":true,"fillColor":"#03F","fillOpacity":0.2},null,null,"PSInet site",null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[-51.58,64.26667],"lng":[-123.99673,172.476801010708]}},"evals":[],"jsHooks":[]}</script>
-</div>
-</div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
+
+
+
+<p>The 2nd Plant Hydraulics Workshop took place in July 2024 at the Highlands Biological Station in beautiful North Carolina!</p>
+<section id="day-1" class="level1">
+<h1>Day 1</h1>
+<section id="learning-topic-leaf-water-potential" class="level2">
+<h2 class="anchored" data-anchor-id="learning-topic-leaf-water-potential">Learning topic: Leaf water potential</h2>
+<p>Instructors included Daniel Beverly and Dan Johnson :</p>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout="[[30, -2, 30, -2, 30]]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 31.9%;justify-content: center;">
+<p><a href="IMG_1.jpg" class="lightbox" data-gallery="mygallery2"><img src="IMG_1.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 2.1%;justify-content: flex-start;">
+<p>&nbsp;</p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 31.9%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="IMG_2.jpg" class="lightbox" data-gallery="mygallery2" title="Learning about how plant’s water potential works"><img src="IMG_2.jpg" class="img-fluid figure-img" alt="Learning about how plant’s water potential works"></a></p>
+<figcaption>Learning about how plant’s water potential works</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 2.1%;justify-content: flex-start;">
+<p>&nbsp;</p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 31.9%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="IMG_3.jpg" class="lightbox" data-gallery="mygallery2" title="Student Macarena Ferris and Instructor Daniel B. picking the best branch for our measurements!"><img src="IMG_3.jpg" class="img-fluid figure-img" alt="Student Macarena Ferris and Instructor Daniel B. picking the best branch for our measurements!"></a></p>
+<figcaption>Student Macarena Ferris and Instructor Daniel B. picking the best branch for our measurements!</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 31.9%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="IMG_4.jpg" class="lightbox" data-gallery="mygallery2" title="Daniel B. and the “best” available branch"><img src="IMG_4.jpg" class="img-fluid figure-img" alt="Daniel B. and the “best” available branch"></a></p>
+<figcaption>Daniel B. and the “best” available branch</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 2.1%;justify-content: flex-start;">
+<p>&nbsp;</p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 31.9%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="IMG_5.jpg" class="lightbox" data-gallery="mygallery2" title="Instructor Dan Johnson"><img src="IMG_5.jpg" class="img-fluid figure-img" alt="Instructor Dan Johnson"></a></p>
+<figcaption>Instructor Dan Johnson</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 2.1%;justify-content: flex-start;">
+<p>&nbsp;</p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 31.9%;justify-content: center;">
+<p><a href="IMG_6.jpg" class="lightbox" data-gallery="mygallery2"><img src="IMG_6.jpg" class="img-fluid"></a></p>
+</div>
+</div>
+</div>
 </section>
-</main> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="https://twitter.com/Novick_Lab" class="about-link" rel="" target="">
-     <span class="about-link-text">Twitter</span>
-  </a>
-  <a href="https://github.com/PSInetRCN" class="about-link" rel="" target="">
-     <span class="about-link-text">GitHub</span>
-  </a>
-  <a href="https://www.metergroup.com/en/meter-environment/podcast/episode-24-building-national-water-potential-network" class="about-link" rel="" target="">
-     <span class="about-link-text">Podcast episode</span>
-  </a>
+</section>
+<section id="day-2" class="level1">
+<h1>Day 2</h1>
+<section id="learning-topic-sapflow-and-data-loggers" class="level2">
+<h2 class="anchored" data-anchor-id="learning-topic-sapflow-and-data-loggers">Learning topic: Sapflow and data loggers</h2>
+<p>Instructors included Chris Oishi and Ana Maria Restrepo-Acevedo.</p>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout="[[45, -5, 45]]">
+<div class="quarto-layout-row quarto-layout-valign-center">
+<div class="quarto-layout-cell" style="flex-basis: 47.4%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="IMG_7.jpg" class="lightbox" data-gallery="mygallery2" title="Practicing datalogger programming"><img src="IMG_7.jpg" class="img-fluid figure-img" alt="Practicing datalogger programming"></a></p>
+<figcaption>Practicing datalogger programming</figcaption>
+</figure>
 </div>
 </div>
+<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 5.3%;justify-content: flex-start;">
+<p>&nbsp;</p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 47.4%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="IMG_8.jpg" class="lightbox" data-gallery="mygallery2" title="Practicing datalogger wireing and programming"><img src="IMG_8.jpg" class="img-fluid figure-img" alt="Practicing datalogger wireing and programming"></a></p>
+<figcaption>Practicing datalogger wireing and programming</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="afternoon-trip-to-a-waterfall" class="level2">
+<h2 class="anchored" data-anchor-id="afternoon-trip-to-a-waterfall">Afternoon trip to a waterfall</h2>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout="[[45, -5, 45]]">
+<div class="quarto-layout-row quarto-layout-valign-center">
+<div class="quarto-layout-cell" style="flex-basis: 47.4%;justify-content: center;">
+<p><a href="IMG_11.jpg" class="lightbox" data-gallery="mygallery2"><img src="IMG_11.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 5.3%;justify-content: flex-start;">
+<p>&nbsp;</p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 47.4%;justify-content: center;">
+<p><a href="IMG_12.jpg" class="lightbox" data-gallery="mygallery2"><img src="IMG_12.jpg" class="img-fluid"></a></p>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="day-3" class="level1">
+<h1>Day 3</h1>
+<section id="learning-topic-conductivity" class="level2">
+<h2 class="anchored" data-anchor-id="learning-topic-conductivity">Learning topic: Conductivity</h2>
+<p>Instructed by Bill Hammond and Marylou Mantova. We learned how to measure and quantify the specific conductive wood area, vessel length with a pressure chamber, and embolism evens with a ‘cavicam’.</p>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout="[[45, -5, 45]]">
+<div class="quarto-layout-row quarto-layout-valign-center">
+<div class="quarto-layout-cell" style="flex-basis: 47.4%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="IMG_13.jpg" class="lightbox" data-gallery="mygallery2" title="Instructor Bill Hammond explaining the process of using a ‘cavicam’"><img src="IMG_13.jpg" class="img-fluid figure-img" alt="Instructor Bill Hammond explaining the process of using a ‘cavicam’"></a></p>
+<figcaption>Instructor Bill Hammond explaining the process of using a ‘cavicam’</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 5.3%;justify-content: flex-start;">
+<p>&nbsp;</p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 47.4%;justify-content: center;">
+<p><a href="IMG_14.jpg" class="lightbox" data-gallery="mygallery2"><img src="IMG_14.jpg" class="img-fluid"></a></p>
+</div>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-center">
+<div class="quarto-layout-cell" style="flex-basis: 47.4%;justify-content: center;">
+<p><a href="IMG_15.jpg" class="lightbox" data-gallery="mygallery2"><img src="IMG_15.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 5.3%;justify-content: flex-start;">
+<p>&nbsp;</p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 47.4%;justify-content: center;">
+<p><a href="IMG_16.jpg" class="lightbox" data-gallery="mygallery2"><img src="IMG_16.jpg" class="img-fluid"></a></p>
+</div>
+</div>
+</div>
+</section></section></main></div>
+<p>::::::::::::::::::</p>
+
+
+
+
+
  <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -213,6 +390,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -606,7 +790,39 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-</div> <!-- /content -->
+ <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","closeEffect":"zoom","loop":false,"descPosition":"bottom"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

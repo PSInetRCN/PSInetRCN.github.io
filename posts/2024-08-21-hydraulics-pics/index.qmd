@@ -1,0 +1,142 @@
+---
+title: "Plant Hydraulics Workshop 2024"
+description: "Plant hydraulics workshop - July 2024"
+author: 
+  - name: <a href="https://www.bard-isus.org/news/dr-daphna-uni/" title = "Visit website">Daphna Uni</a>
+    affiliation: University of Arizona
+date: 08-21-2024
+categories: [plant hydraulics, plant water potential, workshops]
+image: Daphna_Uni.jpg
+draft: false
+filters:
+   - lightbox
+lightbox: auto
+---
+
+The 2nd Plant Hydraulics Workshop took place in July 2024 at the Highlands Biological Station in beautiful North Carolina!
+
+# Day 1
+
+## Learning topic: Leaf water potential
+
+Instructors included Daniel Beverly and Dan Johnson :
+
+```{r}
+
+```
+
+::::::::: {layout="[[30, -2, 30, -2, 30]]"}
+<div>
+
+![](IMG_1.jpg){group="mygallery2"}
+
+</div>
+
+<div>
+
+![Learning about how plant's water potential works](IMG_2.jpg){group="mygallery2"}
+
+</div>
+
+<div>
+
+![Student Macarena Ferris and Instructor Daniel B. picking the best branch for our measurements!](IMG_3.jpg){group="mygallery2"}
+
+</div>
+
+<div>
+
+![Daniel B. and the "best" available branch](IMG_4.jpg){group="mygallery2"}
+
+</div>
+
+<div>
+
+![Instructor Dan Johnson](IMG_5.jpg){group="mygallery2"}
+
+</div>
+
+<div>
+
+![](IMG_6.jpg){group="mygallery2"}
+
+</div>
+:::::::::
+
+# Day 2
+
+## Learning topic: Sapflow and data loggers
+
+Instructors included Chris Oishi and Ana Maria Restrepo-Acevedo.
+
+::::: {layout="[[45, -5, 45]]" layout-valign="center"}
+<div>
+
+![Practicing datalogger programming](IMG_7.jpg){group="mygallery2"}
+
+</div>
+
+<div>
+
+![Practicing datalogger wireing and programming](IMG_8.jpg){group="mygallery2"}
+
+</div>
+:::::
+
+## Afternoon trip to a waterfall
+
+::::: {layout="[[45, -5, 45]]" layout-valign="center"}
+<div>
+
+![](IMG_11.jpg){group="mygallery2"}
+
+</div>
+
+<div>
+
+![](IMG_12.jpg){group="mygallery2"}
+
+</div>
+:::::
+
+# Day 3
+
+## Learning topic: Conductivity
+
+Instructed by Bill Hammond and Marylou Mantova. We learned how to measure and quantify the specific conductive wood area, vessel length with a pressure chamber, and embolism evens with a 'cavicam'.
+
+:::::::: {layout="[[45, -5, 45]]" layout-valign="center"}
+<div>
+
+![Instructor Bill Hammond explaining the process of using a 'cavicam'](IMG_13.jpg){group="mygallery2"}
+
+</div>
+
+<div>
+
+![](IMG_14.jpg){group="mygallery2"}
+
+</div>
+
+<div>
+
+![](IMG_15.jpg){group="mygallery2"}
+
+</div>
+
+<div>
+
+![](IMG_16.jpg){group="mygallery2"}
+
+</div>
+
+<div>
+
+::::::
+
+</div>
+::::::::
+
+</div>
+
+::::::::::::::::::

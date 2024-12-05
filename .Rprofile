@@ -2,5 +2,5 @@
 
 options(
   gargle_oauth_cache = ".secrets",
-  gargle_oauth_email = "jessicaguo@arizona.edu"
+  gargle_oauth_email = "jessicaguo@hmc.edu"
 )
