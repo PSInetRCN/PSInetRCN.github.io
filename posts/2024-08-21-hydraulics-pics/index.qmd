@@ -7,7 +7,7 @@ author:
 date: 08-21-2024
 categories: [plant hydraulics, plant water potential, workshops]
 image: Daphna_Uni.jpg
-draft: true
+draft: false
 filters:
    - lightbox
 lightbox: auto
@@ -18,87 +18,125 @@ The 2nd Plant Hydraulics Workshop took place in July 2024 at the Highlands Biolo
 # Day 1
 
 ## Learning topic: Leaf water potential
-Instructors included Daniel Beverly and Dan Johnson. 
-::: {layout="[[30, -2, 30, -2, 30]]"}
-![](IMG_1.jpg){group="my-gallery"}
 
-![](IMG_2.jpg){group="my-gallery"}
+Instructors included Daniel Beverly and Dan Johnson :
 
-![](IMG_3.jpg){group="my-gallery"}
-![](IMG_4.jpg){group="my-gallery"}
+```{r}
 
-![](IMG_5.jpg){group="my-gallery"}
-![](IMG_6.jpg){group="my-gallery"}
-:::
+```
+
+::::::::: {layout="[[30, -2, 30, -2, 30]]"}
+<div>
+
+![](IMG_1.jpg){group="mygallery2"}
+
+</div>
+
+<div>
+
+![Learning about how plant's water potential works](IMG_2.jpg){group="mygallery2"}
+
+</div>
+
+<div>
+
+![Student Macarena Ferris and Instructor Daniel B. picking the best branch for our measurements!](IMG_3.jpg){group="mygallery2"}
+
+</div>
+
+<div>
+
+![Daniel B. and the "best" available branch](IMG_4.jpg){group="mygallery2"}
+
+</div>
+
+<div>
+
+![Instructor Dan Johnson](IMG_5.jpg){group="mygallery2"}
+
+</div>
+
+<div>
+
+![](IMG_6.jpg){group="mygallery2"}
+
+</div>
+:::::::::
 
 # Day 2
 
 ## Learning topic: Sapflow and data loggers
 
-Instructors included Chris Oishi and Ana Maria Restrepo Acevedo. 
+Instructors included Chris Oishi and Ana Maria Restrepo-Acevedo.
 
-::: {layout="[[45, -5, 45]]" layout-valign="center"}
-::: {#first-column}
+::::: {layout="[[45, -5, 45]]" layout-valign="center"}
+<div>
+
 ![Practicing datalogger programming](IMG_7.jpg){group="mygallery2"}
-:::
 
-::: {#second-column}
-![Practicing datalogger programming](IMG_8.jpg){group="mygallery2"}
-:::
-:::
+</div>
+
+<div>
+
+![Practicing datalogger wireing and programming](IMG_8.jpg){group="mygallery2"}
+
+</div>
+:::::
 
 ## Afternoon trip to a waterfall
 
-::: {layout-nrow="2" layout-halign="center"}
-::: {#first-row}
-::: {layout="[[50, -2, 50]]"}
-![](IMG_10.jpg){group="mygallery3"}
+::::: {layout="[[45, -5, 45]]" layout-valign="center"}
+<div>
 
-![](IMG_11.jpg){group="mygallery3"}
-![](IMG_12.jpg){group="mygallery3"}
-:::
-:::
+![](IMG_11.jpg){group="mygallery2"}
 
-::: {#second-row}
-![Experiment](image31.jpg){group="mygallery3"}
-:::
-:::
+</div>
+
+<div>
+
+![](IMG_12.jpg){group="mygallery2"}
+
+</div>
+:::::
 
 # Day 3
 
 ## Learning topic: Conductivity
 
-Instructed by Bill Hammond. We learned how to measure and quantify the specific conductive wood area, vessel length with a pressure chamber, and embolism evens with a 'cavicam'. 
-in the "cavicam s
+Instructed by Bill Hammond and Marylou Mantova. We learned how to measure and quantify the specific conductive wood area, vessel length with a pressure chamber, and embolism evens with a 'cavicam'.
 
-
-::: {layout="[[50, -2, 50]]" layout-valign="center"}
+:::::::: {layout="[[45, -5, 45]]" layout-valign="center"}
 <div>
 
-![](IMG_13.jpg){group="mygallery4"}
+![Instructor Bill Hammond explaining the process of using a 'cavicam'](IMG_13.jpg){group="mygallery2"}
 
 </div>
 
 <div>
 
-::: {layout-nrow="2"}
-<div>
-
-::: {layout="[[50, -2, 50]]"}
-![](IMG_14.jpg){group="mygallery4"}
-
-![](IMG_15.jpg){group="mygallery4"}
-:::
+![](IMG_14.jpg){group="mygallery2"}
 
 </div>
 
 <div>
 
-![](IMG_16.jpg){group="mygallery4"}
+![](IMG_15.jpg){group="mygallery2"}
 
 </div>
-:::
+
+<div>
+
+![](IMG_16.jpg){group="mygallery2"}
 
 </div>
-:::
 
+<div>
+
+::::::
+
+</div>
+::::::::
+
+</div>
+
+::::::::::::::::::
