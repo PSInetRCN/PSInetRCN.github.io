@@ -24,19 +24,19 @@ If you’d like to share data, please visit our website ([PSInet](https://psinet
 
 -   **Most Individuals Measured:** For datasets covering the greatest number of individuals — *Sharath Paligi & Christoph Leuschner (549 individuals)*
 
--   **Most Species Measured:** For datasets including the widest range of species — *Clément Stahl (37 datasets)*
+-   **Most Species Measured:** For datasets including the widest range of species — *Clément Stahl (37 species)*
 
 # 🌍 **Impact and Innovation**
 
 -   **Most Datasets Submitted:** For the contributor submitting the highest number of datasets — *Joseph Verfaille & Dennis Baldocchi (17 datasets)*
 
--   **Most cross-network coordination:** For sharing data to both Sapfluxnet and Psinet — *Virginia Hernandez-Santana & Rafael Poyatos (5 sites)*
+-   **Most Cross-network Coordination:** For sharing data to both SAPFLUXNETand PSInet — tied between *Virginia Hernandez-Santana and Rafael Poyatos (5 sites each)*
 
 # 📍 **Global and Collaborative Efforts**
 
 -   **Most Field Sites Represented Across Studies:** For datasets collected from the highest number of distinct field sites — *Erik Hamerlynck (7 field sites)*
 
--   **Most Field Sites Represented Within Studies:** For datasets collected from the highest number of locations within a broader field site — *Drew Peltier & Kiona Ogle (22 sites)*
+-   **Most Field Locations Represented Within Study:** For data collected from the highest number of locations within a single study — *Drew Peltier & Kiona Ogle (22 locations)*
 
 # 🎉 **Special Mentions** 🎉
 
