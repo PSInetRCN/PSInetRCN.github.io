@@ -1,0 +1,47 @@
+---
+title: "Drumroll, please… The  PSInet Data Leaderboards Are Here! 🎉"
+description: "Noteworthy contributions to our database with some fun award categories!"
+author: 
+  - name: <a href="https://scholar.google.com/citations?user=K3FbEbAAAAAJ&hl=en/" title = "Visit website">Ana Maria Restrepo-Acevedo</a>
+    affiliation: Indiana University & West Virginia University
+date: 12-06-2024
+categories: [plant water potential, network, data]
+image: ana_pic.png
+draft: false
+---
+
+As we approach the close of the PSInet data submission period, we want to celebrate a few particularly noteworthy contributions to our database with some fun award categories. You can see the current leaderboards below. Congratulations to everyone who is pushing the boundaries of scientific discovery and collaboration!
+
+The definitive list of awardees will be announced after we close submissions on January 31st, 2025. Until then, we will continue to welcome your contributions and look forward to seeing if there are any late-breaking shakeups to these leaderboards!
+
+If you’d like to share data, please visit our website ([PSInet](https://psinetrcn.github.io/submit.html)).
+
+# 🕒 **Temporal Triumphs**
+
+-   **Most Water Potential Measurements (Pressure Chamber):** For the largest number of pressure chamber measurements from a given site — *Will Pockman (4212 measurements)*
+
+-   **Longest Water Potential Measurements (Pressure Chamber):** For the longest recorded dataset — *Lee Turin Dickman, Dave Breshears & Nate McDowell (spanning 9182 days)*
+
+-   **Most Individuals Measured:** For datasets covering the greatest number of individuals — *Sharath Paligi & Christoph Leuschner (549 individuals)*
+
+-   **Most Species Measured:** For datasets including the widest range of species — *Clément Stahl (37 species)*
+
+# 🌍 **Impact and Innovation**
+
+-   **Most Datasets Submitted:** For the contributor submitting the highest number of datasets — *Joseph Verfaille & Dennis Baldocchi (17 datasets)*
+
+-   **Most Cross-network Coordination:** For sharing data to both SAPFLUXNETand PSInet — tied between *Virginia Hernandez-Santana and Rafael Poyatos (5 sites each)*
+
+# 📍 **Global and Collaborative Efforts**
+
+-   **Most Field Sites Represented Across Studies:** For datasets collected from the highest number of distinct field sites — *Erik Hamerlynck (7 field sites)*
+
+-   **Most Field Locations Represented Within Study:** For data collected from the highest number of locations within a single study — *Drew Peltier & Kiona Ogle (22 locations)*
+
+# 🎉 **Special Mentions** 🎉
+
+A huge shoutout to ***Nate McDowell, Rafael Poyatos, and Jordi Martinez Vilalta*** for their invaluable help in encouraging a geographically diverse set of submissions from their network of collaborators!
+
+Let’s give a big round of applause 👏 to all our collaborators and contributors! You’ve set a high standard for excellence, and we can’t wait to see what we achieve together as we prepare for the data release in 2025.
+
+🌟 Thank you for being part of this journey!
