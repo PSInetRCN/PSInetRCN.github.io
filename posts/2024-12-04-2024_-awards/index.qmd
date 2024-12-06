@@ -4,48 +4,44 @@ description: "Noteworthy contributions to our database with some fun award categ
 author: 
   - name: <a href="https://scholar.google.com/citations?user=K3FbEbAAAAAJ&hl=en/" title = "Visit website">Ana Maria Restrepo-Acevedo</a>
     affiliation: Indiana University & West Virginia University
-date: 12-05-2024
+date: 12-06-2024
 categories: [plant water potential, network, data]
 image: ana_pic.png
-draft: true
+draft: false
 ---
 
-As we approach the close of the PSInet data submission period, we want to celebrate a few particularly noteworthy contributions to our database with some fun award categories. You can see the current leaderboards below. Congratulations to everyone who is pushing the boundaries of scientific discovery and collaboration!  
+As we approach the close of the PSInet data submission period, we want to celebrate a few particularly noteworthy contributions to our database with some fun award categories. You can see the current leaderboards below. Congratulations to everyone who is pushing the boundaries of scientific discovery and collaboration!
 
-The definitive list of awardees will be announced after we close submissions on January 31st, 2025. Until then, we will continue to welcome your contributions and look forward to seeing if there are any late-breaking shakeups to these leaderboards! 
+The definitive list of awardees will be announced after we close submissions on January 31st, 2025. Until then, we will continue to welcome your contributions and look forward to seeing if there are any late-breaking shakeups to these leaderboards!
 
-If you’d like to share data, please visit our website ([PSInet](https://psinetrcn.github.io/submit.html)).  
+If you’d like to share data, please visit our website ([PSInet](https://psinetrcn.github.io/submit.html)).
 
-   
-<b>🕒 Temporal Triumphs<b> 
+# 🕒 **Temporal Triumphs**
 
-<b>Most Water Potential Measurements (Pressure Chamber):<b> For the largest number of pressure chamber measurements from a given site — <b>Will Pockman (4212) - dataset_name: Poc_1 <b>
+-   **Most Water Potential Measurements (Pressure Chamber):** For the largest number of pressure chamber measurements from a given site — *Will Pockman (4212 measurements)*
 
-<b>Longest Water Potential Measurements (Pressure Chamber):<b> For the longest recorded dataset — <b> Lee Turin Dickman - dataset_name: Dic_1, Dave Breshears & Nate McDowell - Multiple datasets (spanning 9182 days) <b> 
+-   **Longest Water Potential Measurements (Pressure Chamber):** For the longest recorded dataset — *Lee Turin Dickman, Dave Breshears & Nate McDowell (spanning 9182 days)*
 
-<b>Most Individuals Measured:<b> For datasets covering the greatest number of individuals — <b> Sharath Paligi - & Christoph Leuschner (549) 
+-   **Most Individuals Measured:** For datasets covering the greatest number of individuals — *Sharath Paligi & Christoph Leuschner (549 individuals)*
 
-<b>Most Species Measured:<b> For datasets including the widest range of species — Clément Stahl (37) 
+-   **Most Species Measured:** For datasets including the widest range of species — *Clément Stahl (37 datasets)*
 
-<b>🌍 Impact and Innovation<b> 
+# 🌍 **Impact and Innovation**
 
-<b>Most Datasets Submitted:<b> For the contributor submitting the highest number of datasets — Joseph Verfaille & Dennis Baldocchi (17) 
+-   **Most Datasets Submitted:** For the contributor submitting the highest number of datasets — *Joseph Verfaille & Dennis Baldocchi (17 datasets)*
 
-<b>Most Sapfluxnet-Datasets Submitted:<b> For the contributor submitting the most datasets related to Sapfluxnet — Virginia Hernandez-Santana & Rafael Poyatos (5) 
+-   **Most cross-network coordination:** For sharing data to both Sapfluxnet and Psinet — *Virginia Hernandez-Santana & Rafael Poyatos (5 sites)*
 
-<b>📍 Global and Collaborative Efforts<b> 
+# 📍 **Global and Collaborative Efforts**
 
-<b>Most Field Sites Represented Across Studies:<b> For datasets collected from the highest number of distinct field sites  — Erik Hamerlynck (7) 
+-   **Most Field Sites Represented Across Studies:** For datasets collected from the highest number of distinct field sites — *Erik Hamerlynck (7 field sites)*
 
-<b>Most Field Sites Represented Within Studies:<b> For datasets collected from the highest number of locations within a broader field site  —site — Drew Peltier & Kiona Ogle (22) 
+-   **Most Field Sites Represented Within Studies:** For datasets collected from the highest number of locations within a broader field site — *Drew Peltier & Kiona Ogle (22 sites)*
 
+# 🎉 **Special Mentions** 🎉
 
-<b>🎉 Special Mentions 🎉<b> 
-A huge shoutout to <b>Nate McDowell, Rafael Poyatos, and Jordi Martinez Vilalta<b> for their invaluable help in encouraging a geographically diverse set of submissions from their network of collaborators!  
+A huge shoutout to ***Nate McDowell, Rafael Poyatos, and Jordi Martinez Vilalta*** for their invaluable help in encouraging a geographically diverse set of submissions from their network of collaborators!
 
+Let’s give a big round of applause 👏 to all our collaborators and contributors! You’ve set a high standard for excellence, and we can’t wait to see what we achieve together as we prepare for the data release in 2025.
 
-Let’s give a big round of applause 👏 to all our collaborators and contributors! You’ve set a high standard for excellence, and we can’t wait to see what we achieve together as we prepare for the data release in 2025. 
-
- 
-
-<b>🌟 Thank you for being part of this journey! <b>
+🌟 Thank you for being part of this journey!
