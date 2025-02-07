@@ -1,12 +1,12 @@
 ---
 title: "Announcing the PSInet workshop! 🎉"
-description: "Workshop title: Network-enabled understanding of plant: hydraulics in a changing world"
+description: "Workshop title: Network-enabled understanding of plant hydraulics in a changing world"
 author: 
   - name: <a href="https://scholar.google.com/citations?user=K5tffpEAAAAJ&hl=en/" title = "Visit website">Kim Novick</a>
     affiliation: Indiana University
 date: 02-06-2025
 categories: [plant water potential, network, data]
-image: novick_kimberly.png
+image: novick_kimberly.jpg
 draft: false
 filters:
    - lightbox
@@ -21,7 +21,17 @@ lightbox: auto
 
 **Motivation:**
 
-This workshop aims to rapidly accelerate the use of open-access network databases to understand and predict how plants respond to increasing moisture and temperature stress, including droughts, flooding events, and heatwaves. By building digital and inter-personal bridges between independent but highly complementary networks and datasets, we have the potential to confront previously intractable questions about ecosystem responses to our changing climate. The event is organized and supported by PSInet – an international research coordination network focused on increasing accessibility and use of water potential time series. This workshop represents a critical opportunity to motivate effective end-use of the PSInet database. However, many of the most powerful applications of the PSInet database will not happen in isolation, but rather through integration with a growing set of other environmental networks that also aggregate important features of plant drought responses, including FLUXNET, SAPFLUXNET, XFT, and networks recording tree growth from dendrometers and tree rings. Integration across these networks and databases is foundational for understanding the extent to which gas exchange, growth, and hydraulic system responses to moisture and heat stress interact with and feedback onto each other. This integration is also key for improving plant hydraulic modeling schemes, which are proliferating within the climate modeling community but have historically lacked a holistic set of measurements for benchmarking. Finally, rich opportunities exist to use these network databases to validate and improve satellite remote sensing products that allow us to map features of ecosystem function at the landscape, regional, and global scales that are most relevant for management and policy making. Thus, the three defining themes of our workshop will be: 1) the integration of information from across these independent networks and datasets to advance theoretical understanding and measurement methodologies, 2) build better land-surface models, and 3) validate exciting new ways to map vegetation responses to climate extremes using remote sensing.
+This workshop aims to rapidly accelerate the use of open-access network databases to understand and predict how plants respond to increasing moisture and temperature stress, including droughts, flooding events, and heatwaves. By building digital and inter-personal bridges between independent but highly complementary networks and datasets, we have the potential to confront previously intractable questions about ecosystem responses to our changing climate.
+
+The event is organized and supported by PSInet – an international research coordination network focused on increasing accessibility and use of water potential time series. This workshop represents a critical opportunity to motivate effective end-use of the PSInet database. However, many of the most powerful applications of the PSInet database will not happen in isolation, but rather through integration with a growing set of other environmental networks that also aggregate important features of plant drought responses, including FLUXNET, SAPFLUXNET, XFT, and networks recording tree growth from dendrometers and tree rings. Integration across these networks and databases is foundational for understanding the extent to which gas exchange, growth, and hydraulic system responses to moisture and heat stress interact with and feedback onto each other. This integration is also key for improving plant hydraulic modeling schemes, which are proliferating within the climate modeling community but have historically lacked a holistic set of measurements for benchmarking. Finally, rich opportunities exist to use these network databases to validate and improve satellite remote sensing products that allow us to map features of ecosystem function at the landscape, regional, and global scales that are most relevant for management and policy making.
+
+Thus, the three defining themes of our workshop will be:
+
+1\) the integration of information from across these independent networks and datasets to advance theoretical understanding and measurement methodologies
+
+2\) build better land-surface models, and
+
+3\) validate exciting new ways to map vegetation responses to climate extremes using remote sensing.
 
 ![](MMSF.jpg){group="mygallery2"}
 
@@ -43,6 +53,8 @@ Kim Novick, (Professor, Indiana University - Bloomington), Jessica Guo (Assistan
 
 The workshop will be attended by an international group of \~40 scientists spanning a range of career stages.
 
-**Participant support:** The workshop will provide lodging and food for all attendees. In addition, travel scholarships to cover airfare will be awarded to a select group of participants. Travel scholarships will be selected by the organizing committee on the basis of merit and need, evaluated from the workshop applications.
+**Participant support:**
+
+The workshop will provide lodging and food for all attendees. In addition, travel scholarships to cover airfare will be awarded to a select group of participants. Travel scholarships will be selected by the organizing committee on the basis of merit and need, evaluated from the workshop applications.
 
 To apply, please fill out this ([application form](https://docs.google.com/forms/d/e/1FAIpQLSc2T5uVtZLR9rx0xipPs8aUOLxZSxjbaGl5HQoiMvuB3pdaIA/viewform)) by *March 10th, 2025*. Email Dr. Kim Novick (**knovick\@iu.edu**) and Dr. Jessica Guo (**jessicaguo\@hmc.edu**) with any questions!
