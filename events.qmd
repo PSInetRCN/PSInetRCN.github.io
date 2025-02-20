@@ -5,47 +5,25 @@ toc-location: left
 
 ## Upcoming
 
-### 2024
+### 2025
 
-::: {.d-flex .justify-content-between}
+::::: {.d-flex .justify-content-between}
 <div>
 
-[Plant Hydraulics Methods workshop](https://psinetrcn.github.io/posts/2024-01-26-hydraulics-workshop/)
+PSInet [workshop](https://psinetrcn.github.io/posts/2025-02-06-PSInet-workshop/post.html)! Apply [here](https://docs.google.com/forms/d/e/1FAIpQLSc2T5uVtZLR9rx0xipPs8aUOLxZSxjbaGl5HQoiMvuB3pdaIA/viewform) by March 10
 
 </div>
 
 ::: {.text-end .text-nowrap}
-[Highlands Biological Station](https://highlandsbiological.org/), **July 16-20**
+Bloomington, Indiana, **June 23 - 27**
 :::
-:::
-
-::: {.d-flex .justify-content-between}
-<div>
-
-[ESA](https://www.esa.org/longbeach2024/) Physiological Ecology Mixer
-</div>
-
-::: {.text-end .text-nowrap}
-Long Beach, **August 7, 6:30 pm**
-:::
-:::
-
-::: {.d-flex .justify-content-between}
-<div>
-
-[AGU](https://www.agu.org/annual-meeting) [H055: Ecosystem Hydraulics](https://agu.confex.com/agu/agu24/prelim.cgi/Session/228500)
-</div>
-
-::: {.text-end .text-nowrap}
-Washington DC, **December 9-13**
-:::
-:::
+:::::
 
 ## Past
 
 ### 2024
 
-::: {.d-flex .justify-content-between}
+::::: {.d-flex .justify-content-between}
 <div>
 
 EGU: Kim's invited [talk](https://meetingorganizer.copernicus.org/EGU24/EGU24-10166.html)
@@ -55,9 +33,9 @@ EGU: Kim's invited [talk](https://meetingorganizer.copernicus.org/EGU24/EGU24-10
 ::: {.text-end .text-nowrap}
 Room N1, **April 16, 8:30 - 8:50**
 :::
-:::
+:::::
 
-::: {.d-flex .justify-content-between}
+::::: {.d-flex .justify-content-between}
 <div>
 
 EGU: PSInet meetup/[splinter meeting](https://meetingorganizer.copernicus.org/EGU24/session/51379)
@@ -67,9 +45,9 @@ EGU: PSInet meetup/[splinter meeting](https://meetingorganizer.copernicus.org/EG
 ::: {.text-end .text-nowrap}
 Room 2.42, **April 18, 8:30 - 10:15**
 :::
-:::
+:::::
 
-::: {.d-flex .justify-content-between}
+::::: {.d-flex .justify-content-between}
 <div>
 
 EGU: PSInet/VPD poster [session](https://meetingorganizer.copernicus.org/EGU24/session/49912)
@@ -79,9 +57,9 @@ EGU: PSInet/VPD poster [session](https://meetingorganizer.copernicus.org/EGU24/s
 ::: {.text-end .text-nowrap}
 Hall X1, **April 18, 14:00 - 18:00**
 :::
-:::
+:::::
 
-::: {.d-flex .justify-content-between}
+::::: {.d-flex .justify-content-between}
 <div>
 
 EGU: PSInet/VPD oral [session](https://meetingorganizer.copernicus.org/EGU24/session/49912)
@@ -91,9 +69,9 @@ EGU: PSInet/VPD oral [session](https://meetingorganizer.copernicus.org/EGU24/ses
 ::: {.text-end .text-nowrap}
 Room 2.95, **April 19, 14:00 - 17:55**
 :::
-:::
+:::::
 
-::: {.d-flex .justify-content-between}
+::::: {.d-flex .justify-content-between}
 <div>
 
 Gordon Research [Seminar](https://www.grc.org/multiscale-plant-vascular-biology-grs-conference/2024/#:~:text=The%20Multiscale%20Plant%20Vascular%20Biology,collaborative%20relationships%20with%20their%20peers.)
@@ -103,9 +81,9 @@ Gordon Research [Seminar](https://www.grc.org/multiscale-plant-vascular-biology-
 ::: {.text-end .text-nowrap}
 University of Southern Maine, **June 8 - 9**
 :::
-:::
+:::::
 
-::: {.d-flex .justify-content-between}
+::::: {.d-flex .justify-content-between}
 <div>
 
 Gordon Research [Conference](https://www.grc.org/multiscale-plant-vascular-biology-conference/2024/)
@@ -115,11 +93,47 @@ Gordon Research [Conference](https://www.grc.org/multiscale-plant-vascular-biolo
 ::: {.text-end .text-nowrap}
 University of Southern Maine, **June 9 - 14**
 :::
+:::::
+
+::::: {.d-flex .justify-content-between}
+<div>
+
+[Plant Hydraulics Methods workshop](https://psinetrcn.github.io/posts/2024-01-26-hydraulics-workshop/)
+
+</div>
+
+::: {.text-end .text-nowrap}
+[Highlands Biological Station](https://highlandsbiological.org/), **July 16-20**
 :::
+:::::
+
+::::: {.d-flex .justify-content-between}
+<div>
+
+[ESA](https://www.esa.org/longbeach2024/) Physiological Ecology Mixer
+
+</div>
+
+::: {.text-end .text-nowrap}
+Long Beach, **August 7, 6:30 pm**
+:::
+:::::
+
+::::: {.d-flex .justify-content-between}
+<div>
+
+[AGU](https://www.agu.org/annual-meeting) [H055: Ecosystem Hydraulics](https://agu.confex.com/agu/agu24/prelim.cgi/Session/228500)
+
+</div>
+
+::: {.text-end .text-nowrap}
+Washington DC, **December 9-13**
+:::
+:::::
 
 ### 2023
 
-::: {.d-flex .justify-content-between}
+::::: {.d-flex .justify-content-between}
 <div>
 
 ESA: PSInet meetup at the [Physiological Ecology Mixer](https://esa2023.eventscribe.net/fsPopup.asp?PresentationID=1265067&query=physiological+ecology&Mode=presInfo)
@@ -129,9 +143,9 @@ ESA: PSInet meetup at the [Physiological Ecology Mixer](https://esa2023.eventscr
 ::: {.text-end .text-nowrap}
 **August 8, 6:30 PM - 8:00 PM**
 :::
-:::
+:::::
 
-::: {.d-flex .justify-content-between}
+::::: {.d-flex .justify-content-between}
 <div>
 
 [Physfest4](https://physfest.wixsite.com/physfest), an early career workshop on ecophysiological tools and techniques. [Apply](https://docs.google.com/forms/d/e/1FAIpQLSeodvfjx2zrGbeQ9y1c6n_COmLmU-WBv9GPNAkAwrH6L7YPlA/viewform?pli=1) by August 31
@@ -141,9 +155,9 @@ ESA: PSInet meetup at the [Physiological Ecology Mixer](https://esa2023.eventscr
 ::: {.text-end .text-nowrap}
 [Sevilleta Field Station](https://unmsevilletafieldstation.wordpress.com/), **October 15 - 20**
 :::
-:::
+:::::
 
-::: {.d-flex .justify-content-between}
+::::: {.d-flex .justify-content-between}
 <div>
 
 AGU: Joint PSInet/FLUXNET mixer, [RSVP](https://forms.office.com/Pages/ResponsePage.aspx?id=NL4TEdGuAE2rS83QJRC-kcvvN-vy0YlAr53RIm7OxMhUMk40TjlaTTlOQlZJQTA3SE1MSDc4TjdKQi4u)
@@ -153,9 +167,9 @@ AGU: Joint PSInet/FLUXNET mixer, [RSVP](https://forms.office.com/Pages/ResponseP
 ::: {.text-end .text-nowrap}
 SOMArts Cultural Center, **Dec 11 18:00 - 21:00**,
 :::
-:::
+:::::
 
-::: {.d-flex .justify-content-between}
+::::: {.d-flex .justify-content-between}
 <div>
 
 AGU: PSInet office hours [pod](https://agu.confex.com/agu/fm23/meetingapp.cgi/Session/219640)
@@ -165,9 +179,9 @@ AGU: PSInet office hours [pod](https://agu.confex.com/agu/fm23/meetingapp.cgi/Se
 ::: {.text-end .text-nowrap}
 **Dec 12 14:00 - 15:00**
 :::
-:::
+:::::
 
-::: {.d-flex .justify-content-between}
+::::: {.d-flex .justify-content-between}
 <div>
 
 AGU: PSInet-sponsored oral session [B41C](https://agu.confex.com/agu/fm23/meetingapp.cgi/Session/212762)
@@ -177,9 +191,9 @@ AGU: PSInet-sponsored oral session [B41C](https://agu.confex.com/agu/fm23/meetin
 ::: {.text-end .text-nowrap}
 **Dec 14, 8:30 - 10:00**
 :::
-:::
+:::::
 
-::: {.d-flex .justify-content-between}
+::::: {.d-flex .justify-content-between}
 <div>
 
 AGU: PSInet-sponsored poster session [B43H](https://agu.confex.com/agu/fm23/meetingapp.cgi/Session/190332)
@@ -189,4 +203,4 @@ AGU: PSInet-sponsored poster session [B43H](https://agu.confex.com/agu/fm23/meet
 ::: {.text-end .text-nowrap}
 **Dec 14, 14:10 - 18:30**
 :::
-:::
+:::::
