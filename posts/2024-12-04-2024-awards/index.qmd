@@ -6,7 +6,7 @@ author:
     affiliation: Indiana University & West Virginia University
 date: 12-06-2024
 categories: [plant water potential, network, data]
-image: ana_pic.png
+image: Ana-Maria-Restrepo-Acevedo.jpg
 draft: false
 ---
 
