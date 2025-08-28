@@ -1,0 +1,15 @@
+{
+  "hash": "1925a66bca90c905b5a3e8c0c09a9ca4",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Plant Hydraulics Workshop 2024\"\ndescription: \"Plant hydraulics workshop - July 2024\"\nauthor: \n  - name: <a href=\"https://www.bard-isus.org/news/dr-daphna-uni/\" title = \"Visit website\">Daphna Uni</a>\n    affiliation: University of Arizona\ndate: 08-21-2024\ncategories: [plant hydraulics, plant water potential, workshops]\nimage: Daphna_Uni.jpeg\ndraft: false\nfilters:\n   - lightbox\nlightbox: auto\n---\n\n\n\nThe 2nd Plant Hydraulics Workshop took place in July 2024 at the Highlands Biological Station in beautiful North Carolina!\n\n# Day 1\n\n## Learning topic: Leaf water potential\n\nInstructors included Daniel Beverly and Dan Johnson :\n\n\n\n::: {.cell}\n\n:::\n\n\n\n::::::::: {layout=\"[[30, -2, 30, -2, 30]]\"}\n<div>\n\n![](IMG_1.jpg){group=\"mygallery2\"}\n\n</div>\n\n<div>\n\n![Learning about how plant's water potential works](IMG_2.jpg){group=\"mygallery2\"}\n\n</div>\n\n<div>\n\n![Student Macarena Ferris and Instructor Daniel B. picking the best branch for our measurements!](IMG_3.jpg){group=\"mygallery2\"}\n\n</div>\n\n<div>\n\n![Daniel B. and the \"best\" available branch](IMG_4.jpg){group=\"mygallery2\"}\n\n</div>\n\n<div>\n\n![Instructor Dan Johnson](IMG_5.jpg){group=\"mygallery2\"}\n\n</div>\n\n<div>\n\n![](IMG_6.jpg){group=\"mygallery2\"}\n\n</div>\n:::::::::\n\n# Day 2\n\n## Learning topic: Sapflow and data loggers\n\nInstructors included Chris Oishi and Ana Maria Restrepo-Acevedo.\n\n::::: {layout=\"[[45, -5, 45]]\" layout-valign=\"center\"}\n<div>\n\n![Practicing datalogger programming](IMG_7.jpg){group=\"mygallery2\"}\n\n</div>\n\n<div>\n\n![Practicing datalogger wireing and programming](IMG_8.jpg){group=\"mygallery2\"}\n\n</div>\n:::::\n\n## Afternoon trip to a waterfall\n\n::::: {layout=\"[[45, -5, 45]]\" layout-valign=\"center\"}\n<div>\n\n![](IMG_11.jpg){group=\"mygallery2\"}\n\n</div>\n\n<div>\n\n![](IMG_12.jpg){group=\"mygallery2\"}\n\n</div>\n:::::\n\n# Day 3\n\n## Learning topic: Conductivity\n\nInstructed by Bill Hammond and Marylou Mantova. We learned how to measure and quantify the specific conductive wood area, vessel length with a pressure chamber, and embolism evens with a 'cavicam'.\n\n:::::::: {layout=\"[[45, -5, 45]]\" layout-valign=\"center\"}\n<div>\n\n![Instructor Bill Hammond explaining the process of using a 'cavicam'](IMG_13.jpg){group=\"mygallery2\"}\n\n</div>\n\n<div>\n\n![](IMG_14.jpg){group=\"mygallery2\"}\n\n</div>\n\n<div>\n\n![](IMG_15.jpg){group=\"mygallery2\"}\n\n</div>\n\n<div>\n\n![](IMG_16.jpg){group=\"mygallery2\"}\n\n</div>\n\n<div>\n\n::::::\n\n</div>\n::::::::\n\n</div>\n\n::::::::::::::::::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
