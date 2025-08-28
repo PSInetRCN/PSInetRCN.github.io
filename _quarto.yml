@@ -10,12 +10,18 @@ website:
         text: Home
       - href: about.qmd
         text: About
-      - join.qmd
-      - submit.qmd
-      - data_terms.qmd
-      - events.qmd
-      - posts.qmd
-      - contact.qmd
+      - href: join.qmd
+        text: Get Involved
+      - href: submit.qmd
+        text: Submit Data
+      - href: data_terms.qmd
+        text: Data Terms of Use
+      - href: events.qmd
+        text: Events
+      - href: posts.qmd
+        text: Posts
+      - href: contact.qmd
+        text: Contact
 
 format:
   html:
