@@ -9,6 +9,24 @@ toc-location: left
 
 ::::: {.d-flex .justify-content-between}
 <div>
+PsiNet sponsored session at AGU2025 in New Orleans! 
+"Terrestrial ecosystems hydraulics in a changing world."(B087) 
+
+Invited speakers include Andrew Feldman (NASA) and Jessica Guo (Harvey Mudd College).
+
+Session info [here](https://agu.confex.com/agu/agu25/prelim.cgi/Session/248821)
+</div>
+
+::: {.text-end .text-nowrap}
+New Orleans, Louisiana, **December 15 - 19**
+:::
+:::::
+
+## Past
+### 2025
+
+::::: {.d-flex .justify-content-between}
+<div>
 
 PSInet [workshop](https://psinetrcn.github.io/posts/2025-02-06-PSInet-workshop/post.html)! Apply [here](https://docs.google.com/forms/d/e/1FAIpQLSc2T5uVtZLR9rx0xipPs8aUOLxZSxjbaGl5HQoiMvuB3pdaIA/viewform) by March 10
 
@@ -18,8 +36,6 @@ PSInet [workshop](https://psinetrcn.github.io/posts/2025-02-06-PSInet-workshop/p
 Bloomington, Indiana, **June 23 - 27**
 :::
 :::::
-
-## Past
 
 ### 2024
 
