@@ -27,11 +27,18 @@ library(tidyr)
 library(googlesheets4)
 library(ggplot2)
 library(leaflet)
+library(here)
 theme_set(theme_bw())
 
-locs <- read.csv(here::here(".secrets", "data_for_website_map.csv"))
+load(here(".secrets/study_site.rda") )
+             #read.csv(here::here(".secrets", "data_for_website_map.csv"))
 
-leaflet() %>%
-  addTiles() %>%  # Add default OpenStreetMap map tiles
-  addCircleMarkers(lng = locs$longitude_wgs84, lat=locs$latitude_wgs84, popup="PSInet site")
+leaflet(study_site) %>%
+  addTiles() %>% # Add default OpenStreetMap map tiles
+  addCircleMarkers(
+    popup = ~study,
+    radius = 5,
+    opacity = 0.4,
+    color = "forestgreen"
+  )
 ```

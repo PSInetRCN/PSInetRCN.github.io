@@ -7,3 +7,5 @@
 survey_app/rsconnect
 .secrets/*
 .secrets
+.positai
+.Renviron
