@@ -24,21 +24,29 @@ Welcome to PSInet, an NSF-funded Research Coordination Network aimed at building
 
 library(dplyr)
 library(tidyr)
-library(googlesheets4)
-library(ggplot2)
 library(leaflet)
 library(here)
-theme_set(theme_bw())
+#theme_set(theme_bw())
 
 load(here(".secrets/study_site.rda") )
              #read.csv(here::here(".secrets", "data_for_website_map.csv"))
 
+networkPal <- colorFactor(palette = "viridis", study_site$network)
+
 leaflet(study_site) %>%
-  addTiles() %>% # Add default OpenStreetMap map tiles
-  addCircleMarkers(
-    popup = ~study,
+  leaflet::addTiles() %>% # Add default OpenStreetMap map tiles
+  leaflet::addCircleMarkers(
+    popup = ~paste0(
+      "<b>Name:</b> ", study, "<br>",
+      "<b>Study Type:</b> ", study_type,"<br>", 
+      "<b>Network:<b> ", network, "<br>"
+    ),
     radius = 5,
     opacity = 0.4,
-    color = "forestgreen"
-  )
+    color = ~networkPal(network)
+  ) |> 
+  addLegend(pal = networkPal,
+            values = ~network, 
+            title = "Network", 
+            opacity = 0.65)
 ```
