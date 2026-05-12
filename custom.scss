@@ -1,0 +1,286 @@
+/*-- custom.scss -----------------------------------------------
+   Quartz - default style update
+   Accent: forest green #1e5c45
+--------------------------------------------------------------*/
+
+/*-- FONTS --*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=Lora:ital,wght@0,600;1,400;1,500&display=swap');
+
+/*-- BOOTSTRAP VARIABLE OVERRIDES --*/
+
+$green:  #1e5c45;
+$sage:   #eef4ee;
+$green-dark: #174a36;
+
+$body-bg:             #f9faf7;
+$body-color:          #374151;
+$link-color:          $green;
+$link-hover-color:    darken($green, 10%);
+$link-decoration:     none;
+
+$font-family-base:      'DM Sans', system-ui, sans-serif;
+$headings-font-family:  'Lora', Georgia, serif;
+$headings-font-weight:  600;
+$headings-color:        #111827;
+
+$font-size-base:   1rem;
+$line-height-base: 1.8;
+
+$navbar-bg:                      #ffffff;
+$navbar-light-color:             #6b7280;
+$navbar-light-active-color:      #111827;
+$navbar-light-hover-color:       $green;
+$navbar-light-brand-color:       #111827;
+$navbar-light-brand-hover-color: $green;
+
+$border-color:     #e2e8e0;
+$border-radius:    6px;
+$border-radius-lg: 10px;
+
+$card-bg:           #ffffff;
+$card-border-color: #e2e8e0;
+
+$table-border-color: #e2e8e0;
+$table-striped-bg:   rgba(30, 92, 69, 0.03);
+
+/*-- scss:rules --*/
+
+body { -webkit-font-smoothing: antialiased; }
+
+/* ── Navbar ── */
+.navbar {
+  border-bottom: 1px solid #e2e8e0;
+  padding: 0.7rem 0;
+
+  .navbar-brand {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: -0.01em;
+    color: #111827 !important;
+  }
+
+  .nav-link {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #6b7280 !important;
+    padding: 0.25rem 0.875rem !important;
+    border-radius: 6px;
+    transition: all 0.15s;
+    &:hover  { color: $green !important; background: $sage; }
+    &.active { color: #111827 !important; }
+  }
+}
+
+/* ── Sidebar ── */
+#quarto-sidebar {
+  background: #ffffff;
+  border-right: 1px solid #e2e8e0;
+
+  .sidebar-section-text {
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #9ca3af;
+  }
+
+  .sidebar-item-text {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.825rem;
+    color: #6b7280;
+  }
+
+  .sidebar-item-container:hover .sidebar-item-text { color: $green; }
+
+  .sidebar-item-container.active {
+    .sidebar-item-text { color: $green; font-weight: 500; }
+    border-left: 2px solid $green;
+    margin-left: -1px;
+    padding-left: 0.5rem;
+  }
+}
+
+/* ── Page title ── */
+#title-block-header {
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e2e8e0;
+
+  .title {
+    font-family: 'Lora', Georgia, serif;
+    font-size: 2.25rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    color: #111827;
+    line-height: 1.25;
+  }
+
+  .subtitle {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.1rem;
+    color: #6b7280;
+    font-weight: 400;
+    margin-top: 0.5rem;
+    line-height: 1.5;
+  }
+
+  .quarto-categories {
+    margin-top: 1rem;
+    .quarto-category {
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      background: $sage;
+      color: $green-dark;
+      border: none;
+      padding: 0.2rem 0.65rem;
+      border-radius: 4px;
+    }
+  }
+}
+
+/* ── Body copy ── */
+p { margin-bottom: 1.1rem; }
+
+/* ── Headings ── */
+h1 { font-size: 2rem; letter-spacing: -0.02em; line-height: 1.25; }
+
+h2 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: $green;
+  margin-top: 2.75rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #111827;
+  margin-top: 2rem;
+}
+
+h4 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #374151;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* ── Blockquotes / pull quotes ── */
+blockquote {
+  border-left: 3px solid $green;
+  background: $sage;
+  padding: 1rem 1.5rem;
+  border-radius: 0 $border-radius $border-radius 0;
+  margin: 1.75rem 0;
+  color: $green-dark;
+  font-family: 'Lora', Georgia, serif;
+  font-style: italic;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  p { margin-bottom: 0; }
+}
+
+/* ── Callouts ── */
+.callout {
+  border-radius: $border-radius;
+  border-left-width: 3px;
+  margin: 1.5rem 0;
+
+  .callout-title {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  &.callout-note      { border-left-color: $green;   background: $sage;   }
+  &.callout-tip       { border-left-color: #b45309;  background: #fffbeb; }
+  &.callout-important { border-left-color: #dc2626;  background: #fef2f2; }
+  &.callout-caution   { border-left-color: #d97706;  background: #fffbeb; }
+}
+
+/* ── Tables ── */
+.table {
+  font-size: 0.9rem;
+
+  thead th {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #6b7280;
+    border-bottom: 2px solid $green;
+  }
+}
+
+/* ── Listing cards ── */
+.quarto-listing {
+  .list-group-item {
+    border-color: #e2e8e0;
+    border-radius: $border-radius-lg !important;
+    margin-bottom: 0.75rem;
+    padding: 1.25rem 1.5rem;
+    transition: box-shadow 0.15s, border-color 0.15s;
+    &:hover { box-shadow: 0 4px 18px rgba(30,92,69,0.08); border-color: #a8c8bc; }
+  }
+
+  .listing-title {
+    font-family: 'Lora', Georgia, serif;
+    font-weight: 600;
+    font-size: 1.05rem;
+    color: #111827;
+  }
+
+  .listing-subtitle, .listing-description {
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin-top: 0.25rem;
+  }
+
+  .listing-category {
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    background: $sage;
+    color: $green-dark;
+    border: none;
+    border-radius: 4px;
+  }
+
+  .listing-date, .listing-author {
+    font-size: 0.8rem;
+    color: #9ca3af;
+  }
+}
+
+/* ── Figure captions ── */
+.figure-caption, figcaption {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.8rem;
+  color: #9ca3af;
+  text-align: center;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+/* ── Footer ── */
+#quarto-footer, .nav-footer {
+  background: #ffffff;
+  border-top: 1px solid #e2e8e0;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.8rem;
+  color: #9ca3af;
+}

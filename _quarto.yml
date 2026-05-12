@@ -25,9 +25,25 @@ website:
 
 format:
   html:
-    theme: lumen
-    css: styles.css
+    theme:
+      - cosmo         # base Bootstrap theme
+      - custom.scss   # our overrides
     toc: true
+    toc-depth: 3
+    toc-title: "On this page"
+    toc-location: right
+    smooth-scroll: true
+    df-print: paged
+    fig-align: center
+    fig-cap-location: bottom
+    citations-hover: true
+    footnotes-hover: true
+    link-external-icon: true
+    link-external-newwindow: true
+    grid:
+      sidebar-width: 220px
+      body-width: 860px
+      margin-width: 260px
 
 editor: visual
 
