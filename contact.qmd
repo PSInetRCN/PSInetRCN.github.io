@@ -10,22 +10,22 @@ toc-location: left
 
 Assistant Professor, Harvey Mudd College
 
-[jessicaguo@g.hmc.edu](mailto:jessicaguo@g.hmc.edu)
+[jessicaguo\@g.hmc.edu](mailto:jessicaguo@g.hmc.edu)
 
 ## Kim Novick
 
 Professor, Indiana University
 
-[knovick@indiana.edu](mailto:knovick@indiana.edu)
+[knovick\@indiana.edu](mailto:knovick@indiana.edu)
 
 ## Ana Maria Restrepo
 
 Postdoc, Indiana University
 
-[anarest@iu.edu](mailto:anarest@iu.edu)
+[anarest\@iu.edu](mailto:anarest@iu.edu)
 
 ## Renata Diaz
 
 Data Scientist, University of Arizona
 
-[rediaz@g.hmc.edu](mailto:rediaz@g.hmc.edu)
+[rediaz\@g.hmc.edu](mailto:rediaz@g.hmc.edu)

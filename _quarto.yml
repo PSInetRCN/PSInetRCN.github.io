@@ -4,30 +4,66 @@ project:
 
 website:
   title: "PSInet"
+  
   navbar:
-    right:
-      - href: index.qmd
-        text: Home
-      - href: about.qmd
-        text: About
+    left:
+      - text: "About"
+        menu:
+          - text: "Project Aims"
+            href: about.qmd
+          - text: "Contact"
+            href: contact.qmd
       - href: join.qmd
         text: Get Involved
       - href: submit.qmd
         text: Submit Data
       - href: data_terms.qmd
         text: Data Terms of Use
-      - href: events.qmd
-        text: Events
-      - href: posts.qmd
-        text: Posts
-      - href: contact.qmd
-        text: Contact
+      - text: "Updates"
+        menu:
+        - href: events.qmd
+          text: "Events"
+        - href: posts.qmd
+          text: "Posts"
+
+  sidebar:
+    style: "docked"
+    search: true
+    collapse-level: 2
+
+  page-footer:
+    left: "© 2026 PSInet"
+    right:
+      - text: "Contact"
+        href: contact.qmd#contact
+
+  search:
+    location: navbar
+    type: overlay
+
+  open-graph: true
 
 format:
   html:
-    theme: lumen
-    css: styles.css
+    theme:
+      - cosmo         # base Bootstrap theme
+      - custom.scss   # our overrides
     toc: true
+    toc-depth: 3
+    toc-title: "On this page"
+    toc-location: right
+    smooth-scroll: true
+    df-print: paged
+    fig-align: center
+    fig-cap-location: bottom
+    citations-hover: true
+    footnotes-hover: true
+    link-external-icon: true
+    link-external-newwindow: true
+    grid:
+      sidebar-width: 220px
+      body-width: 860px
+      margin-width: 260px
 
 editor: visual
 
