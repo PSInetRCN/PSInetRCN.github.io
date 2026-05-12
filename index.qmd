@@ -50,7 +50,3 @@ leaflet(study_site) %>%
             title = "Network", 
             opacity = 0.65)
 ```
-
-```{r, child = events.qmd}
-
-```
