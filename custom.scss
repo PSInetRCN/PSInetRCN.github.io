@@ -1,5 +1,5 @@
 /*-- custom.scss -----------------------------------------------
-   Quartz - default style update
+   Quartz — modern academic research site
    Accent: forest green #1e5c45
 --------------------------------------------------------------*/
 
@@ -9,19 +9,19 @@
 /*-- BOOTSTRAP VARIABLE OVERRIDES --*/
 
 $green:  #1e5c45;
-$sage:   #eef4ee;
+$sage:   #9ba59b;
 $green-dark: #174a36;
 
 $body-bg:             #f9faf7;
-$body-color:          #374151;
+$body-color:          #737982;
 $link-color:          $green;
 $link-hover-color:    darken($green, 10%);
 $link-decoration:     none;
 
 $font-family-base:      'DM Sans', system-ui, sans-serif;
-$headings-font-family:  'Lora', Georgia, serif;
+$headings-font-family:  'DM Sans' serif;
 $headings-font-weight:  600;
-$headings-color:        #111827;
+$headings-color:        #313847;
 
 $font-size-base:   1rem;
 $line-height-base: 1.8;
@@ -108,11 +108,11 @@ body { -webkit-font-smoothing: antialiased; }
   border-bottom: 1px solid #e2e8e0;
 
   .title {
-    font-family: 'Lora', Georgia, serif;
+    font-family: 'DM Sans', serif;
     font-size: 2.25rem;
     font-weight: 600;
     letter-spacing: -0.02em;
-    color: #111827;
+    color: #2d323e;
     line-height: 1.25;
   }
 
@@ -149,10 +149,10 @@ h1 { font-size: 2rem; letter-spacing: -0.02em; line-height: 1.25; }
 
 h2 {
   font-family: 'DM Sans', sans-serif;
-  font-size: 0.75rem;
-  font-weight: 700;
+  font-size: 1.2rem;
+  font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.2em;
   color: $green;
   margin-top: 2.75rem;
   margin-bottom: 1rem;
@@ -269,8 +269,8 @@ blockquote {
 /* ── Figure captions ── */
 .figure-caption, figcaption {
   font-family: 'DM Sans', sans-serif;
-  font-size: 0.8rem;
-  color: #9ca3af;
+  font-size: 1rem;
+  color: #68939a;
   text-align: center;
   margin-top: 0.5rem;
   font-style: italic;
@@ -281,6 +281,66 @@ blockquote {
   background: #ffffff;
   border-top: 1px solid #e2e8e0;
   font-family: 'DM Sans', sans-serif;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: #9ca3af;
+}
+
+/* ── About page (jolla / trestles / etc.) ── */
+.about-entity {
+  padding-top: 1rem;
+
+  /* Image */
+  .about-image {
+    border: 6px solid $sage;
+    box-shadow: 0 0 0 1px #0c3b29;
+  }
+
+  /* Name / title */
+  .about-title {
+    font-family: 'DM Sans' serif;
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: #252933;
+    margin-bottom: 0.25rem;
+  }
+
+  .about-subtitle {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1rem;
+    color: #6b7280;
+    font-weight: 400;
+  }
+
+  /* Body text below the image */
+  .about-contents p {
+    font-size: 1rem;
+    color: #374151;
+    line-height: 1.8;
+  }
+
+  /* Social / link buttons */
+  .about-links {
+    margin-top: 1.25rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .about-link {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: $green !important;
+    border: 1px solid #a8c8bc !important;
+    border-radius: 6px !important;
+    padding: 0.3rem 0.75rem !important;
+    background: transparent !important;
+    transition: all 0.15s;
+
+    &:hover {
+      background: $sage !important;
+      border-color: $green !important;
+    }
+  }
 }

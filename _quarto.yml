@@ -4,8 +4,9 @@ project:
 
 website:
   title: "PSInet"
+  
   navbar:
-    right:
+    left:
       - href: index.qmd
         text: Home
       - href: about.qmd
@@ -22,6 +23,23 @@ website:
         text: Posts
       - href: contact.qmd
         text: Contact
+
+  sidebar:
+    style: "docked"
+    search: true
+    collapse-level: 2
+
+  page-footer:
+    left: "© 2026 PSInet"
+    right:
+      - text: "Contact"
+        href: contact.qmd#contact
+
+  search:
+    location: navbar
+    type: overlay
+
+  open-graph: true
 
 format:
   html:
