@@ -7,20 +7,24 @@ website:
   
   navbar:
     left:
-      - href: about.qmd
-        text: About
+      - text: "About"
+        menu:
+          - text: "Project Aims"
+            href: about.qmd
+          - text: "Contact"
+            href: contact.qmd
       - href: join.qmd
         text: Get Involved
       - href: submit.qmd
         text: Submit Data
       - href: data_terms.qmd
         text: Data Terms of Use
-      - href: events.qmd
-        text: Events
-      - href: posts.qmd
-        text: Posts
-      - href: contact.qmd
-        text: Contact
+      - text: "Updates"
+        menu:
+        - href: events.qmd
+          text: "Events"
+        - href: posts.qmd
+          text: "Posts"
 
   sidebar:
     style: "docked"
