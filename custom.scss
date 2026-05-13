@@ -1,0 +1,443 @@
+/*-- custom-professional.scss ----------------------------------
+   Quartz — modern academic research site
+   Style: professional forest/ecology/physiology
+   Palette:
+     Forest green  #1e5c45  — structure
+     Deep forest   #1a3628  — titles, brand
+     Terracotta    #a03e14  — quiet accent
+     Parchment     #f9f8f4  — page bg
+     Warm sand     #f0ece4  — listing bg
+--------------------------------------------------------------*/
+
+/*-- FONTS --*/
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Space+Grotesk:wght@400;500;600&display=swap');
+
+/*-- BOOTSTRAP VARIABLE OVERRIDES --*/
+
+$green:       #1e5c45;
+$green-deep:  #1a3628;
+$terracotta:  #a03e14;
+$parchment:   #f9f8f4;
+$sand:        #f0ece4;
+
+$body-bg:             $parchment;
+$body-color:          #3d3d36;
+$link-color:          $green;
+$link-hover-color:    darken($green, 10%);
+$link-decoration:     none;
+
+$font-family-base:      'Space Grotesk', system-ui, sans-serif;
+$headings-font-family:  'Fraunces', Georgia, serif;
+$headings-font-weight:  600;
+$headings-color:        #1a2e1e;
+
+$font-size-base:   1.0625rem;
+$line-height-base: 1.85;
+
+$navbar-bg:                      #ffffff;
+$navbar-light-color:             #6b6b62;
+$navbar-light-active-color:      $green-deep;
+$navbar-light-hover-color:       $green;
+$navbar-light-brand-color:       $green-deep;
+$navbar-light-brand-hover-color: $green;
+
+$border-color:     #e2ded8;
+$border-radius:    6px;
+$border-radius-lg: 8px;
+
+$card-bg:           #ffffff;
+$card-border-color: #ddd8d0;
+
+$table-border-color: #e2ded8;
+$table-striped-bg:   rgba(30, 92, 69, 0.03);
+
+/*-- scss:rules --*/
+
+body { -webkit-font-smoothing: antialiased; }
+
+/* ── Navbar: light, restrained ── */
+.navbar {
+  background: #ffffff !important;
+  border-bottom: 1px solid #e2ded8;
+  padding: 0.7rem 0;
+
+  /* Italic Fraunces brand — scholarly feel */
+  .navbar-brand {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 600;
+    font-size: 1rem;
+    font-style: italic;
+    letter-spacing: -0.01em;
+    color: $green-deep !important;
+
+    span {
+      font-family: 'Space Grotesk', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 0.7rem;
+      color: #9a9486;
+      letter-spacing: 0.02em;
+      margin-left: 0.4rem;
+    }
+  }
+
+  .nav-link {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #6b6b62 !important;
+    padding: 0.25rem 0.75rem !important;
+    border-radius: $border-radius;
+    transition: all 0.15s;
+
+    &:hover  { color: $green !important; background: #f0f5f1; }
+    &.active { color: $green-deep !important; }
+  }
+}
+
+/* ── Sidebar ── */
+#quarto-sidebar {
+  background: #ffffff;
+  border-right: 1px solid #e2ded8;
+
+  .sidebar-section-text {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.6rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #b0a898;
+  }
+
+  .sidebar-item-text {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.825rem;
+    font-weight: 400;
+    color: #6b6b62;
+  }
+
+  .sidebar-item-container:hover .sidebar-item-text { color: $green; }
+
+  .sidebar-item-container.active {
+    .sidebar-item-text { color: $green; font-weight: 600; }
+    border-left: 2px solid $green;
+    margin-left: -1px;
+    padding-left: 0.5rem;
+    background: #eef5f0;
+  }
+}
+
+/* ── Page title ── */
+#title-block-header {
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e2ded8;
+  position: relative;
+  overflow: hidden;
+
+  /* Tree ring cross-section watermark */
+  &::after {
+    content: '';
+    position: absolute;
+    top: -60px;
+    right: -60px;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background:
+      radial-gradient(circle at center,
+        transparent 4%,  rgba(30,92,69,0.06) 4.5%,
+        transparent 7%,  rgba(30,92,69,0.05) 7.5%,
+        transparent 11%, rgba(30,92,69,0.06) 11.5%,
+        transparent 15%, rgba(30,92,69,0.05) 15.5%,
+        transparent 20%, rgba(30,92,69,0.06) 20.5%,
+        transparent 26%, rgba(30,92,69,0.05) 26.5%,
+        transparent 33%, rgba(30,92,69,0.06) 33.5%,
+        transparent 41%, rgba(30,92,69,0.05) 41.5%,
+        transparent 50%, rgba(30,92,69,0.04) 50.5%,
+        transparent 60%
+      );
+    pointer-events: none;
+  }
+
+  .title {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 2.25rem;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    color: #1a2e1e;
+    line-height: 1.2;
+  }
+
+  .subtitle {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.1rem;
+    color: #6b6b62;
+    font-weight: 400;
+    margin-top: 0.5rem;
+    line-height: 1.6;
+  }
+
+  .quarto-categories {
+    margin-top: 1rem;
+    .quarto-category {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      background: #eef5f0;
+      color: $green;
+      border: none;
+      border-radius: 3px;
+      padding: 0.2rem 0.65rem;
+
+      &[data-value*="health"], &[data-value*="physiology"], &[data-value*="medicine"] {
+        background: #fdf1ec;
+        color: $terracotta;
+      }
+    }
+  }
+}
+
+/* ── Body copy ── */
+p { margin-bottom: 1.1rem; }
+
+/* ── Headings ── */
+h1 {
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+  color: #1a2e1e;
+}
+
+/* H2: Syne, measured — with botanical glyph */
+h2 {
+  font-family: 'Syne', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: $green;
+  margin-top: 2.75rem;
+  margin-bottom: 0.875rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  &::before {
+    content: '\2767';   /* ❧ floral heart */
+    font-size: 0.9rem;
+    color: $terracotta;
+    opacity: 0.7;
+    font-style: normal;
+  }
+}
+
+/* H3: italic Fraunces */
+h3 {
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  font-style: italic;
+  color: #1a2e1e;
+  margin-top: 2rem;
+}
+
+h4 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #3d3d36;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* ── Blockquote: refined left-border, no hard shadow ── */
+blockquote {
+  border-left: 3px solid $green;
+  background: #f2f7f2;
+  padding: 1rem 1.25rem 1rem 1.5rem;
+  border-radius: 0 $border-radius-lg $border-radius-lg 0;
+  margin: 1.75rem 0;
+  color: #1a2e1e;
+  font-family: 'Fraunces', Georgia, serif;
+  font-style: italic;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  position: relative;
+
+  &::before {
+    content: '\201C';
+    font-family: 'Fraunces', serif;
+    font-size: 3.5rem;
+    color: $green;
+    opacity: 0.12;
+    position: absolute;
+    top: -0.5rem;
+    left: 0.5rem;
+    line-height: 1;
+  }
+
+  p { margin-bottom: 0; }
+}
+
+/* ── Callouts ── */
+.callout {
+  border-left-width: 3px;
+  border-radius: 0 $border-radius $border-radius 0;
+  margin: 1.5rem 0;
+
+  .callout-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  &.callout-note      { border-left-color: $green;      background: #f2f7f2; .callout-title { color: $green; } }
+  &.callout-tip       { border-left-color: $terracotta; background: #fdf3ee; .callout-title { color: $terracotta; } }
+  &.callout-important { border-left-color: #dc2626;     background: #fef2f2; }
+  &.callout-caution   { border-left-color: #c07820;     background: #fdf8ee; }
+}
+
+/* ── Tables ── */
+.table {
+  font-size: 0.9rem;
+
+  thead th {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #7a7870;
+    border-bottom: 2px solid $green;
+  }
+}
+
+/* ── Listing cards ── */
+.quarto-listing {
+  .list-group-item {
+    background: #ffffff;
+    border-color: #ddd8d0 !important;
+    border-radius: $border-radius !important;
+    margin-bottom: 0.75rem;
+    padding: 1.25rem 1.5rem;
+    transition: box-shadow 0.15s, border-color 0.15s;
+
+    &:hover {
+      box-shadow: 0 4px 16px rgba(30,92,69,0.08);
+      border-color: #a8c8b8 !important;
+    }
+  }
+
+  .listing-title {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 600;
+    font-size: 1.05rem;
+    color: #1a2e1e;
+  }
+
+  .listing-subtitle, .listing-description {
+    font-size: 0.875rem;
+    color: #6b6b62;
+    margin-top: 0.25rem;
+  }
+
+  .listing-category {
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    background: #eef5f0;
+    color: $green;
+    border: none;
+    border-radius: 3px;
+    padding: 0.15rem 0.5rem;
+  }
+
+  .listing-date, .listing-author {
+    font-size: 0.8rem;
+    color: #b0a898;
+  }
+}
+
+/* ── Figure captions ── */
+.figure-caption, figcaption {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.875rem;
+  color: #8a9e92;
+  text-align: center;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+/* ── Footer ── */
+#quarto-footer, .nav-footer {
+  background: $sand;
+  border-top: 1px solid #e2ded8;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.8rem;
+  color: #b0a898;
+}
+
+/* ── About page ── */
+.about-entity {
+  padding-top: 1rem;
+
+  .about-image {
+    border: 4px solid $sand;
+    box-shadow: 0 4px 20px rgba(30,92,69,0.1);
+    border-radius: $border-radius-lg;
+  }
+
+  .about-title {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: -0.02em;
+    color: #1a2e1e;
+    margin-bottom: 0.25rem;
+  }
+
+  .about-subtitle {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1rem;
+    color: #6b6b62;
+    font-weight: 400;
+  }
+
+  .about-contents p {
+    font-size: 1rem;
+    color: #3d3d36;
+    line-height: 1.85;
+  }
+
+  .about-links {
+    margin-top: 1.25rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .about-link {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: $green !important;
+    border: 1px solid #a8c8b8 !important;
+    border-radius: $border-radius !important;
+    padding: 0.3rem 0.875rem !important;
+    background: transparent !important;
+    transition: all 0.15s;
+
+    &:hover {
+      background: #eef5f0 !important;
+      border-color: $green !important;
+    }
+  }
+}

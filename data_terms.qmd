@@ -1,5 +1,5 @@
 ---
-title: "Data terms of use"
+title: "Data Terms of Use"
 ---
 
 Data submitted to PSInet will become part of the PSInet database. The PSInet database will be subject to a one year embargo, during which time only authors will have access to it. **After this period, the database will be published as an open-access resource with a [CC-By-4.0](https://creativecommons.org/licenses/by/4.0/) license.** 

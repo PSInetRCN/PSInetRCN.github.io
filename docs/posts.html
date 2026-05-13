@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a202ed359b7240dcab911ed64cbd0efc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-280e444ab3a9e7cb248f019f734a9502.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -53,7 +53,6 @@ ul.task-list li input[type="checkbox"] {
     "/",
     "s"
   ],
-  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -78,9 +77,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -97,6 +96,7 @@ ul.task-list li input[type="checkbox"] {
     }
   })
   </script>
+<style>html{ scroll-behavior: smooth; }</style>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -128,10 +128,12 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="Posts – PSInet">
+<meta property="og:image" content="./posts/2025-07-21-Workshop-report/Ana-Maria-Restrepo-Acevedo.jpg">
+<meta property="og:site_name" content="PSInet">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -147,15 +149,22 @@ window.Quarto = {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="./about.html">
+ <span class="dropdown-text">Project Aims</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
+        <li>
+    <a class="dropdown-item" href="./contact.html">
+ <span class="dropdown-text">Contact</span></a>
   </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./join.html"> 
 <span class="menu-text">Get Involved</span></a>
@@ -168,28 +177,52 @@ window.Quarto = {
     <a class="nav-link" href="./data_terms.html"> 
 <span class="menu-text">Data Terms of Use</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./events.html"> 
-<span class="menu-text">Events</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-updates" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Updates</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-updates">    
+        <li>
+    <a class="dropdown-item" href="./events.html">
+ <span class="dropdown-text">Events</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./posts.html" aria-current="page"> 
-<span class="menu-text">Posts</span></a>
+        <li>
+    <a class="dropdown-item" href="./posts.html">
+ <span class="dropdown-text">Posts</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
-<span class="menu-text">Contact</span></a>
-  </li>  
+    </ul>
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Posts</li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
@@ -220,18 +253,21 @@ window.Quarto = {
 
 
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="cGxhbnQlMjBoeWRyYXVsaWNzJTJDd29ya3Nob3BzJTJDcGxhbnQlMjB3YXRlciUyMHBvdGVudGlhbA==" data-listing-date-sort="1753426800000" data-listing-file-modified-sort="1758932249231" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1509">
-<a href="./posts/2025-07-21-Workshop-report/index.html" class="quarto-grid-link">
-</a><div class="quarto-grid-item card h-100 card-left"><a href="./posts/2025-07-21-Workshop-report/index.html" class="quarto-grid-link">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2025-07-21-Workshop-report/Ana-Maria-Restrepo-Acevedo.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-</a><div class="card-body post-contents"><a href="./posts/2025-07-21-Workshop-report/index.html" class="quarto-grid-link">
-<h5 class="no-anchor card-title listing-title">
-Insights from the Workshop: Network-enabled Understanding of Plant Water Hydraulics in a Changing World
-</h5>
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="cGxhbnQlMjBoeWRyYXVsaWNzJTJDd29ya3Nob3BzJTJDcGxhbnQlMjB3YXRlciUyMHBvdGVudGlhbA==" data-listing-date-sort="1753426800000" data-listing-file-modified-sort="1758932249231" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1509">
+<div class="thumbnail">
+<p><a href="./posts/2025-07-21-Workshop-report/index.html" class="no-external"></a></p><a href="./posts/2025-07-21-Workshop-report/index.html" class="no-external">
+<p><img loading="lazy" src="./posts/2025-07-21-Workshop-report/Ana-Maria-Restrepo-Acevedo.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2025-07-21-Workshop-report/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2025-07-21-Workshop-report/index.html" class="no-external">Insights from the Workshop: Network-enabled Understanding of Plant Water Hydraulics in a Changing World</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2025-07-21-Workshop-report/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('cGxhbnQlMjBoeWRyYXVsaWNz'); return false;">
 plant hydraulics
@@ -243,31 +279,34 @@ workshops
 plant water potential
 </div>
 </div>
-<div class="card-text listing-description">
-Bloomington Indiana, June 23-27
+<div class="listing-description">
+<a href="./posts/2025-07-21-Workshop-report/index.html" class="no-external">Bloomington Indiana, June 23-27</a>
 </div>
-</a><div class="card-attribution card-text-small justify"><a href="./posts/2025-07-21-Workshop-report/index.html" class="quarto-grid-link">
-</a><div class="listing-author"><a href="./posts/2025-07-21-Workshop-report/index.html" class="quarto-grid-link">
-</a><a href="https://scholar.google.com/citations?user=K3FbEbAAAAAJ&amp;hl=en" title="Visit website">Ana Maria Restrepo Acevedo</a>
 </div>
+<div class="metadata">
+<a href="./posts/2025-07-21-Workshop-report/index.html" class="no-external">
 <div class="listing-date">
 Jul 25, 2025
 </div>
-</div>
-</div>
+</a><div class="listing-author"><a href="./posts/2025-07-21-Workshop-report/index.html" class="no-external">
+</a><a href="https://scholar.google.com/citations?user=K3FbEbAAAAAJ&amp;hl=en" title="Visit website">Ana Maria Restrepo Acevedo</a>
 </div>
 
 </div>
-<div class="g-col-1" data-index="1" data-categories="cGxhbnQlMjB3YXRlciUyMHBvdGVudGlhbCUyQ25ldHdvcmslMkNkYXRh" data-listing-date-sort="1738828800000" data-listing-file-modified-sort="1758932249229" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="585">
-<a href="./posts/2025-02-06-PSInet-workshop/post.html" class="quarto-grid-link">
-</a><div class="quarto-grid-item card h-100 card-left"><a href="./posts/2025-02-06-PSInet-workshop/post.html" class="quarto-grid-link">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2025-02-06-PSInet-workshop/novick_kimberly.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-</a><div class="card-body post-contents"><a href="./posts/2025-02-06-PSInet-workshop/post.html" class="quarto-grid-link">
-<h5 class="no-anchor card-title listing-title">
-Announcing the PSInet workshop! 🎉
-</h5>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="cGxhbnQlMjB3YXRlciUyMHBvdGVudGlhbCUyQ25ldHdvcmslMkNkYXRh" data-listing-date-sort="1738828800000" data-listing-file-modified-sort="1758932249229" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="585">
+<div class="thumbnail">
+<p><a href="./posts/2025-02-06-PSInet-workshop/post.html" class="no-external"></a></p><a href="./posts/2025-02-06-PSInet-workshop/post.html" class="no-external">
+<p><img loading="lazy" src="./posts/2025-02-06-PSInet-workshop/novick_kimberly.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2025-02-06-PSInet-workshop/post.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2025-02-06-PSInet-workshop/post.html" class="no-external">Announcing the PSInet workshop! 🎉</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2025-02-06-PSInet-workshop/post.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('cGxhbnQlMjB3YXRlciUyMHBvdGVudGlhbA=='); return false;">
 plant water potential
@@ -279,31 +318,34 @@ network
 data
 </div>
 </div>
-<div class="card-text listing-description">
-Workshop title: Network-enabled understanding of plant hydraulics in a changing world
+<div class="listing-description">
+<a href="./posts/2025-02-06-PSInet-workshop/post.html" class="no-external">Workshop title: Network-enabled understanding of plant hydraulics in a changing world</a>
 </div>
-</a><div class="card-attribution card-text-small justify"><a href="./posts/2025-02-06-PSInet-workshop/post.html" class="quarto-grid-link">
-</a><div class="listing-author"><a href="./posts/2025-02-06-PSInet-workshop/post.html" class="quarto-grid-link">
-</a><a href="https://scholar.google.com/citations?user=K5tffpEAAAAJ&amp;hl=en/" title="Visit website">Kim Novick</a>
 </div>
+<div class="metadata">
+<a href="./posts/2025-02-06-PSInet-workshop/post.html" class="no-external">
 <div class="listing-date">
 Feb 6, 2025
 </div>
-</div>
-</div>
+</a><div class="listing-author"><a href="./posts/2025-02-06-PSInet-workshop/post.html" class="no-external">
+</a><a href="https://scholar.google.com/citations?user=K5tffpEAAAAJ&amp;hl=en/" title="Visit website">Kim Novick</a>
 </div>
 
 </div>
-<div class="g-col-1" data-index="2" data-categories="cGxhbnQlMjB3YXRlciUyMHBvdGVudGlhbCUyQ25ldHdvcmslMkNkYXRh" data-listing-date-sort="1733472000000" data-listing-file-modified-sort="1758932249226" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="372">
-<a href="./posts/2024-12-04-2024-awards/index.html" class="quarto-grid-link">
-</a><div class="quarto-grid-item card h-100 card-left"><a href="./posts/2024-12-04-2024-awards/index.html" class="quarto-grid-link">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2024-12-04-2024-awards/Ana-Maria-Restrepo-Acevedo.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-</a><div class="card-body post-contents"><a href="./posts/2024-12-04-2024-awards/index.html" class="quarto-grid-link">
-<h5 class="no-anchor card-title listing-title">
-Drumroll, please… The PSInet Data Leaderboards Are Here! 🎉
-</h5>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="cGxhbnQlMjB3YXRlciUyMHBvdGVudGlhbCUyQ25ldHdvcmslMkNkYXRh" data-listing-date-sort="1733472000000" data-listing-file-modified-sort="1758932249226" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="372">
+<div class="thumbnail">
+<p><a href="./posts/2024-12-04-2024-awards/index.html" class="no-external"></a></p><a href="./posts/2024-12-04-2024-awards/index.html" class="no-external">
+<p><img loading="lazy" src="./posts/2024-12-04-2024-awards/Ana-Maria-Restrepo-Acevedo.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2024-12-04-2024-awards/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2024-12-04-2024-awards/index.html" class="no-external">Drumroll, please… The PSInet Data Leaderboards Are Here! 🎉</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2024-12-04-2024-awards/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('cGxhbnQlMjB3YXRlciUyMHBvdGVudGlhbA=='); return false;">
 plant water potential
@@ -315,31 +357,34 @@ network
 data
 </div>
 </div>
-<div class="card-text listing-description">
-Noteworthy contributions to our database with some fun award categories!
+<div class="listing-description">
+<a href="./posts/2024-12-04-2024-awards/index.html" class="no-external">Noteworthy contributions to our database with some fun award categories!</a>
 </div>
-</a><div class="card-attribution card-text-small justify"><a href="./posts/2024-12-04-2024-awards/index.html" class="quarto-grid-link">
-</a><div class="listing-author"><a href="./posts/2024-12-04-2024-awards/index.html" class="quarto-grid-link">
-</a><a href="https://scholar.google.com/citations?user=K3FbEbAAAAAJ&amp;hl=en/" title="Visit website">Ana Maria Restrepo-Acevedo</a>
 </div>
+<div class="metadata">
+<a href="./posts/2024-12-04-2024-awards/index.html" class="no-external">
 <div class="listing-date">
 Dec 6, 2024
 </div>
-</div>
-</div>
+</a><div class="listing-author"><a href="./posts/2024-12-04-2024-awards/index.html" class="no-external">
+</a><a href="https://scholar.google.com/citations?user=K3FbEbAAAAAJ&amp;hl=en/" title="Visit website">Ana Maria Restrepo-Acevedo</a>
 </div>
 
 </div>
-<div class="g-col-1" data-index="3" data-categories="cGxhbnQlMjBoeWRyYXVsaWNzJTJDcGxhbnQlMjB3YXRlciUyMHBvdGVudGlhbCUyQ3dvcmtzaG9wcw==" data-listing-date-sort="1724223600000" data-listing-file-modified-sort="1758932249225" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="145">
-<a href="./posts/2024-08-21-hydraulics-pics/index.html" class="quarto-grid-link">
-</a><div class="quarto-grid-item card h-100 card-left"><a href="./posts/2024-08-21-hydraulics-pics/index.html" class="quarto-grid-link">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2024-08-21-hydraulics-pics/Daphna_Uni.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-</a><div class="card-body post-contents"><a href="./posts/2024-08-21-hydraulics-pics/index.html" class="quarto-grid-link">
-<h5 class="no-anchor card-title listing-title">
-Plant Hydraulics Workshop 2024
-</h5>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="cGxhbnQlMjBoeWRyYXVsaWNzJTJDcGxhbnQlMjB3YXRlciUyMHBvdGVudGlhbCUyQ3dvcmtzaG9wcw==" data-listing-date-sort="1724223600000" data-listing-file-modified-sort="1758932249225" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="145">
+<div class="thumbnail">
+<p><a href="./posts/2024-08-21-hydraulics-pics/index.html" class="no-external"></a></p><a href="./posts/2024-08-21-hydraulics-pics/index.html" class="no-external">
+<p><img loading="lazy" src="./posts/2024-08-21-hydraulics-pics/Daphna_Uni.jpeg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2024-08-21-hydraulics-pics/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2024-08-21-hydraulics-pics/index.html" class="no-external">Plant Hydraulics Workshop 2024</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2024-08-21-hydraulics-pics/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('cGxhbnQlMjBoeWRyYXVsaWNz'); return false;">
 plant hydraulics
@@ -351,31 +396,34 @@ plant water potential
 workshops
 </div>
 </div>
-<div class="card-text listing-description">
-Plant hydraulics workshop - July 2024
+<div class="listing-description">
+<a href="./posts/2024-08-21-hydraulics-pics/index.html" class="no-external">Plant hydraulics workshop - July 2024</a>
 </div>
-</a><div class="card-attribution card-text-small justify"><a href="./posts/2024-08-21-hydraulics-pics/index.html" class="quarto-grid-link">
-</a><div class="listing-author"><a href="./posts/2024-08-21-hydraulics-pics/index.html" class="quarto-grid-link">
-</a><a href="https://www.bard-isus.org/news/dr-daphna-uni/" title="Visit website">Daphna Uni</a>
 </div>
+<div class="metadata">
+<a href="./posts/2024-08-21-hydraulics-pics/index.html" class="no-external">
 <div class="listing-date">
 Aug 21, 2024
 </div>
-</div>
-</div>
+</a><div class="listing-author"><a href="./posts/2024-08-21-hydraulics-pics/index.html" class="no-external">
+</a><a href="https://www.bard-isus.org/news/dr-daphna-uni/" title="Visit website">Daphna Uni</a>
 </div>
 
 </div>
-<div class="g-col-1" data-index="4" data-categories="cGxhbnQlMjBoeWRyYXVsaWNzJTJDd29ya3Nob3Bz" data-listing-date-sort="1706256000000" data-listing-file-modified-sort="1758932249167" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="562">
-<a href="./posts/2024-01-26-hydraulics-workshop/index.html" class="quarto-grid-link">
-</a><div class="quarto-grid-item card h-100 card-left"><a href="./posts/2024-01-26-hydraulics-workshop/index.html" class="quarto-grid-link">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2024-01-26-hydraulics-workshop/danjohnson.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-</a><div class="card-body post-contents"><a href="./posts/2024-01-26-hydraulics-workshop/index.html" class="quarto-grid-link">
-<h5 class="no-anchor card-title listing-title">
-Register for the 2024 Plant Hydraulics Methods Workshop
-</h5>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="cGxhbnQlMjBoeWRyYXVsaWNzJTJDd29ya3Nob3Bz" data-listing-date-sort="1706256000000" data-listing-file-modified-sort="1758932249167" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="562">
+<div class="thumbnail">
+<p><a href="./posts/2024-01-26-hydraulics-workshop/index.html" class="no-external"></a></p><a href="./posts/2024-01-26-hydraulics-workshop/index.html" class="no-external">
+<p><img loading="lazy" src="./posts/2024-01-26-hydraulics-workshop/danjohnson.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2024-01-26-hydraulics-workshop/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2024-01-26-hydraulics-workshop/index.html" class="no-external">Register for the 2024 Plant Hydraulics Methods Workshop</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2024-01-26-hydraulics-workshop/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('cGxhbnQlMjBoeWRyYXVsaWNz'); return false;">
 plant hydraulics
@@ -384,31 +432,34 @@ plant hydraulics
 workshops
 </div>
 </div>
-<div class="card-text listing-description">
-Highlands Biological Station, July 16-20
+<div class="listing-description">
+<a href="./posts/2024-01-26-hydraulics-workshop/index.html" class="no-external">Highlands Biological Station, July 16-20</a>
 </div>
-</a><div class="card-attribution card-text-small justify"><a href="./posts/2024-01-26-hydraulics-workshop/index.html" class="quarto-grid-link">
-</a><div class="listing-author"><a href="./posts/2024-01-26-hydraulics-workshop/index.html" class="quarto-grid-link">
-</a><a href="https://warnell.uga.edu/directory/people/dr-dan-johnson" title="Visit website">Dan Johnson</a>
 </div>
+<div class="metadata">
+<a href="./posts/2024-01-26-hydraulics-workshop/index.html" class="no-external">
 <div class="listing-date">
 Jan 26, 2024
 </div>
-</div>
-</div>
+</a><div class="listing-author"><a href="./posts/2024-01-26-hydraulics-workshop/index.html" class="no-external">
+</a><a href="https://warnell.uga.edu/directory/people/dr-dan-johnson" title="Visit website">Dan Johnson</a>
 </div>
 
 </div>
-<div class="g-col-1" data-index="5" data-categories="cGxhbnQlMjBoeWRyYXVsaWNzJTJDcGxhbnQlMjB3YXRlciUyMHBvdGVudGlhbCUyQ3NvaWwlMjB3YXRlciUyMHBvdGVudGlhbCUyQ3dvcmtzaG9wcw==" data-listing-date-sort="1701936000000" data-listing-file-modified-sort="1758932249153" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="254">
-<a href="./posts/2023-12-07-physfest/index.html" class="quarto-grid-link">
-</a><div class="quarto-grid-item card h-100 card-left"><a href="./posts/2023-12-07-physfest/index.html" class="quarto-grid-link">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2023-12-07-physfest/PiperLovegreen.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-</a><div class="card-body post-contents"><a href="./posts/2023-12-07-physfest/index.html" class="quarto-grid-link">
-<h5 class="no-anchor card-title listing-title">
-PhysFest 2023
-</h5>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="cGxhbnQlMjBoeWRyYXVsaWNzJTJDcGxhbnQlMjB3YXRlciUyMHBvdGVudGlhbCUyQ3NvaWwlMjB3YXRlciUyMHBvdGVudGlhbCUyQ3dvcmtzaG9wcw==" data-listing-date-sort="1701936000000" data-listing-file-modified-sort="1758932249153" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="254">
+<div class="thumbnail">
+<p><a href="./posts/2023-12-07-physfest/index.html" class="no-external"></a></p><a href="./posts/2023-12-07-physfest/index.html" class="no-external">
+<p><img loading="lazy" src="./posts/2023-12-07-physfest/PiperLovegreen.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2023-12-07-physfest/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2023-12-07-physfest/index.html" class="no-external">PhysFest 2023</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2023-12-07-physfest/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('cGxhbnQlMjBoeWRyYXVsaWNz'); return false;">
 plant hydraulics
@@ -423,31 +474,34 @@ soil water potential
 workshops
 </div>
 </div>
-<div class="card-text listing-description">
-PhysFest 4 - October 2023
+<div class="listing-description">
+<a href="./posts/2023-12-07-physfest/index.html" class="no-external">PhysFest 4 - October 2023</a>
 </div>
-</a><div class="card-attribution card-text-small justify"><a href="./posts/2023-12-07-physfest/index.html" class="quarto-grid-link">
-</a><div class="listing-author"><a href="./posts/2023-12-07-physfest/index.html" class="quarto-grid-link">
-</a><a href="https://anderegglab.eemb.ucsb.edu/people/graduate-students/piper-lovegreen" title="Visit website">Piper Lovegreen</a>
 </div>
+<div class="metadata">
+<a href="./posts/2023-12-07-physfest/index.html" class="no-external">
 <div class="listing-date">
 Dec 7, 2023
 </div>
-</div>
-</div>
+</a><div class="listing-author"><a href="./posts/2023-12-07-physfest/index.html" class="no-external">
+</a><a href="https://anderegglab.eemb.ucsb.edu/people/graduate-students/piper-lovegreen" title="Visit website">Piper Lovegreen</a>
 </div>
 
 </div>
-<div class="g-col-1" data-index="6" data-categories="cGxhbnQlMjB3YXRlciUyMHBvdGVudGlhbCUyQ3dhdGVyJTIwc3RyZXNzJTJDbWljcm90ZW5zaW9tZXRyeQ==" data-listing-date-sort="1701417600000" data-listing-file-modified-sort="1758932249117" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="466">
-<a href="./posts/2023-12-01-florapulse/index.html" class="quarto-grid-link">
-</a><div class="quarto-grid-item card h-100 card-left"><a href="./posts/2023-12-01-florapulse/index.html" class="quarto-grid-link">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2023-12-01-florapulse/RuthMagh.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-</a><div class="card-body post-contents"><a href="./posts/2023-12-01-florapulse/index.html" class="quarto-grid-link">
-<h5 class="no-anchor card-title listing-title">
-Putting microtensiometry to the test
-</h5>
+</div>
+<div class="quarto-post image-right" data-index="6" data-categories="cGxhbnQlMjB3YXRlciUyMHBvdGVudGlhbCUyQ3dhdGVyJTIwc3RyZXNzJTJDbWljcm90ZW5zaW9tZXRyeQ==" data-listing-date-sort="1701417600000" data-listing-file-modified-sort="1758932249117" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="466">
+<div class="thumbnail">
+<p><a href="./posts/2023-12-01-florapulse/index.html" class="no-external"></a></p><a href="./posts/2023-12-01-florapulse/index.html" class="no-external">
+<p><img loading="lazy" src="./posts/2023-12-01-florapulse/RuthMagh.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2023-12-01-florapulse/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2023-12-01-florapulse/index.html" class="no-external">Putting microtensiometry to the test</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2023-12-01-florapulse/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('cGxhbnQlMjB3YXRlciUyMHBvdGVudGlhbA=='); return false;">
 plant water potential
@@ -459,31 +513,34 @@ water stress
 microtensiometry
 </div>
 </div>
-<div class="card-text listing-description">
-Continuous stem water potential in beech and ash
+<div class="listing-description">
+<a href="./posts/2023-12-01-florapulse/index.html" class="no-external">Continuous stem water potential in beech and ash</a>
 </div>
-</a><div class="card-attribution card-text-small justify"><a href="./posts/2023-12-01-florapulse/index.html" class="quarto-grid-link">
-</a><div class="listing-author"><a href="./posts/2023-12-01-florapulse/index.html" class="quarto-grid-link">
-</a><a href="https://www.ecohydrology.uni-jena.de/people/ruth-magh" title="Visit website">Ruth-Kristina Magh</a>
 </div>
+<div class="metadata">
+<a href="./posts/2023-12-01-florapulse/index.html" class="no-external">
 <div class="listing-date">
 Dec 1, 2023
 </div>
-</div>
-</div>
+</a><div class="listing-author"><a href="./posts/2023-12-01-florapulse/index.html" class="no-external">
+</a><a href="https://www.ecohydrology.uni-jena.de/people/ruth-magh" title="Visit website">Ruth-Kristina Magh</a>
 </div>
 
 </div>
-<div class="g-col-1" data-index="7" data-categories="aGVhdCUyMHN0cmVzcyUyQ3RoZXJtYWwlMjB0b2xlcmFuY2UlMkNwbGFudCUyMGh5ZHJhdWxpY3M=" data-listing-date-sort="1695884400000" data-listing-file-modified-sort="1758055329935" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="427">
-<a href="./posts/2023-09-28-leafT/index.html" class="quarto-grid-link">
-</a><div class="quarto-grid-item card h-100 card-left"><a href="./posts/2023-09-28-leafT/index.html" class="quarto-grid-link">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2023-09-28-leafT/Ali-Headshot.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-</a><div class="card-body post-contents"><a href="./posts/2023-09-28-leafT/index.html" class="quarto-grid-link">
-<h5 class="no-anchor card-title listing-title">
-How hot can leaves get?
-</h5>
+</div>
+<div class="quarto-post image-right" data-index="7" data-categories="aGVhdCUyMHN0cmVzcyUyQ3RoZXJtYWwlMjB0b2xlcmFuY2UlMkNwbGFudCUyMGh5ZHJhdWxpY3M=" data-listing-date-sort="1695884400000" data-listing-file-modified-sort="1758055329935" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="427">
+<div class="thumbnail">
+<p><a href="./posts/2023-09-28-leafT/index.html" class="no-external"></a></p><a href="./posts/2023-09-28-leafT/index.html" class="no-external">
+<p><img loading="lazy" src="./posts/2023-09-28-leafT/Ali-Headshot.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2023-09-28-leafT/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2023-09-28-leafT/index.html" class="no-external">How hot can leaves get?</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2023-09-28-leafT/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('aGVhdCUyMHN0cmVzcw=='); return false;">
 heat stress
@@ -495,31 +552,34 @@ thermal tolerance
 plant hydraulics
 </div>
 </div>
-<div class="card-text listing-description">
-Leaf thermistors deployed in a heat island
+<div class="listing-description">
+<a href="./posts/2023-09-28-leafT/index.html" class="no-external">Leaf thermistors deployed in a heat island</a>
 </div>
-</a><div class="card-attribution card-text-small justify"><a href="./posts/2023-09-28-leafT/index.html" class="quarto-grid-link">
-</a><div class="listing-author"><a href="./posts/2023-09-28-leafT/index.html" class="quarto-grid-link">
-</a><a href="https://dbg.org/research-conservation-staff/alexandra-ali-schuessler-m-s/" title="Visit website">Alexandra Schuessler</a>
 </div>
+<div class="metadata">
+<a href="./posts/2023-09-28-leafT/index.html" class="no-external">
 <div class="listing-date">
 Sep 28, 2023
 </div>
-</div>
-</div>
+</a><div class="listing-author"><a href="./posts/2023-09-28-leafT/index.html" class="no-external">
+</a><a href="https://dbg.org/research-conservation-staff/alexandra-ali-schuessler-m-s/" title="Visit website">Alexandra Schuessler</a>
 </div>
 
 </div>
-<div class="g-col-1" data-index="8" data-categories="cGxhbnQlMjB3YXRlciUyMHBvdGVudGlhbCUyQ3dhdGVyJTIwc3RyZXNz" data-listing-date-sort="1693465200000" data-listing-file-modified-sort="1758055329923" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="518">
-<a href="./posts/2023-08-31-ETpaper/index.html" class="quarto-grid-link">
-</a><div class="quarto-grid-item card h-100 card-left"><a href="./posts/2023-08-31-ETpaper/index.html" class="quarto-grid-link">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2023-08-31-ETpaper/headshot.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-</a><div class="card-body post-contents"><a href="./posts/2023-08-31-ETpaper/index.html" class="quarto-grid-link">
-<h5 class="no-anchor card-title listing-title">
-Harmonizing global water stress research
-</h5>
+</div>
+<div class="quarto-post image-right" data-index="8" data-categories="cGxhbnQlMjB3YXRlciUyMHBvdGVudGlhbCUyQ3dhdGVyJTIwc3RyZXNz" data-listing-date-sort="1693465200000" data-listing-file-modified-sort="1758055329923" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="518">
+<div class="thumbnail">
+<p><a href="./posts/2023-08-31-ETpaper/index.html" class="no-external"></a></p><a href="./posts/2023-08-31-ETpaper/index.html" class="no-external">
+<p><img loading="lazy" src="./posts/2023-08-31-ETpaper/headshot.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2023-08-31-ETpaper/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2023-08-31-ETpaper/index.html" class="no-external">Harmonizing global water stress research</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2023-08-31-ETpaper/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('cGxhbnQlMjB3YXRlciUyMHBvdGVudGlhbA=='); return false;">
 plant water potential
@@ -528,31 +588,34 @@ plant water potential
 water stress
 </div>
 </div>
-<div class="card-text listing-description">
-The role of PSInet
+<div class="listing-description">
+<a href="./posts/2023-08-31-ETpaper/index.html" class="no-external">The role of PSInet</a>
 </div>
-</a><div class="card-attribution card-text-small justify"><a href="./posts/2023-08-31-ETpaper/index.html" class="quarto-grid-link">
-</a><div class="listing-author"><a href="./posts/2023-08-31-ETpaper/index.html" class="quarto-grid-link">
-</a><a href="https://usys.ethz.ch/en/people/profile.Mjc2NTQ4.TGlzdC82MzcsMzIwMTk3MjIy.html" title="Visit website">Francesco Giardina</a>
 </div>
+<div class="metadata">
+<a href="./posts/2023-08-31-ETpaper/index.html" class="no-external">
 <div class="listing-date">
 Aug 31, 2023
 </div>
-</div>
-</div>
+</a><div class="listing-author"><a href="./posts/2023-08-31-ETpaper/index.html" class="no-external">
+</a><a href="https://usys.ethz.ch/en/people/profile.Mjc2NTQ4.TGlzdC82MzcsMzIwMTk3MjIy.html" title="Visit website">Francesco Giardina</a>
 </div>
 
 </div>
-<div class="g-col-1" data-index="9" data-categories="ZWxlY3RyaWNhbCUyMHJlc2lzdGl2aXR5JTIwaW1hZ2luZyUyQ3NvaWwlMjB3YXRlciUyMHBvdGVudGlhbA==" data-listing-date-sort="1684911600000" data-listing-file-modified-sort="1758055329921" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="616">
-<a href="./posts/2023-05-24-eri/index.html" class="quarto-grid-link">
-</a><div class="quarto-grid-item card h-100 card-left"><a href="./posts/2023-05-24-eri/index.html" class="quarto-grid-link">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2023-05-24-eri/dan.JPG" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-</a><div class="card-body post-contents"><a href="./posts/2023-05-24-eri/index.html" class="quarto-grid-link">
-<h5 class="no-anchor card-title listing-title">
-Expanding soil water potential obervations using near-surface geophysics
-</h5>
+</div>
+<div class="quarto-post image-right" data-index="9" data-categories="ZWxlY3RyaWNhbCUyMHJlc2lzdGl2aXR5JTIwaW1hZ2luZyUyQ3NvaWwlMjB3YXRlciUyMHBvdGVudGlhbA==" data-listing-date-sort="1684911600000" data-listing-file-modified-sort="1758055329921" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="616">
+<div class="thumbnail">
+<p><a href="./posts/2023-05-24-eri/index.html" class="no-external"></a></p><a href="./posts/2023-05-24-eri/index.html" class="no-external">
+<p><img loading="lazy" src="./posts/2023-05-24-eri/dan.JPG" class="thumbnail-image"></p>
+</a><p><a href="./posts/2023-05-24-eri/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2023-05-24-eri/index.html" class="no-external">Expanding soil water potential obervations using near-surface geophysics</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2023-05-24-eri/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('ZWxlY3RyaWNhbCUyMHJlc2lzdGl2aXR5JTIwaW1hZ2luZw=='); return false;">
 electrical resistivity imaging
@@ -561,31 +624,34 @@ electrical resistivity imaging
 soil water potential
 </div>
 </div>
-<div class="card-text listing-description">
-One path toward resolving the spatial-temporal mismatch
+<div class="listing-description">
+<a href="./posts/2023-05-24-eri/index.html" class="no-external">One path toward resolving the spatial-temporal mismatch</a>
 </div>
-</a><div class="card-attribution card-text-small justify"><a href="./posts/2023-05-24-eri/index.html" class="quarto-grid-link">
-</a><div class="listing-author"><a href="./posts/2023-05-24-eri/index.html" class="quarto-grid-link">
-</a><a href="https://danielbeverly.com/" title="Visit website">Daniel P. Beverly</a>
 </div>
+<div class="metadata">
+<a href="./posts/2023-05-24-eri/index.html" class="no-external">
 <div class="listing-date">
 May 24, 2023
 </div>
-</div>
-</div>
+</a><div class="listing-author"><a href="./posts/2023-05-24-eri/index.html" class="no-external">
+</a><a href="https://danielbeverly.com/" title="Visit website">Daniel P. Beverly</a>
 </div>
 
 </div>
-<div class="g-col-1" data-index="10" data-categories="cHN5Y2hyb21ldHJ5JTJDcGxhbnQlMjB3YXRlciUyMHBvdGVudGlhbA==" data-listing-date-sort="1682406000000" data-listing-file-modified-sort="1758055329837" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="392">
-<a href="./posts/2023-04-25-intro/index.html" class="quarto-grid-link">
-</a><div class="quarto-grid-item card h-100 card-left"><a href="./posts/2023-04-25-intro/index.html" class="quarto-grid-link">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2023-04-25-intro/jess.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-</a><div class="card-body post-contents"><a href="./posts/2023-04-25-intro/index.html" class="quarto-grid-link">
-<h5 class="no-anchor card-title listing-title">
-Improving psychrometer installations
-</h5>
+</div>
+<div class="quarto-post image-right" data-index="10" data-categories="cHN5Y2hyb21ldHJ5JTJDcGxhbnQlMjB3YXRlciUyMHBvdGVudGlhbA==" data-listing-date-sort="1682406000000" data-listing-file-modified-sort="1758055329837" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="392">
+<div class="thumbnail">
+<p><a href="./posts/2023-04-25-intro/index.html" class="no-external"></a></p><a href="./posts/2023-04-25-intro/index.html" class="no-external">
+<p><img loading="lazy" src="./posts/2023-04-25-intro/jess.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2023-04-25-intro/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2023-04-25-intro/index.html" class="no-external">Improving psychrometer installations</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2023-04-25-intro/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('cHN5Y2hyb21ldHJ5'); return false;">
 psychrometry
@@ -594,20 +660,20 @@ psychrometry
 plant water potential
 </div>
 </div>
-<div class="card-text listing-description">
-What I learned from George Koch and Ben Umali
+<div class="listing-description">
+<a href="./posts/2023-04-25-intro/index.html" class="no-external">What I learned from George Koch and Ben Umali</a>
 </div>
-</a><div class="card-attribution card-text-small justify"><a href="./posts/2023-04-25-intro/index.html" class="quarto-grid-link">
-</a><div class="listing-author"><a href="./posts/2023-04-25-intro/index.html" class="quarto-grid-link">
-</a><a href="https://jessicaguo.github.io/" title="Visit website">Jessica S. Guo</a>
 </div>
+<div class="metadata">
+<a href="./posts/2023-04-25-intro/index.html" class="no-external">
 <div class="listing-date">
 Apr 25, 2023
 </div>
-</div>
-</div>
+</a><div class="listing-author"><a href="./posts/2023-04-25-intro/index.html" class="no-external">
+</a><a href="https://jessicaguo.github.io/" title="Visit website">Jessica S. Guo</a>
 </div>
 
+</div>
 </div>
 </div>
 <div class="listing-no-matching d-none">
@@ -718,6 +784,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+          // default icon
+          link.classList.add("external");
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -1032,8 +1105,28 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2026 PSInet</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="./contact.html#contact">
+<p>Contact</p>
+</a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
 
 
 
 
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
